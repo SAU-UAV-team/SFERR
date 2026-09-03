@@ -1,0 +1,4958 @@
+Class 76 (Task-local 6): 0.00%
+Class 77 (Task-local 7): 0.00%
+Class 78 (Task-local 8): 0.00%
+Class 79 (Task-local 9): 0.00%
+Evaluation of task 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 307/307 [00:09<00:00, 33.07it/s]
+
+Task 8 Per-Class Accuracy:
+Class 80 (Task-local 0): 0.00%
+Class 81 (Task-local 1): 0.00%
+Class 82 (Task-local 2): 0.00%
+Class 83 (Task-local 3): 0.00%
+Class 84 (Task-local 4): 0.00%
+Class 85 (Task-local 5): 0.00%
+Class 86 (Task-local 6): 0.00%
+Class 87 (Task-local 7): 0.00%
+Class 88 (Task-local 8): 0.00%
+Class 89 (Task-local 9): 0.00%
+Evaluation of task 9: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 33.87it/s]
+
+Task 9 Per-Class Accuracy:
+Class 90 (Task-local 0): 0.00%
+Class 91 (Task-local 1): 0.00%
+Class 92 (Task-local 2): 0.00%
+Class 93 (Task-local 3): 0.00%
+Class 94 (Task-local 4): 0.00%
+Class 95 (Task-local 5): 0.00%
+Class 96 (Task-local 6): 0.00%
+Class 97 (Task-local 7): 0.00%
+Class 98 (Task-local 8): 0.00%
+Class 99 (Task-local 9): 0.00%
+Evaluation of task 10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 33.89it/s]
+
+Task 10 Per-Class Accuracy:
+Class 100 (Task-local 0): 0.00%
+Class 101 (Task-local 1): 0.00%
+Class 102 (Task-local 2): 0.00%
+Class 103 (Task-local 3): 0.00%
+Class 104 (Task-local 4): 0.00%
+Class 105 (Task-local 5): 0.00%
+Class 106 (Task-local 6): 0.00%
+Class 107 (Task-local 7): 0.00%
+Class 108 (Task-local 8): 0.00%
+Class 109 (Task-local 9): 0.00%
+Evaluation of task 11: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:08<00:00, 35.00it/s]
+
+Task 11 Per-Class Accuracy:
+Class 110 (Task-local 0): 0.00%
+Class 111 (Task-local 1): 0.00%
+Class 112 (Task-local 2): 0.00%
+Class 113 (Task-local 3): 0.00%
+Class 114 (Task-local 4): 0.00%
+Class 115 (Task-local 5): 0.00%
+Class 116 (Task-local 6): 0.00%
+Class 117 (Task-local 7): 0.00%
+Class 118 (Task-local 8): 0.00%
+Class 119 (Task-local 9): 0.00%
+
+
+==================================================
+Starting Task 1/12
+Task Samples: 4395
+Buffer Size: 500
+Buffer mode: herding
+Total Seen Examples: 0
+Current Buffer Usage: 0/500
+==================================================
+
+[05-25 | 22:40] Task 1 | ep 8: |██┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 140.56 ep/h |   15/275 it | loss: 0.236174 |
+[FreRA Debug] Epoch 8:
+ ├─ Critical Freq Ratio: 14.75% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0415
+ └─ Reg Loss:            0.5276
+
+[05-25 | 22:42] Task 1 | ep 12: |██████████████████████████████████████████████████| 139.74 ep/h |  275/275 it | loss: 0.285077 |
+[FreRA Debug] Epoch 13:
+ ├─ Critical Freq Ratio: 11.48% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0560
+ └─ Reg Loss:            0.4638
+
+[05-25 | 22:43] Task 1 | ep 15: |███████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 139.06 ep/h |   42/275 it | loss: 0.318319 |
+[FreRA Debug] Epoch 15:
+ ├─ Critical Freq Ratio: 9.84% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0696
+ └─ Reg Loss:            0.4449
+
+[05-25 | 22:45] Task 1 | ep 19: |█████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 140.59 ep/h |   74/275 it | loss: 0.32855 ||
+[FreRA Debug] Epoch 19:
+ ├─ Critical Freq Ratio: 9.84% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0418
+ └─ Reg Loss:            0.4885
+
+[05-25 | 22:45] Task 1 | ep 19: |████████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 140.71 ep/h |  203/275 it | loss: 0.453443 |
+[FreRA Debug] Epoch 19:
+ ├─ Critical Freq Ratio: 13.11% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0475
+ └─ Reg Loss:            0.4844
+
+[05-25 | 22:45] Task 1 | ep 20: |██┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 138.77 ep/h |   14/275 it | loss: 0.424824 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0724, std=0.4450, min=-2.2842, max=2.4062
+[FreRA Debug] importance: mean=0.4818, std=0.0805, min=0.0924, max=0.9173
+[FreRA Debug] w_crit (>0.5 ratio): 0.3443, mean=0.3949, std=0.2904
+[FreRA Debug] w_dist: mean=0.8913, std=0.8041, min=0.0000, max=1.9995
+w_dist:tensor([[[[1.9995],
+          [0.0000],
+          [1.9496],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6633],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5776],
+          [0.0000],
+          [1.5941],
+          [1.5746],
+          [1.6046],
+          [1.5839],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5867],
+          [1.5659],
+          [1.5700],
+          [1.5722],
+          [1.5698],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5779],
+          [0.0000],
+          [1.5688],
+          [1.5636],
+          [1.5764],
+          [0.0000],
+          [1.5659],
+          [0.0000],
+          [0.0000],
+          [1.5743],
+          [1.5649],
+          [1.5654],
+          [0.0000],
+          [1.5651],
+          [0.0000],
+          [1.5650],
+          [1.5687],
+          [1.5708],
+          [1.5675],
+          [1.5808],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5609],
+          [1.5819],
+          [1.5617],
+          [1.5749],
+          [0.0000],
+          [1.5628],
+          [1.5658],
+          [1.5725]]]], device='cuda:0')
+[05-25 | 22:46] Task 1 | ep 21: |████████████████████████████████████████████┈┈┈┈┈┈| 138.44 ep/h |  243/275 it | loss: 0.415753 |
+[FreRA Debug] Epoch 21:
+ ├─ Critical Freq Ratio: 11.48% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0648
+ └─ Reg Loss:            0.5027
+
+[05-25 | 22:47] Task 1 | ep 24: |██████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 138.52 ep/h |  126/275 it | loss: 1.04757 ||
+[FreRA Debug] Epoch 24:
+ ├─ Critical Freq Ratio: 9.84% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0709
+ └─ Reg Loss:            0.4674
+
+[05-25 | 22:48] Task 1 | ep 27: |┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 136.94 ep/h |    3/275 it | loss: 0.143588 |
+[FreRA Debug] Epoch 27:
+ ├─ Critical Freq Ratio: 8.20% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0639
+ └─ Reg Loss:            0.4829
+
+[05-25 | 22:48] Task 1 | ep 27: |██████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 138.68 ep/h |   35/275 it | loss: 0.308763 |
+[FreRA Debug] Epoch 27:
+ ├─ Critical Freq Ratio: 8.20% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0705
+ └─ Reg Loss:            0.5297
+
+Linear probing on the full poses [Epoch: 0]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 275/275 [00:09<00:00, 30.08it/s]
+Linear probing on the full poses [Epoch: 1]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 275/275 [00:09<00:00, 29.94it/s]
+Linear probing on the full poses [Epoch: 2]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 275/275 [00:09<00:00, 29.75it/s]
+Task 0: Storing 50 samples per new class (50 per old class) for 10 total classes
+Class 4: 361/426 samples passed reconstruction difficulty filter (threshold: 0.2091)
+Selected 50 prototypes for class 4
+Class 2: 372/438 samples passed reconstruction difficulty filter (threshold: 0.1350)
+Selected 50 prototypes for class 2
+Class 1: 372/438 samples passed reconstruction difficulty filter (threshold: 0.0701)
+Selected 50 prototypes for class 1
+Class 7: 374/442 samples passed reconstruction difficulty filter (threshold: 0.0649)
+Selected 50 prototypes for class 7
+Class 3: 374/442 samples passed reconstruction difficulty filter (threshold: 0.2414)
+Selected 50 prototypes for class 3
+Class 9: 376/444 samples passed reconstruction difficulty filter (threshold: 0.3459)
+Selected 50 prototypes for class 9
+Class 0: 375/443 samples passed reconstruction difficulty filter (threshold: 0.0706)
+Selected 50 prototypes for class 0
+Class 6: 374/442 samples passed reconstruction difficulty filter (threshold: 0.1280)
+Selected 50 prototypes for class 6
+Class 5: 371/437 samples passed reconstruction difficulty filter (threshold: 0.4696)
+Selected 50 prototypes for class 5
+Class 8: 375/443 samples passed reconstruction difficulty filter (threshold: 0.0914)
+Selected 50 prototypes for class 8
+/home/dell/miniconda3/envs/pyskl_39/lib/python3.9/site-packages/sklearn/manifold/_t_sne.py:1164: FutureWarning: 'n_iter' was renamed to 'max_iter' in version 1.5 and will be removed in 1.7.
+  warnings.warn(
+Selection visualization saved to task_0_selection_herding.png
+Evaluation of task 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:09<00:00, 33.76it/s]
+
+Task 0 Per-Class Accuracy:
+Class 0 (Task-local 0): 91.42%
+Class 1 (Task-local 1): 93.45%
+Class 2 (Task-local 2): 89.24%
+Class 3 (Task-local 3): 98.61%
+Class 4 (Task-local 4): 94.58%
+Class 5 (Task-local 5): 99.20%
+Class 6 (Task-local 6): 97.81%
+Class 7 (Task-local 7): 89.64%
+Class 8 (Task-local 8): 97.42%
+Class 9 (Task-local 9): 98.19%
+acc1([94.95899179835968], [94.95899179835968])
+
+Accuracy for 1 task(s):          [Class-IL]: 94.96 %     [Task-IL]: 94.96 %
+
+
+==================================================
+Task 0 checkpoint saved to: ./saved_models/charon_SFERRgai_seq-ntu120/task_0_20260525_225113.pth
+==================================================
+
+==================================================
+Starting Task 2/12
+Task Samples: 4421
+Buffer Size: 500
+Buffer mode: herding
+Total Seen Examples: 500
+Current Buffer Usage: 500/500
+==================================================
+
+Evaluation of task 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.79it/s]
+
+Task 1 Per-Class Accuracy:
+Class 10 (Task-local 0): 0.00%
+Class 11 (Task-local 1): 0.00%
+Class 12 (Task-local 2): 0.00%
+Class 13 (Task-local 3): 0.00%
+Class 14 (Task-local 4): 0.00%
+Class 15 (Task-local 5): 0.00%
+Class 16 (Task-local 6): 0.00%
+Class 17 (Task-local 7): 0.00%
+Class 18 (Task-local 8): 0.00%
+Class 19 (Task-local 9): 0.00%
+[05-25 | 22:55] Task 2 | ep 3: |███████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 49.76 ep/h |  110/277 it | loss: 1.12198 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0408, std=0.2639, min=-1.4439, max=1.2793
+[FreRA Debug] importance: mean=0.4900, std=0.0583, min=0.1909, max=0.7823
+[FreRA Debug] w_crit (>0.5 ratio): 0.5082, mean=0.4984, std=0.3072
+[FreRA Debug] w_dist: mean=1.2083, std=0.6674, min=0.0000, max=1.9919
+w_dist:tensor([[[[1.9919],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6590],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5569],
+          [1.5858],
+          [0.0000],
+          [0.0000],
+          [1.5450],
+          [1.5595],
+          [1.5418],
+          [0.0000],
+          [1.5686],
+          [1.5560],
+          [1.5385],
+          [1.5385],
+          [1.5359],
+          [1.5582],
+          [0.0000],
+          [1.5631],
+          [1.5541],
+          [1.5683],
+          [1.5506],
+          [1.5590],
+          [1.5476],
+          [1.5590],
+          [1.5553],
+          [1.5407],
+          [1.5465],
+          [1.5672],
+          [1.5516],
+          [1.5634],
+          [1.5683],
+          [1.5429],
+          [1.5587],
+          [1.5639],
+          [1.5615],
+          [1.5680],
+          [1.5463],
+          [1.5822],
+          [1.5713],
+          [1.5468],
+          [1.5380],
+          [1.5615],
+          [1.5716],
+          [1.5535],
+          [1.5523],
+          [1.5722],
+          [1.5443],
+          [1.5559],
+          [1.5579],
+          [1.5626],
+          [1.5640]]]], device='cuda:0')
+[05-25 | 22:55] Task 2 | ep 3: |████████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 49.51 ep/h |  202/277 it | loss: 1.304167 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0534, std=0.3430, min=-1.9357, max=1.5838
+[FreRA Debug] importance: mean=0.4873, std=0.0706, min=0.1261, max=0.8297
+[FreRA Debug] w_crit (>0.5 ratio): 0.4262, mean=0.4744, std=0.3049
+[FreRA Debug] w_dist: mean=1.2218, std=0.6748, min=0.0000, max=1.9984
+w_dist:tensor([[[[1.9984],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6386],
+          [1.6071],
+          [0.0000],
+          [1.5863],
+          [1.6374],
+          [1.5884],
+          [1.6397],
+          [0.0000],
+          [0.0000],
+          [1.5943],
+          [1.5940],
+          [0.0000],
+          [0.0000],
+          [1.5562],
+          [1.5694],
+          [1.5622],
+          [0.0000],
+          [1.5602],
+          [0.0000],
+          [1.5449],
+          [1.5786],
+          [1.5609],
+          [1.5678],
+          [1.5863],
+          [1.5469],
+          [1.5685],
+          [1.5809],
+          [1.5893],
+          [1.5878],
+          [1.5479],
+          [1.5773],
+          [1.5505],
+          [1.5672],
+          [1.5628],
+          [1.5641],
+          [1.5743],
+          [1.5869],
+          [1.5529],
+          [1.5730],
+          [1.5783],
+          [1.5634],
+          [1.5640],
+          [1.5616],
+          [0.0000],
+          [1.5684],
+          [1.5710],
+          [1.5735],
+          [1.5749],
+          [1.5971],
+          [1.5774],
+          [1.5893],
+          [1.5812],
+          [1.5650],
+          [1.5626]]]], device='cuda:0')
+[05-25 | 22:58] Task 2 | ep 5: |███████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 49.77 ep/h |  175/277 it | loss: 0.853509 |
+[FreRA Debug] Epoch 5:
+ ├─ Critical Freq Ratio: 16.39% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0623
+ └─ Reg Loss:            0.4991
+
+[05-25 | 22:59] Task 2 | ep 6: |█████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 49.58 ep/h |  118/277 it | loss: 0.310173 |
+[FreRA Debug] Epoch 6:
+ ├─ Critical Freq Ratio: 14.75% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0567
+ └─ Reg Loss:            0.5193
+
+[05-25 | 23:02] Task 2 | ep 8: |██████████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈| 49.45 ep/h |  215/277 it | loss: 0.48567 ||
+[FreRA Debug] Epoch 8:
+ ├─ Critical Freq Ratio: 13.11% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0402
+ └─ Reg Loss:            0.4794
+
+[05-25 | 23:04] Task 2 | ep 10: |█████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 49.43 ep/h |   76/277 it | loss: 0.62194 |[FreRA Grad] Total norm: 0.000000, Max grad: 0.000000
+[FreRA Warning] No gradients detected!
+[05-25 | 23:14] Task 2 | ep 18: |█████████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈| 49.21 ep/h |  208/277 it | loss: 1.244029 |
+[FreRA Debug] Epoch 18:
+ ├─ Critical Freq Ratio: 9.84% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0604
+ └─ Reg Loss:            0.5295
+
+[05-25 | 23:22] Task 2 | ep 25: |████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 49.51 ep/h |   72/277 it | loss: 0.736755 |
+[FreRA Debug] Epoch 25:
+ ├─ Critical Freq Ratio: 13.11% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0519
+ └─ Reg Loss:            0.5006
+
+[05-25 | 23:27] Task 2 | ep 29: |██████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 41.14 ep/h |   37/277 it | loss: 0.258634 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0190, std=0.4228, min=-2.1767, max=1.7724
+[FreRA Debug] importance: mean=0.4955, std=0.0854, min=0.1019, max=0.8547
+[FreRA Debug] w_crit (>0.5 ratio): 0.5410, mean=0.5165, std=0.3037
+[FreRA Debug] w_dist: mean=1.2632, std=0.6344, min=0.0000, max=1.9993
+w_dist:tensor([[[[1.9993],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.7934],
+          [0.0000],
+          [0.0000],
+          [1.7638],
+          [0.0000],
+          [1.6659],
+          [1.5488],
+          [0.0000],
+          [1.5566],
+          [0.0000],
+          [1.5950],
+          [1.5182],
+          [1.5869],
+          [1.5618],
+          [1.5460],
+          [1.5585],
+          [1.5439],
+          [1.5639],
+          [1.5421],
+          [1.5325],
+          [1.5840],
+          [1.5718],
+          [0.0000],
+          [1.5918],
+          [0.0000],
+          [1.5535],
+          [1.5283],
+          [1.5731],
+          [1.5239],
+          [1.5413],
+          [1.5486],
+          [1.5441],
+          [1.5479],
+          [1.5629],
+          [1.5442],
+          [1.5491],
+          [1.5548],
+          [1.5375],
+          [1.5337],
+          [1.5532],
+          [1.5468],
+          [1.5540],
+          [1.5568],
+          [1.5514],
+          [1.5612],
+          [1.5355],
+          [1.5528],
+          [1.5578],
+          [1.5467],
+          [1.5346],
+          [1.5542],
+          [1.5514],
+          [0.0000],
+          [1.5571],
+          [1.5380],
+          [1.5396]]]], device='cuda:0')
+Linear probing on the full poses [Epoch: 0]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 277/277 [00:24<00:00, 11.31it/s]
+Linear probing on the full poses [Epoch: 1]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 277/277 [00:24<00:00, 11.32it/s]
+Linear probing on the full poses [Epoch: 2]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 277/277 [00:24<00:00, 11.31it/s]
+Task 1: Storing 25 samples per new class (25 per old class) for 20 total classes
+Class 17: 374/440 samples passed reconstruction difficulty filter (threshold: 0.0739)
+Selected 25 prototypes for class 17
+Class 18: 376/444 samples passed reconstruction difficulty filter (threshold: 0.0748)
+Selected 25 prototypes for class 18
+Class 12: 374/442 samples passed reconstruction difficulty filter (threshold: 0.0709)
+Selected 25 prototypes for class 12
+Class 15: 375/443 samples passed reconstruction difficulty filter (threshold: 0.1215)
+Selected 25 prototypes for class 15
+Class 16: 374/440 samples passed reconstruction difficulty filter (threshold: 0.0875)
+Selected 25 prototypes for class 16
+Class 13: 374/440 samples passed reconstruction difficulty filter (threshold: 0.0783)
+Selected 25 prototypes for class 13
+Class 14: 376/444 samples passed reconstruction difficulty filter (threshold: 0.0766)
+Selected 25 prototypes for class 14
+Class 11: 376/444 samples passed reconstruction difficulty filter (threshold: 0.0707)
+Selected 25 prototypes for class 11
+Class 19: 376/444 samples passed reconstruction difficulty filter (threshold: 0.2633)
+Selected 25 prototypes for class 19
+Class 10: 374/440 samples passed reconstruction difficulty filter (threshold: 0.1139)
+Selected 25 prototypes for class 10
+/home/dell/miniconda3/envs/pyskl_39/lib/python3.9/site-packages/sklearn/manifold/_t_sne.py:1164: FutureWarning: 'n_iter' was renamed to 'max_iter' in version 1.5 and will be removed in 1.7.
+  warnings.warn(
+Selection visualization saved to task_1_selection_herding.png
+Evaluation of task 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:09<00:00, 33.93it/s]
+
+Task 0 Per-Class Accuracy:
+Class 0 (Task-local 0): 65.27%
+Class 1 (Task-local 1): 78.57%
+Class 2 (Task-local 2): 78.09%
+Class 3 (Task-local 3): 98.41%
+Class 4 (Task-local 4): 77.92%
+Class 5 (Task-local 5): 99.40%
+Class 6 (Task-local 6): 58.17%
+Class 7 (Task-local 7): 84.26%
+Class 8 (Task-local 8): 96.43%
+Class 9 (Task-local 9): 83.10%
+Evaluation of task 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.94it/s]
+
+Task 1 Per-Class Accuracy:
+Class 10 (Task-local 0): 98.81%
+Class 11 (Task-local 1): 85.88%
+Class 12 (Task-local 2): 90.28%
+Class 13 (Task-local 3): 92.23%
+Class 14 (Task-local 4): 68.65%
+Class 15 (Task-local 5): 90.46%
+Class 16 (Task-local 6): 77.18%
+Class 17 (Task-local 7): 72.00%
+Class 18 (Task-local 8): 84.72%
+Class 19 (Task-local 9): 74.40%
+acc1([81.99639927985596, 83.4625322997416], [92.59851970394078, 89.82309679984098])
+
+Accuracy for 2 task(s):          [Class-IL]: 82.73 %     [Task-IL]: 91.21 %
+
+
+==================================================
+Task 1 checkpoint saved to: ./saved_models/charon_SFERRgai_seq-ntu120/task_1_20260525_233024.pth
+==================================================
+
+==================================================
+Starting Task 3/12
+Task Samples: 4417
+Buffer Size: 500
+Buffer mode: herding
+Total Seen Examples: 500
+Current Buffer Usage: 500/500
+==================================================
+
+Evaluation of task 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 33.70it/s]
+
+Task 2 Per-Class Accuracy:
+Class 20 (Task-local 0): 0.00%
+Class 21 (Task-local 1): 0.00%
+Class 22 (Task-local 2): 0.00%
+Class 23 (Task-local 3): 0.00%
+Class 24 (Task-local 4): 0.00%
+Class 25 (Task-local 5): 0.00%
+Class 26 (Task-local 6): 0.00%
+Class 27 (Task-local 7): 0.00%
+Class 28 (Task-local 8): 0.00%
+Class 29 (Task-local 9): 0.00%
+[05-25 | 23:35] Task 3 | ep 3: |█████████████████████████████████████████┈┈┈┈┈┈┈┈┈| 50.06 ep/h |  232/277 it | loss: 0.759603 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0443, std=0.3176, min=-1.7809, max=1.1778
+[FreRA Debug] importance: mean=0.4899, std=0.0691, min=0.1442, max=0.7646
+[FreRA Debug] w_crit (>0.5 ratio): 0.5082, mean=0.5086, std=0.2620
+[FreRA Debug] w_dist: mean=0.8876, std=0.8014, min=0.0000, max=1.9974
+w_dist:tensor([[[[1.9974],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.9196],
+          [1.7423],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6864],
+          [0.0000],
+          [0.0000],
+          [1.6266],
+          [1.7104],
+          [1.5546],
+          [0.0000],
+          [1.5787],
+          [0.0000],
+          [1.5409],
+          [1.5375],
+          [1.5503],
+          [1.5671],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5568],
+          [1.5693],
+          [0.0000],
+          [0.0000],
+          [1.5387],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5901],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5550],
+          [1.5549],
+          [1.5560],
+          [1.5431],
+          [1.5394],
+          [1.5541],
+          [0.0000],
+          [1.5433],
+          [1.5602],
+          [1.5423],
+          [1.5370],
+          [1.5390],
+          [1.5494],
+          [0.0000],
+          [1.5708],
+          [1.5572],
+          [0.0000],
+          [0.0000],
+          [1.5437],
+          [1.5418],
+          [1.5549],
+          [1.5382]]]], device='cuda:0')
+[05-25 | 23:40] Task 3 | ep 7: |██████████████████████████████████████████████┈┈┈┈| 50.09 ep/h |  257/277 it | loss: 0.944405 |
+[FreRA Debug] Epoch 7:
+ ├─ Critical Freq Ratio: 16.39% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0547
+ └─ Reg Loss:            0.5312
+
+[05-25 | 23:42] Task 3 | ep 9: |████████████████████████████████████████████┈┈┈┈┈┈| 49.78 ep/h |  244/277 it | loss: 0.472081 |
+[FreRA Debug] Epoch 9:
+ ├─ Critical Freq Ratio: 14.75% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0413
+ └─ Reg Loss:            0.5293
+
+[05-25 | 23:42] Task 3 | ep 9: |████████████████████████████████████████████████┈┈| 49.60 ep/h |  269/277 it | loss: 0.495148 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0438, std=0.4205, min=-2.2635, max=1.5615
+[FreRA Debug] importance: mean=0.4901, std=0.0858, min=0.0942, max=0.8266
+[FreRA Debug] w_crit (>0.5 ratio): 0.5410, mean=0.5123, std=0.3139
+[FreRA Debug] w_dist: mean=1.1464, std=0.7228, min=0.0000, max=1.9995
+w_dist:tensor([[[[1.9995],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.8988],
+          [1.8398],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6426],
+          [0.0000],
+          [1.6587],
+          [1.5418],
+          [1.5702],
+          [0.0000],
+          [0.0000],
+          [1.5541],
+          [0.0000],
+          [0.0000],
+          [1.5508],
+          [1.5508],
+          [1.5737],
+          [1.5862],
+          [1.5558],
+          [0.0000],
+          [1.5796],
+          [1.5777],
+          [1.5957],
+          [0.0000],
+          [1.5757],
+          [1.5648],
+          [1.5589],
+          [0.0000],
+          [1.5990],
+          [1.5604],
+          [1.5370],
+          [1.5400],
+          [1.5528],
+          [0.0000],
+          [1.5516],
+          [0.0000],
+          [1.5496],
+          [1.5525],
+          [1.5635],
+          [1.5727],
+          [1.5632],
+          [1.5491],
+          [1.5560],
+          [1.5441],
+          [1.5593],
+          [1.5480],
+          [1.5504],
+          [1.5922],
+          [1.5611],
+          [1.5648],
+          [1.5426],
+          [1.5588],
+          [1.5563],
+          [1.5631],
+          [1.5660]]]], device='cuda:0')
+[05-25 | 23:55] Task 3 | ep 20: |██████████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈| 49.94 ep/h |  212/277 it | loss: 0.893109 |
+[FreRA Debug] Epoch 20:
+ ├─ Critical Freq Ratio: 14.75% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0508
+ └─ Reg Loss:            0.4643
+
+[05-25 | 23:58] Task 3 | ep 23: |█████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 50.01 ep/h |   51/277 it | loss: 0.662336 |
+[FreRA Debug] Epoch 23:
+ ├─ Critical Freq Ratio: 16.39% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0444
+ └─ Reg Loss:            0.5375
+
+[05-26 | 00:03] Task 3 | ep 26: |██████████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈| 49.71 ep/h |  216/277 it | loss: 1.22042 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0553, std=0.3843, min=-2.0905, max=1.6304
+[FreRA Debug] importance: mean=0.4869, std=0.0787, min=0.1100, max=0.8362
+[FreRA Debug] w_crit (>0.5 ratio): 0.3934, mean=0.4597, std=0.2761
+[FreRA Debug] w_dist: mean=1.2774, std=0.6411, min=0.0000, max=1.9991
+w_dist:tensor([[[[1.9991],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.8553],
+          [1.6823],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6592],
+          [0.0000],
+          [1.6656],
+          [1.5615],
+          [1.5679],
+          [1.5955],
+          [1.5746],
+          [0.0000],
+          [0.0000],
+          [1.6147],
+          [1.5869],
+          [1.5515],
+          [1.5794],
+          [1.5656],
+          [1.5601],
+          [1.5652],
+          [0.0000],
+          [1.5791],
+          [1.5622],
+          [1.6072],
+          [1.5606],
+          [0.0000],
+          [1.5805],
+          [1.5723],
+          [1.5664],
+          [1.5564],
+          [1.5646],
+          [1.5600],
+          [1.5635],
+          [1.5688],
+          [1.5704],
+          [1.5805],
+          [1.5493],
+          [1.5875],
+          [1.5519],
+          [1.5522],
+          [1.5557],
+          [1.5686],
+          [1.5528],
+          [1.5930],
+          [1.5779],
+          [0.0000],
+          [1.5872],
+          [1.5655],
+          [1.5460],
+          [1.5610],
+          [1.5960],
+          [1.5530],
+          [1.5617],
+          [1.5613],
+          [1.5625],
+          [1.5609]]]], device='cuda:0')
+[05-26 | 00:05] Task 3 | ep 28: |████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 50.03 ep/h |  138/277 it | loss: 0.649548 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0474, std=0.3816, min=-2.1190, max=1.5403
+[FreRA Debug] importance: mean=0.4892, std=0.0785, min=0.1073, max=0.8235
+[FreRA Debug] w_crit (>0.5 ratio): 0.4918, mean=0.4769, std=0.3037
+[FreRA Debug] w_dist: mean=1.1734, std=0.7089, min=0.0000, max=1.9991
+w_dist:tensor([[[[1.9991],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.8222],
+          [1.7718],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5396],
+          [0.0000],
+          [0.0000],
+          [1.6458],
+          [0.0000],
+          [1.5750],
+          [0.0000],
+          [1.5554],
+          [0.0000],
+          [1.6145],
+          [1.5664],
+          [1.5514],
+          [1.6018],
+          [0.0000],
+          [1.5519],
+          [1.6160],
+          [1.5638],
+          [0.0000],
+          [1.5430],
+          [0.0000],
+          [1.6001],
+          [1.5473],
+          [0.0000],
+          [1.5848],
+          [1.5445],
+          [1.5677],
+          [1.5484],
+          [1.5536],
+          [1.5695],
+          [1.5929],
+          [1.5737],
+          [1.5760],
+          [1.5504],
+          [1.5785],
+          [1.5507],
+          [1.5821],
+          [1.5443],
+          [1.5775],
+          [1.5579],
+          [1.5717],
+          [1.5734],
+          [1.5737],
+          [1.5585],
+          [1.5708],
+          [1.6046],
+          [1.5723],
+          [1.5754],
+          [1.5458],
+          [1.5744],
+          [1.5733],
+          [1.5630]]]], device='cuda:0')
+[05-26 | 00:07] Task 3 | ep 29: |███████████████████████████████████████████┈┈┈┈┈┈┈| 40.86 ep/h |  243/277 it | loss: 0.760781 |
+[FreRA Debug] Epoch 29:
+ ├─ Critical Freq Ratio: 14.75% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0516
+ └─ Reg Loss:            0.4573
+
+Linear probing on the full poses [Epoch: 0]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 277/277 [00:24<00:00, 11.45it/s]
+Linear probing on the full poses [Epoch: 1]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 277/277 [00:24<00:00, 11.42it/s]
+Linear probing on the full poses [Epoch: 2]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 277/277 [00:24<00:00, 11.32it/s]
+Task 2: Storing 18 samples per new class (16 per old class) for 30 total classes
+Class 20: 376/444 samples passed reconstruction difficulty filter (threshold: 0.0783)
+Selected 18 prototypes for class 20
+Class 27: 375/443 samples passed reconstruction difficulty filter (threshold: 0.0791)
+Selected 18 prototypes for class 27
+Class 28: 375/443 samples passed reconstruction difficulty filter (threshold: 0.0714)
+Selected 18 prototypes for class 28
+Class 26: 376/444 samples passed reconstruction difficulty filter (threshold: 0.2102)
+Selected 18 prototypes for class 26
+Class 24: 375/443 samples passed reconstruction difficulty filter (threshold: 0.0945)
+Selected 18 prototypes for class 24
+Class 29: 373/439 samples passed reconstruction difficulty filter (threshold: 0.0781)
+Selected 18 prototypes for class 29
+Class 25: 374/442 samples passed reconstruction difficulty filter (threshold: 0.3418)
+Selected 18 prototypes for class 25
+Class 22: 371/437 samples passed reconstruction difficulty filter (threshold: 0.0717)
+Selected 18 prototypes for class 22
+Class 21: 374/440 samples passed reconstruction difficulty filter (threshold: 1.5797)
+Selected 18 prototypes for class 21
+Class 23: 374/442 samples passed reconstruction difficulty filter (threshold: 0.0717)
+Selected 18 prototypes for class 23
+/home/dell/miniconda3/envs/pyskl_39/lib/python3.9/site-packages/sklearn/manifold/_t_sne.py:1164: FutureWarning: 'n_iter' was renamed to 'max_iter' in version 1.5 and will be removed in 1.7.
+  warnings.warn(
+Selection visualization saved to task_2_selection_herding.png
+Evaluation of task 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:09<00:00, 34.08it/s]
+
+Task 0 Per-Class Accuracy:
+Class 0 (Task-local 0): 65.07%
+Class 1 (Task-local 1): 74.80%
+Class 2 (Task-local 2): 78.49%
+Class 3 (Task-local 3): 95.63%
+Class 4 (Task-local 4): 61.88%
+Class 5 (Task-local 5): 28.03%
+Class 6 (Task-local 6): 66.14%
+Class 7 (Task-local 7): 39.44%
+Class 8 (Task-local 8): 94.44%
+Class 9 (Task-local 9): 63.38%
+Evaluation of task 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.43it/s]
+
+Task 1 Per-Class Accuracy:
+Class 10 (Task-local 0): 93.44%
+Class 11 (Task-local 1): 42.74%
+Class 12 (Task-local 2): 77.58%
+Class 13 (Task-local 3): 86.06%
+Class 14 (Task-local 4): 59.33%
+Class 15 (Task-local 5): 82.70%
+Class 16 (Task-local 6): 57.14%
+Class 17 (Task-local 7): 65.20%
+Class 18 (Task-local 8): 74.40%
+Class 19 (Task-local 9): 68.45%
+Evaluation of task 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 34.49it/s]
+
+Task 2 Per-Class Accuracy:
+Class 20 (Task-local 0): 69.25%
+Class 21 (Task-local 1): 96.39%
+Class 22 (Task-local 2): 65.00%
+Class 23 (Task-local 3): 74.10%
+Class 24 (Task-local 4): 98.41%
+Class 25 (Task-local 5): 77.35%
+Class 26 (Task-local 6): 71.23%
+Class 27 (Task-local 7): 96.62%
+Class 28 (Task-local 8): 80.91%
+Class 29 (Task-local 9): 78.76%
+acc1([66.77335467093418, 70.70164977141722, 80.80526210882998], [91.79835967193438, 89.32617769827073, 87.4626270679689])
+
+Accuracy for 3 task(s):          [Class-IL]: 72.76 %     [Task-IL]: 89.53 %
+
+
+==================================================
+Task 2 checkpoint saved to: ./saved_models/charon_SFERRgai_seq-ntu120/task_2_20260526_000923.pth
+==================================================
+
+==================================================
+Starting Task 4/12
+Task Samples: 4416
+Buffer Size: 500
+Buffer mode: herding
+Total Seen Examples: 500
+Current Buffer Usage: 500/500
+==================================================
+
+Evaluation of task 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.56it/s]
+
+Task 3 Per-Class Accuracy:
+Class 30 (Task-local 0): 0.00%
+Class 31 (Task-local 1): 0.00%
+Class 32 (Task-local 2): 0.00%
+Class 33 (Task-local 3): 0.00%
+Class 34 (Task-local 4): 0.00%
+Class 35 (Task-local 5): 0.00%
+Class 36 (Task-local 6): 0.00%
+Class 37 (Task-local 7): 0.00%
+Class 38 (Task-local 8): 0.00%
+Class 39 (Task-local 9): 0.00%
+[05-26 | 00:16] Task 4 | ep 5: |███████████████████████████████████████████┈┈┈┈┈┈┈| 50.75 ep/h |  239/276 it | loss: 0.709326 ||
+[FreRA Debug] Epoch 5:
+ ├─ Critical Freq Ratio: 16.39% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0516
+ └─ Reg Loss:            0.4936
+
+[05-26 | 00:16] Task 4 | ep 6: |███████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 51.07 ep/h |   43/276 it | loss: 0.73014 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0448, std=0.3714, min=-1.9854, max=1.5982
+[FreRA Debug] importance: mean=0.4893, std=0.0770, min=0.1207, max=0.8318
+[FreRA Debug] w_crit (>0.5 ratio): 0.4918, mean=0.5013, std=0.2873
+[FreRA Debug] w_dist: mean=1.2686, std=0.6366, min=0.0000, max=1.9987
+w_dist:tensor([[[[1.9987],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.7864],
+          [0.0000],
+          [0.0000],
+          [1.5786],
+          [0.0000],
+          [1.6658],
+          [1.7348],
+          [1.6317],
+          [1.6109],
+          [0.0000],
+          [1.5753],
+          [1.5496],
+          [1.5462],
+          [0.0000],
+          [1.5401],
+          [0.0000],
+          [1.5699],
+          [1.5601],
+          [1.5761],
+          [1.5634],
+          [1.5539],
+          [1.5568],
+          [1.5458],
+          [1.5615],
+          [0.0000],
+          [1.5570],
+          [1.5440],
+          [1.5622],
+          [1.5456],
+          [1.5646],
+          [1.5619],
+          [1.5515],
+          [1.5659],
+          [1.5577],
+          [1.5799],
+          [1.5588],
+          [1.5437],
+          [1.5612],
+          [1.5529],
+          [1.5461],
+          [1.5615],
+          [0.0000],
+          [0.0000],
+          [1.5563],
+          [1.5602],
+          [1.5545],
+          [1.5497],
+          [1.5681],
+          [1.5454],
+          [1.5600],
+          [1.5469],
+          [1.5521],
+          [1.5483],
+          [1.5551],
+          [1.5524],
+          [1.5642],
+          [1.5484]]]], device='cuda:0')
+[05-26 | 00:18] Task 4 | ep 7: |████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 50.34 ep/h |   48/276 it | loss: 0.490728 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0549, std=0.3556, min=-1.8848, max=1.5675
+[FreRA Debug] importance: mean=0.4866, std=0.0745, min=0.1318, max=0.8274
+[FreRA Debug] w_crit (>0.5 ratio): 0.5082, mean=0.4790, std=0.2664
+[FreRA Debug] w_dist: mean=1.2733, std=0.6384, min=0.0000, max=1.9981
+w_dist:tensor([[[[1.9981],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.7288],
+          [0.0000],
+          [0.0000],
+          [1.7066],
+          [0.0000],
+          [1.6336],
+          [1.6421],
+          [0.0000],
+          [0.0000],
+          [1.6325],
+          [0.0000],
+          [0.0000],
+          [1.5545],
+          [0.0000],
+          [1.5480],
+          [1.5689],
+          [1.5769],
+          [1.5699],
+          [1.5721],
+          [1.5529],
+          [1.5604],
+          [1.5639],
+          [1.5562],
+          [1.5834],
+          [1.5799],
+          [1.5772],
+          [1.5687],
+          [1.5711],
+          [0.0000],
+          [1.5831],
+          [1.5563],
+          [1.5539],
+          [1.5824],
+          [1.5745],
+          [1.5655],
+          [1.5764],
+          [1.5617],
+          [1.5703],
+          [1.5570],
+          [1.5595],
+          [1.5611],
+          [1.5513],
+          [1.5843],
+          [1.5815],
+          [1.5623],
+          [1.5662],
+          [1.5519],
+          [1.5584],
+          [1.5606],
+          [1.5735],
+          [1.5621],
+          [1.5495],
+          [1.5697],
+          [1.5484],
+          [1.5800],
+          [1.5676],
+          [1.5570]]]], device='cuda:0')
+[05-26 | 00:27] Task 4 | ep 15: |█████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 50.77 ep/h |   33/276 it | loss: 0.444108 ||
+[FreRA Debug] Epoch 15:
+ ├─ Critical Freq Ratio: 9.84% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0533
+ └─ Reg Loss:            0.4900
+
+[05-26 | 00:34] Task 4 | ep 20: |█████████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈| 50.66 ep/h |  209/276 it | loss: 0.589979 ||
+[FreRA Debug] Epoch 20:
+ ├─ Critical Freq Ratio: 9.84% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0561
+ └─ Reg Loss:            0.4858
+
+[05-26 | 00:41] Task 4 | ep 26: |█████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 50.42 ep/h |   73/276 it | loss: 0.351298 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0570, std=0.3261, min=-1.8002, max=1.2749
+[FreRA Debug] importance: mean=0.4863, std=0.0696, min=0.1418, max=0.7816
+[FreRA Debug] w_crit (>0.5 ratio): 0.4426, mean=0.4548, std=0.2520
+[FreRA Debug] w_dist: mean=1.3205, std=0.5925, min=0.0000, max=1.9975
+w_dist:tensor([[[[1.9975],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6527],
+          [1.6916],
+          [0.0000],
+          [0.0000],
+          [1.5849],
+          [1.5526],
+          [1.5844],
+          [1.5570],
+          [1.5687],
+          [0.0000],
+          [0.0000],
+          [1.5613],
+          [1.5527],
+          [1.5645],
+          [1.5639],
+          [1.5654],
+          [1.5551],
+          [1.5637],
+          [1.5539],
+          [0.0000],
+          [1.5888],
+          [1.5549],
+          [1.5566],
+          [1.5754],
+          [1.5685],
+          [0.0000],
+          [1.5716],
+          [1.5579],
+          [1.5662],
+          [1.5606],
+          [1.5787],
+          [1.5577],
+          [1.5669],
+          [1.5715],
+          [1.5607],
+          [1.5594],
+          [1.5699],
+          [1.5663],
+          [1.5631],
+          [1.5821],
+          [1.5816],
+          [1.5762],
+          [1.5705],
+          [1.5671],
+          [1.5717],
+          [1.5885],
+          [1.5611],
+          [1.5642],
+          [1.5592],
+          [1.5708],
+          [1.5597],
+          [1.5750],
+          [1.5537],
+          [1.5654],
+          [1.5863],
+          [1.5539]]]], device='cuda:0')
+Linear probing on the full poses [Epoch: 0]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 276/276 [00:23<00:00, 11.56it/s]
+Linear probing on the full poses [Epoch: 1]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 276/276 [00:23<00:00, 11.56it/s]
+Linear probing on the full poses [Epoch: 2]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 276/276 [00:24<00:00, 11.47it/s]
+Task 3: Storing 14 samples per new class (12 per old class) for 40 total classes
+Class 39: 375/441 samples passed reconstruction difficulty filter (threshold: 0.0665)
+Selected 14 prototypes for class 39
+Class 33: 375/443 samples passed reconstruction difficulty filter (threshold: 0.3517)
+Selected 14 prototypes for class 33
+Class 38: 375/441 samples passed reconstruction difficulty filter (threshold: 0.0730)
+Selected 14 prototypes for class 38
+Class 34: 375/441 samples passed reconstruction difficulty filter (threshold: 0.0870)
+Selected 14 prototypes for class 34
+Class 36: 371/437 samples passed reconstruction difficulty filter (threshold: 0.0665)
+Selected 14 prototypes for class 36
+Class 37: 375/441 samples passed reconstruction difficulty filter (threshold: 0.1349)
+Selected 14 prototypes for class 37
+Class 32: 375/441 samples passed reconstruction difficulty filter (threshold: 0.0767)
+Selected 14 prototypes for class 32
+Class 30: 376/444 samples passed reconstruction difficulty filter (threshold: 0.0840)
+Selected 14 prototypes for class 30
+Class 31: 375/443 samples passed reconstruction difficulty filter (threshold: 0.0745)
+Selected 14 prototypes for class 31
+Class 35: 376/444 samples passed reconstruction difficulty filter (threshold: 0.0751)
+Selected 14 prototypes for class 35
+/home/dell/miniconda3/envs/pyskl_39/lib/python3.9/site-packages/sklearn/manifold/_t_sne.py:1164: FutureWarning: 'n_iter' was renamed to 'max_iter' in version 1.5 and will be removed in 1.7.
+  warnings.warn(
+Selection visualization saved to task_3_selection_herding.png
+Evaluation of task 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:09<00:00, 34.16it/s]
+
+Task 0 Per-Class Accuracy:
+Class 0 (Task-local 0): 21.16%
+Class 1 (Task-local 1): 35.12%
+Class 2 (Task-local 2): 46.02%
+Class 3 (Task-local 3): 91.67%
+Class 4 (Task-local 4): 52.50%
+Class 5 (Task-local 5): 81.51%
+Class 6 (Task-local 6): 60.96%
+Class 7 (Task-local 7): 32.67%
+Class 8 (Task-local 8): 60.12%
+Class 9 (Task-local 9): 42.25%
+Evaluation of task 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.57it/s]
+
+Task 1 Per-Class Accuracy:
+Class 10 (Task-local 0): 89.07%
+Class 11 (Task-local 1): 24.45%
+Class 12 (Task-local 2): 69.44%
+Class 13 (Task-local 3): 81.08%
+Class 14 (Task-local 4): 68.45%
+Class 15 (Task-local 5): 42.35%
+Class 16 (Task-local 6): 64.48%
+Class 17 (Task-local 7): 46.60%
+Class 18 (Task-local 8): 55.36%
+Class 19 (Task-local 9): 75.20%
+Evaluation of task 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 34.11it/s]
+
+Task 2 Per-Class Accuracy:
+Class 20 (Task-local 0): 44.44%
+Class 21 (Task-local 1): 67.74%
+Class 22 (Task-local 2): 51.80%
+Class 23 (Task-local 3): 58.76%
+Class 24 (Task-local 4): 98.02%
+Class 25 (Task-local 5): 51.50%
+Class 26 (Task-local 6): 37.90%
+Class 27 (Task-local 7): 62.03%
+Class 28 (Task-local 8): 54.87%
+Class 29 (Task-local 9): 75.55%
+Evaluation of task 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 36.17it/s]
+
+Task 3 Per-Class Accuracy:
+Class 30 (Task-local 0): 95.44%
+Class 31 (Task-local 1): 78.13%
+Class 32 (Task-local 2): 95.63%
+Class 33 (Task-local 3): 86.06%
+Class 34 (Task-local 4): 96.81%
+Class 35 (Task-local 5): 90.28%
+Class 36 (Task-local 6): 88.89%
+Class 37 (Task-local 7): 98.61%
+Class 38 (Task-local 8): 78.80%
+Class 39 (Task-local 9): 77.20%
+acc1([52.43048609721944, 61.6577221228384, 60.25513254933227, 88.59701492537313], [90.41808361672335, 89.58457563108726, 85.0308949571457, 93.19402985074628])
+
+Accuracy for 4 task(s):          [Class-IL]: 65.74 %     [Task-IL]: 89.56 %
+
+
+==================================================
+Task 3 checkpoint saved to: ./saved_models/charon_SFERRgai_seq-ntu120/task_3_20260526_004758.pth
+==================================================
+
+==================================================
+Starting Task 5/12
+Task Samples: 4412
+Buffer Size: 500
+Buffer mode: herding
+Total Seen Examples: 500
+Current Buffer Usage: 500/500
+==================================================
+
+Evaluation of task 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 33.83it/s]
+
+Task 4 Per-Class Accuracy:
+Class 40 (Task-local 0): 0.00%
+Class 41 (Task-local 1): 0.00%
+Class 42 (Task-local 2): 0.00%
+Class 43 (Task-local 3): 0.00%
+Class 44 (Task-local 4): 0.00%
+Class 45 (Task-local 5): 0.00%
+Class 46 (Task-local 6): 0.00%
+Class 47 (Task-local 7): 0.00%
+Class 48 (Task-local 8): 0.00%
+Class 49 (Task-local 9): 0.00%
+[05-26 | 00:54] Task 5 | ep 5: |████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 49.59 ep/h |   92/276 it | loss: 0.836636 |
+[FreRA Debug] Epoch 5:
+ ├─ Critical Freq Ratio: 11.48% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0425
+ └─ Reg Loss:            0.4935
+
+[05-26 | 00:55] Task 5 | ep 5: |█████████████████████████████████████████┈┈┈┈┈┈┈┈┈| 49.70 ep/h |  228/276 it | loss: 0.811436 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0646, std=0.3917, min=-1.9790, max=1.7603
+[FreRA Debug] importance: mean=0.4843, std=0.0807, min=0.1214, max=0.8533
+[FreRA Debug] w_crit (>0.5 ratio): 0.4918, mean=0.5121, std=0.3123
+[FreRA Debug] w_dist: mean=1.0760, std=0.7614, min=0.0000, max=1.9986
+w_dist:tensor([[[[1.9986],
+          [0.0000],
+          [0.0000],
+          [1.9598],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6703],
+          [0.0000],
+          [1.6691],
+          [0.0000],
+          [0.0000],
+          [1.6082],
+          [1.5984],
+          [1.6615],
+          [1.5644],
+          [1.5702],
+          [1.5823],
+          [1.5635],
+          [1.6171],
+          [0.0000],
+          [1.5633],
+          [1.5812],
+          [1.5956],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5570],
+          [1.5653],
+          [1.5796],
+          [1.5592],
+          [1.5565],
+          [1.5814],
+          [1.5831],
+          [1.5816],
+          [1.5752],
+          [1.5842],
+          [1.5728],
+          [1.5744],
+          [1.5630],
+          [1.5919],
+          [1.5596],
+          [1.5624],
+          [0.0000],
+          [1.5560],
+          [0.0000],
+          [1.5931],
+          [1.5743],
+          [0.0000],
+          [0.0000],
+          [1.5741],
+          [1.5633],
+          [1.5666],
+          [1.5708],
+          [1.5603],
+          [1.5602],
+          [1.5670]]]], device='cuda:0')
+[05-26 | 01:00] Task 5 | ep 9: |██████████████████████████████████████████┈┈┈┈┈┈┈┈| 49.51 ep/h |  234/276 it | loss: 0.846192 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0651, std=0.4135, min=-2.0248, max=2.0458
+[FreRA Debug] importance: mean=0.4834, std=0.0820, min=0.1166, max=0.8855
+[FreRA Debug] w_crit (>0.5 ratio): 0.4426, mean=0.4814, std=0.2825
+[FreRA Debug] w_dist: mean=0.9736, std=0.7939, min=0.0000, max=1.9988
+w_dist:tensor([[[[1.9988],
+          [0.0000],
+          [0.0000],
+          [1.9132],
+          [0.0000],
+          [1.7071],
+          [0.0000],
+          [1.5956],
+          [1.6237],
+          [1.7014],
+          [1.5798],
+          [1.6107],
+          [1.5885],
+          [1.6311],
+          [1.5978],
+          [0.0000],
+          [1.5968],
+          [1.6000],
+          [1.6035],
+          [1.5731],
+          [1.5588],
+          [1.5910],
+          [1.5841],
+          [0.0000],
+          [1.5767],
+          [1.5642],
+          [0.0000],
+          [1.5782],
+          [0.0000],
+          [1.5588],
+          [0.0000],
+          [0.0000],
+          [1.5771],
+          [1.5751],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5610],
+          [1.5670],
+          [0.0000],
+          [1.5657],
+          [0.0000],
+          [1.5707],
+          [1.5542],
+          [0.0000],
+          [1.5617],
+          [0.0000],
+          [1.5648],
+          [1.5548],
+          [1.5562],
+          [0.0000],
+          [0.0000],
+          [1.5591],
+          [0.0000],
+          [0.0000],
+          [1.5721],
+          [0.0000],
+          [0.0000],
+          [1.5557],
+          [1.5615],
+          [0.0000]]]], device='cuda:0')
+[05-26 | 01:05] Task 5 | ep 13: |██████████████████████████████████████████┈┈┈┈┈┈┈┈| 49.65 ep/h |  232/276 it | loss: 0.524709 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0602, std=0.4151, min=-1.9264, max=2.0928
+[FreRA Debug] importance: mean=0.4846, std=0.0834, min=0.1272, max=0.8902
+[FreRA Debug] w_crit (>0.5 ratio): 0.4918, mean=0.4972, std=0.2795
+[FreRA Debug] w_dist: mean=1.1769, std=0.7119, min=0.0000, max=1.9984
+w_dist:tensor([[[[1.9984],
+          [0.0000],
+          [0.0000],
+          [1.9584],
+          [0.0000],
+          [1.7862],
+          [0.0000],
+          [0.0000],
+          [1.5722],
+          [0.0000],
+          [1.6228],
+          [1.6024],
+          [1.6133],
+          [1.5646],
+          [1.6068],
+          [1.5695],
+          [1.5963],
+          [1.5659],
+          [1.5613],
+          [1.5945],
+          [1.5582],
+          [1.5794],
+          [1.5591],
+          [1.5938],
+          [1.5699],
+          [1.5686],
+          [0.0000],
+          [0.0000],
+          [1.5810],
+          [0.0000],
+          [0.0000],
+          [1.5993],
+          [1.5757],
+          [0.0000],
+          [0.0000],
+          [1.5813],
+          [1.5643],
+          [1.5567],
+          [1.5610],
+          [1.5593],
+          [1.5690],
+          [1.5575],
+          [1.5624],
+          [0.0000],
+          [1.5588],
+          [1.5701],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5689],
+          [1.5583],
+          [1.5589],
+          [1.5612],
+          [1.5618],
+          [1.5653],
+          [1.5590],
+          [1.5541],
+          [1.5744],
+          [1.5739],
+          [1.5513],
+          [1.5679]]]], device='cuda:0')
+[05-26 | 01:13] Task 5 | ep 20: |██████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 49.94 ep/h |  192/276 it | loss: 0.80668 |[FreRA Grad] Total norm: 0.007252, Max grad: 0.007060
+[05-26 | 01:16] Task 5 | ep 22: |██████████████████████████████████████████████┈┈┈┈| 49.88 ep/h |  254/276 it | loss: 0.433865 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0636, std=0.3658, min=-1.8479, max=1.7195
+[FreRA Debug] importance: mean=0.4844, std=0.0762, min=0.1361, max=0.8481
+[FreRA Debug] w_crit (>0.5 ratio): 0.5410, mean=0.5096, std=0.3105
+[FreRA Debug] w_dist: mean=1.0198, std=0.7757, min=0.0000, max=1.9979
+w_dist:tensor([[[[1.9979],
+          [0.0000],
+          [0.0000],
+          [1.9477],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6487],
+          [0.0000],
+          [1.6123],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6016],
+          [1.5806],
+          [1.5703],
+          [1.5896],
+          [1.5540],
+          [1.5563],
+          [1.5749],
+          [1.5687],
+          [1.5656],
+          [0.0000],
+          [1.5730],
+          [1.5639],
+          [0.0000],
+          [1.5936],
+          [0.0000],
+          [1.5698],
+          [1.5734],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5830],
+          [1.5728],
+          [1.5708],
+          [1.5670],
+          [0.0000],
+          [1.5567],
+          [1.5680],
+          [1.5749],
+          [1.5566],
+          [1.5731],
+          [1.5789],
+          [1.5669],
+          [1.5753],
+          [1.5672],
+          [1.5721],
+          [1.5798],
+          [1.5535],
+          [0.0000],
+          [1.5762],
+          [0.0000],
+          [1.5708],
+          [0.0000],
+          [1.5610],
+          [1.5743],
+          [0.0000],
+          [1.5668]]]], device='cuda:0')
+[05-26 | 01:16] Task 5 | ep 22: |████████████████████████████████████████████████┈┈| 49.86 ep/h |  268/276 it | loss: 0.551969 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0656, std=0.3722, min=-1.8493, max=1.7430
+[FreRA Debug] importance: mean=0.4839, std=0.0776, min=0.1360, max=0.8511
+[FreRA Debug] w_crit (>0.5 ratio): 0.3607, mean=0.4570, std=0.2822
+[FreRA Debug] w_dist: mean=1.1755, std=0.7106, min=0.0000, max=1.9979
+w_dist:tensor([[[[1.9979],
+          [0.0000],
+          [0.0000],
+          [1.9543],
+          [0.0000],
+          [0.0000],
+          [1.6287],
+          [1.6414],
+          [0.0000],
+          [1.6656],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5998],
+          [1.5881],
+          [1.5767],
+          [1.5829],
+          [1.5586],
+          [1.5585],
+          [1.5690],
+          [1.5646],
+          [1.5706],
+          [0.0000],
+          [1.5576],
+          [1.5760],
+          [0.0000],
+          [1.5792],
+          [1.5618],
+          [1.5659],
+          [1.5853],
+          [1.5547],
+          [1.5813],
+          [1.5700],
+          [1.5726],
+          [1.5703],
+          [1.5786],
+          [1.5571],
+          [1.5712],
+          [1.5591],
+          [1.5597],
+          [1.5549],
+          [1.5594],
+          [1.5921],
+          [1.5733],
+          [1.5838],
+          [0.0000],
+          [0.0000],
+          [1.5566],
+          [1.5776],
+          [1.5548],
+          [1.5883],
+          [1.5718],
+          [0.0000],
+          [1.5804],
+          [1.5579],
+          [0.0000],
+          [1.5736],
+          [1.5619],
+          [1.5600]]]], device='cuda:0')
+[05-26 | 01:18] Task 5 | ep 24: |██████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 49.77 ep/h |  126/276 it | loss: 0.364954 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0453, std=0.3742, min=-1.8546, max=1.6821
+[FreRA Debug] importance: mean=0.4890, std=0.0788, min=0.1353, max=0.8432
+[FreRA Debug] w_crit (>0.5 ratio): 0.5082, mean=0.4858, std=0.3096
+[FreRA Debug] w_dist: mean=1.0413, std=0.7647, min=0.0000, max=1.9979
+w_dist:tensor([[[[1.9979],
+          [0.0000],
+          [0.0000],
+          [1.9558],
+          [0.0000],
+          [0.0000],
+          [1.5800],
+          [0.0000],
+          [1.6863],
+          [0.0000],
+          [1.6724],
+          [0.0000],
+          [1.6040],
+          [1.6175],
+          [1.5936],
+          [0.0000],
+          [1.5654],
+          [0.0000],
+          [1.5652],
+          [1.5630],
+          [1.5383],
+          [1.5700],
+          [1.5416],
+          [0.0000],
+          [1.5660],
+          [1.5867],
+          [1.5745],
+          [1.5432],
+          [0.0000],
+          [1.5567],
+          [1.5650],
+          [1.5540],
+          [0.0000],
+          [1.5521],
+          [0.0000],
+          [1.5404],
+          [1.5485],
+          [0.0000],
+          [1.5714],
+          [1.5428],
+          [0.0000],
+          [0.0000],
+          [1.5561],
+          [0.0000],
+          [1.5434],
+          [0.0000],
+          [1.5395],
+          [1.5982],
+          [0.0000],
+          [1.5418],
+          [1.5725],
+          [0.0000],
+          [1.5640],
+          [1.5571],
+          [0.0000],
+          [1.5659],
+          [1.5502],
+          [1.5405],
+          [1.5450],
+          [1.5462],
+          [1.5474]]]], device='cuda:0')
+[05-26 | 01:21] Task 5 | ep 27: |███████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 49.51 ep/h |   40/276 it | loss: 0.32259 ||
+[FreRA Debug] Epoch 27:
+ ├─ Critical Freq Ratio: 8.20% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0644
+ └─ Reg Loss:            0.5076
+
+[05-26 | 01:22] Task 5 | ep 28: |████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 49.71 ep/h |   49/276 it | loss: 0.381561 |
+[FreRA Debug] Epoch 28:
+ ├─ Critical Freq Ratio: 8.20% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0559
+ └─ Reg Loss:            0.4735
+
+Linear probing on the full poses [Epoch: 0]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 276/276 [00:24<00:00, 11.46it/s]
+Linear probing on the full poses [Epoch: 1]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 276/276 [00:24<00:00, 11.35it/s]
+Linear probing on the full poses [Epoch: 2]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 276/276 [00:24<00:00, 11.30it/s]
+Task 4: Storing 10 samples per new class (10 per old class) for 50 total classes
+Class 41: 374/440 samples passed reconstruction difficulty filter (threshold: 0.0750)
+Selected 10 prototypes for class 41
+Class 48: 374/440 samples passed reconstruction difficulty filter (threshold: 0.0718)
+Selected 10 prototypes for class 48
+Class 45: 375/443 samples passed reconstruction difficulty filter (threshold: 0.0693)
+Selected 10 prototypes for class 45
+Class 42: 373/439 samples passed reconstruction difficulty filter (threshold: 0.0691)
+Selected 10 prototypes for class 42
+Class 43: 375/443 samples passed reconstruction difficulty filter (threshold: 0.0855)
+Selected 10 prototypes for class 43
+Class 44: 376/444 samples passed reconstruction difficulty filter (threshold: 0.3543)
+Selected 10 prototypes for class 44
+Class 40: 368/434 samples passed reconstruction difficulty filter (threshold: 0.0641)
+Selected 10 prototypes for class 40
+Class 47: 375/443 samples passed reconstruction difficulty filter (threshold: 0.2594)
+Selected 10 prototypes for class 47
+Class 46: 374/442 samples passed reconstruction difficulty filter (threshold: 0.2772)
+Selected 10 prototypes for class 46
+Class 49: 376/444 samples passed reconstruction difficulty filter (threshold: 0.1221)
+Selected 10 prototypes for class 49
+/home/dell/miniconda3/envs/pyskl_39/lib/python3.9/site-packages/sklearn/manifold/_t_sne.py:1164: FutureWarning: 'n_iter' was renamed to 'max_iter' in version 1.5 and will be removed in 1.7.
+  warnings.warn(
+Selection visualization saved to task_4_selection_herding.png
+Evaluation of task 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:09<00:00, 34.05it/s]
+
+Task 0 Per-Class Accuracy:
+Class 0 (Task-local 0): 32.53%
+Class 1 (Task-local 1): 57.14%
+Class 2 (Task-local 2): 47.21%
+Class 3 (Task-local 3): 90.67%
+Class 4 (Task-local 4): 56.67%
+Class 5 (Task-local 5): 69.78%
+Class 6 (Task-local 6): 68.73%
+Class 7 (Task-local 7): 12.15%
+Class 8 (Task-local 8): 77.78%
+Class 9 (Task-local 9): 20.12%
+Evaluation of task 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.31it/s]
+
+Task 1 Per-Class Accuracy:
+Class 10 (Task-local 0): 88.07%
+Class 11 (Task-local 1): 37.97%
+Class 12 (Task-local 2): 65.28%
+Class 13 (Task-local 3): 87.05%
+Class 14 (Task-local 4): 58.73%
+Class 15 (Task-local 5): 71.57%
+Class 16 (Task-local 6): 53.97%
+Class 17 (Task-local 7): 36.60%
+Class 18 (Task-local 8): 67.06%
+Class 19 (Task-local 9): 44.44%
+Evaluation of task 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 34.57it/s]
+
+Task 2 Per-Class Accuracy:
+Class 20 (Task-local 0): 33.33%
+Class 21 (Task-local 1): 69.74%
+Class 22 (Task-local 2): 14.60%
+Class 23 (Task-local 3): 26.29%
+Class 24 (Task-local 4): 96.23%
+Class 25 (Task-local 5): 44.49%
+Class 26 (Task-local 6): 25.79%
+Class 27 (Task-local 7): 69.78%
+Class 28 (Task-local 8): 59.84%
+Class 29 (Task-local 9): 62.53%
+Evaluation of task 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.86it/s]
+
+Task 3 Per-Class Accuracy:
+Class 30 (Task-local 0): 96.63%
+Class 31 (Task-local 1): 46.92%
+Class 32 (Task-local 2): 89.29%
+Class 33 (Task-local 3): 37.45%
+Class 34 (Task-local 4): 96.81%
+Class 35 (Task-local 5): 78.57%
+Class 36 (Task-local 6): 69.64%
+Class 37 (Task-local 7): 93.82%
+Class 38 (Task-local 8): 60.40%
+Class 39 (Task-local 9): 55.80%
+Evaluation of task 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 34.10it/s]
+
+Task 4 Per-Class Accuracy:
+Class 40 (Task-local 0): 84.54%
+Class 41 (Task-local 1): 86.80%
+Class 42 (Task-local 2): 88.98%
+Class 43 (Task-local 3): 87.82%
+Class 44 (Task-local 4): 82.34%
+Class 45 (Task-local 5): 88.67%
+Class 46 (Task-local 6): 71.37%
+Class 47 (Task-local 7): 82.90%
+Class 48 (Task-local 8): 75.70%
+Class 49 (Task-local 9): 94.16%
+acc1([53.33066613322664, 61.08129596501689, 50.26908511062388, 72.55721393034827, 84.31137724550898], [88.9377875575115, 88.65036772013516, 83.03767191548734, 91.04477611940298, 89.64071856287426])
+
+Accuracy for 5 task(s):          [Class-IL]: 64.31 %     [Task-IL]: 88.26 %
+
+
+==================================================
+Task 4 checkpoint saved to: ./saved_models/charon_SFERRgai_seq-ntu120/task_4_20260526_012717.pth
+==================================================
+
+==================================================
+Starting Task 6/12
+Task Samples: 4415
+Buffer Size: 500
+Buffer mode: herding
+Total Seen Examples: 500
+Current Buffer Usage: 500/500
+==================================================
+
+Evaluation of task 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:08<00:00, 36.20it/s]
+
+Task 5 Per-Class Accuracy:
+Class 50 (Task-local 0): 0.00%
+Class 51 (Task-local 1): 0.00%
+Class 52 (Task-local 2): 0.00%
+Class 53 (Task-local 3): 0.00%
+Class 54 (Task-local 4): 0.00%
+Class 55 (Task-local 5): 0.00%
+Class 56 (Task-local 6): 0.00%
+Class 57 (Task-local 7): 0.00%
+Class 58 (Task-local 8): 0.00%
+Class 59 (Task-local 9): 0.00%
+[05-26 | 01:42] Task 6 | ep 12: |████████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 50.56 ep/h |  201/276 it | loss: 0.494698 |
+[FreRA Debug] Epoch 12:
+ ├─ Critical Freq Ratio: 13.11% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0529
+ └─ Reg Loss:            0.4897
+
+[05-26 | 01:43] Task 6 | ep 13: |██████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 50.65 ep/h |  170/276 it | loss: 0.287673 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0623, std=0.3656, min=-1.7667, max=1.7589
+[FreRA Debug] importance: mean=0.4842, std=0.0766, min=0.1460, max=0.8531
+[FreRA Debug] w_crit (>0.5 ratio): 0.3770, mean=0.4122, std=0.2876
+[FreRA Debug] w_dist: mean=1.0761, std=0.7612, min=0.0000, max=1.9972
+w_dist:tensor([[[[1.9972],
+          [0.0000],
+          [0.0000],
+          [1.9026],
+          [0.0000],
+          [0.0000],
+          [1.7330],
+          [1.5912],
+          [1.6571],
+          [0.0000],
+          [1.5783],
+          [0.0000],
+          [1.6305],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5720],
+          [1.5640],
+          [1.5519],
+          [0.0000],
+          [1.5694],
+          [1.5839],
+          [1.5689],
+          [1.5898],
+          [0.0000],
+          [1.5996],
+          [0.0000],
+          [1.5907],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5593],
+          [1.6182],
+          [1.5701],
+          [1.5569],
+          [0.0000],
+          [0.0000],
+          [1.5921],
+          [1.5569],
+          [1.5627],
+          [1.5576],
+          [1.5927],
+          [1.5620],
+          [1.5746],
+          [1.6097],
+          [1.5663],
+          [1.5861],
+          [1.5636],
+          [1.5915],
+          [1.5582],
+          [0.0000],
+          [1.5734],
+          [1.5538],
+          [1.5867],
+          [1.5739],
+          [0.0000],
+          [1.5848],
+          [1.5865],
+          [1.5623],
+          [1.5643]]]], device='cuda:0')
+[05-26 | 01:46] Task 6 | ep 16: |█████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 50.28 ep/h |   51/276 it | loss: 0.469287 |
+[FreRA Debug] Epoch 16:
+ ├─ Critical Freq Ratio: 9.84% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0590
+ └─ Reg Loss:            0.5060
+
+[05-26 | 01:49] Task 6 | ep 18: |█████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 50.90 ep/h |   95/276 it | loss: 0.54871 ||
+[FreRA Debug] Epoch 18:
+ ├─ Critical Freq Ratio: 8.20% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0605
+ └─ Reg Loss:            0.4374
+
+[05-26 | 01:53] Task 6 | ep 21: |██████████████████████████████████████████████┈┈┈┈| 50.69 ep/h |  258/276 it | loss: 0.399055 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0511, std=0.3526, min=-1.6705, max=1.8187
+[FreRA Debug] importance: mean=0.4869, std=0.0737, min=0.1584, max=0.8604
+[FreRA Debug] w_crit (>0.5 ratio): 0.4098, mean=0.4738, std=0.2886
+[FreRA Debug] w_dist: mean=1.1184, std=0.7334, min=0.0000, max=1.9962
+w_dist:tensor([[[[1.9962],
+          [0.0000],
+          [0.0000],
+          [1.9175],
+          [0.0000],
+          [0.0000],
+          [1.6775],
+          [0.0000],
+          [1.6210],
+          [1.5671],
+          [0.0000],
+          [1.6535],
+          [0.0000],
+          [1.6894],
+          [0.0000],
+          [1.5693],
+          [0.0000],
+          [1.5486],
+          [1.5769],
+          [0.0000],
+          [1.5587],
+          [1.5447],
+          [1.5439],
+          [1.5451],
+          [1.5529],
+          [1.5533],
+          [0.0000],
+          [1.5595],
+          [0.0000],
+          [1.5434],
+          [1.6021],
+          [1.5629],
+          [1.5455],
+          [1.5680],
+          [1.5606],
+          [1.5618],
+          [0.0000],
+          [1.5574],
+          [1.5533],
+          [1.5688],
+          [1.5573],
+          [1.5584],
+          [1.5458],
+          [1.5431],
+          [1.5482],
+          [1.5500],
+          [1.5793],
+          [0.0000],
+          [1.5665],
+          [1.5649],
+          [1.5548],
+          [1.5593],
+          [0.0000],
+          [1.5837],
+          [1.5488],
+          [1.5531],
+          [0.0000],
+          [1.5466],
+          [0.0000],
+          [0.0000],
+          [1.5640]]]], device='cuda:0')
+[05-26 | 02:02] Task 6 | ep 28: |█████████████████████████████████████████████┈┈┈┈┈| 50.92 ep/h |  252/276 it | loss: 0.40982 ||
+[FreRA Debug] Epoch 28:
+ ├─ Critical Freq Ratio: 4.92% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0327
+ └─ Reg Loss:            0.5697
+
+Linear probing on the full poses [Epoch: 0]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 276/276 [00:23<00:00, 11.60it/s]
+Linear probing on the full poses [Epoch: 1]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 276/276 [00:23<00:00, 11.53it/s]
+Linear probing on the full poses [Epoch: 2]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 276/276 [00:24<00:00, 11.49it/s]
+Task 5: Storing 10 samples per new class (8 per old class) for 60 total classes
+Class 59: 376/444 samples passed reconstruction difficulty filter (threshold: 0.0677)
+Selected 10 prototypes for class 59
+Class 52: 375/443 samples passed reconstruction difficulty filter (threshold: 0.0850)
+Selected 10 prototypes for class 52
+Class 53: 376/444 samples passed reconstruction difficulty filter (threshold: 0.2163)
+Selected 10 prototypes for class 53
+Class 57: 371/437 samples passed reconstruction difficulty filter (threshold: 0.0720)
+Selected 10 prototypes for class 57
+Class 56: 372/438 samples passed reconstruction difficulty filter (threshold: 0.0763)
+Selected 10 prototypes for class 56
+Class 50: 375/443 samples passed reconstruction difficulty filter (threshold: 0.1062)
+Selected 10 prototypes for class 50
+Class 58: 376/444 samples passed reconstruction difficulty filter (threshold: 0.0683)
+Selected 10 prototypes for class 58
+Class 55: 375/443 samples passed reconstruction difficulty filter (threshold: 0.0708)
+Selected 10 prototypes for class 55
+Class 51: 372/438 samples passed reconstruction difficulty filter (threshold: 0.0991)
+Selected 10 prototypes for class 51
+Class 54: 375/441 samples passed reconstruction difficulty filter (threshold: 0.1164)
+Selected 10 prototypes for class 54
+/home/dell/miniconda3/envs/pyskl_39/lib/python3.9/site-packages/sklearn/manifold/_t_sne.py:1164: FutureWarning: 'n_iter' was renamed to 'max_iter' in version 1.5 and will be removed in 1.7.
+  warnings.warn(
+Selection visualization saved to task_5_selection_herding.png
+Evaluation of task 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:09<00:00, 33.50it/s]
+
+Task 0 Per-Class Accuracy:
+Class 0 (Task-local 0): 36.13%
+Class 1 (Task-local 1): 44.64%
+Class 2 (Task-local 2): 1.39%
+Class 3 (Task-local 3): 89.48%
+Class 4 (Task-local 4): 52.50%
+Class 5 (Task-local 5): 58.05%
+Class 6 (Task-local 6): 58.37%
+Class 7 (Task-local 7): 25.90%
+Class 8 (Task-local 8): 64.29%
+Class 9 (Task-local 9): 20.52%
+Evaluation of task 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.71it/s]
+
+Task 1 Per-Class Accuracy:
+Class 10 (Task-local 0): 86.68%
+Class 11 (Task-local 1): 34.00%
+Class 12 (Task-local 2): 43.45%
+Class 13 (Task-local 3): 63.55%
+Class 14 (Task-local 4): 47.62%
+Class 15 (Task-local 5): 55.27%
+Class 16 (Task-local 6): 54.37%
+Class 17 (Task-local 7): 37.40%
+Class 18 (Task-local 8): 43.25%
+Class 19 (Task-local 9): 44.64%
+Evaluation of task 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 33.90it/s]
+
+Task 2 Per-Class Accuracy:
+Class 20 (Task-local 0): 29.56%
+Class 21 (Task-local 1): 49.50%
+Class 22 (Task-local 2): 29.80%
+Class 23 (Task-local 3): 37.65%
+Class 24 (Task-local 4): 93.25%
+Class 25 (Task-local 5): 48.50%
+Class 26 (Task-local 6): 20.24%
+Class 27 (Task-local 7): 56.86%
+Class 28 (Task-local 8): 56.46%
+Class 29 (Task-local 9): 59.12%
+Evaluation of task 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.61it/s]
+
+Task 3 Per-Class Accuracy:
+Class 30 (Task-local 0): 96.63%
+Class 31 (Task-local 1): 40.16%
+Class 32 (Task-local 2): 85.71%
+Class 33 (Task-local 3): 37.85%
+Class 34 (Task-local 4): 93.03%
+Class 35 (Task-local 5): 59.13%
+Class 36 (Task-local 6): 47.82%
+Class 37 (Task-local 7): 82.67%
+Class 38 (Task-local 8): 49.80%
+Class 39 (Task-local 9): 45.40%
+Evaluation of task 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 33.84it/s]
+
+Task 4 Per-Class Accuracy:
+Class 40 (Task-local 0): 36.14%
+Class 41 (Task-local 1): 49.20%
+Class 42 (Task-local 2): 60.52%
+Class 43 (Task-local 3): 19.96%
+Class 44 (Task-local 4): 67.06%
+Class 45 (Task-local 5): 78.73%
+Class 46 (Task-local 6): 53.68%
+Class 47 (Task-local 7): 57.85%
+Class 48 (Task-local 8): 55.98%
+Class 49 (Task-local 9): 77.67%
+Evaluation of task 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:08<00:00, 35.71it/s]
+
+Task 5 Per-Class Accuracy:
+Class 50 (Task-local 0): 87.87%
+Class 51 (Task-local 1): 98.19%
+Class 52 (Task-local 2): 86.11%
+Class 53 (Task-local 3): 95.03%
+Class 54 (Task-local 4): 89.84%
+Class 55 (Task-local 5): 73.21%
+Class 56 (Task-local 6): 92.57%
+Class 57 (Task-local 7): 93.63%
+Class 58 (Task-local 8): 89.04%
+Class 59 (Task-local 9): 85.12%
+acc1([45.14902980596119, 51.02365334923474, 48.09647199521627, 63.840796019900495, 55.688622754491014, 89.04382470119522], [87.95759151830366, 87.71615980918307, 82.06099262507475, 89.69154228855722, 85.50898203592814, 93.06772908366534])
+
+Accuracy for 6 task(s):          [Class-IL]: 58.81 %     [Task-IL]: 87.67 %
+
+
+==================================================
+Task 5 checkpoint saved to: ./saved_models/charon_SFERRgai_seq-ntu120/task_5_20260526_020602.pth
+==================================================
+
+==================================================
+Starting Task 7/12
+Task Samples: 4665
+Buffer Size: 500
+Buffer mode: herding
+Total Seen Examples: 500
+Current Buffer Usage: 500/500
+==================================================
+
+Evaluation of task 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:08<00:00, 34.21it/s]
+
+Task 6 Per-Class Accuracy:
+Class 60 (Task-local 0): 0.00%
+Class 61 (Task-local 1): 0.00%
+Class 62 (Task-local 2): 0.00%
+Class 63 (Task-local 3): 0.00%
+Class 64 (Task-local 4): 0.00%
+Class 65 (Task-local 5): 0.00%
+Class 66 (Task-local 6): 0.00%
+Class 67 (Task-local 7): 0.00%
+Class 68 (Task-local 8): 0.00%
+Class 69 (Task-local 9): 0.00%
+[05-26 | 02:20] Task 7 | ep 10: |████████████████████████████████████████┈┈┈┈┈┈┈┈┈┈| 47.32 ep/h |  238/292 it | loss: 0.614756 |
+[FreRA Debug] Epoch 10:
+ ├─ Critical Freq Ratio: 14.75% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0313
+ └─ Reg Loss:            0.4787
+
+[05-26 | 02:24] Task 7 | ep 14: |███████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.46 ep/h |  159/292 it | loss: 0.378699 |
+[FreRA Debug] Epoch 14:
+ ├─ Critical Freq Ratio: 13.11% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0467
+ └─ Reg Loss:            0.5774
+
+[05-26 | 02:30] Task 7 | ep 19: |███████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.62 ep/h |   42/292 it | loss: 0.695888 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0667, std=0.3379, min=-1.8906, max=1.5544
+[FreRA Debug] importance: mean=0.4840, std=0.0701, min=0.1312, max=0.8256
+[FreRA Debug] w_crit (>0.5 ratio): 0.5902, mean=0.5384, std=0.2610
+[FreRA Debug] w_dist: mean=0.9690, std=0.7899, min=0.0000, max=1.9982
+w_dist:tensor([[[[1.9982],
+          [0.0000],
+          [0.0000],
+          [1.8815],
+          [0.0000],
+          [0.0000],
+          [1.6233],
+          [0.0000],
+          [1.6766],
+          [1.6336],
+          [1.5598],
+          [0.0000],
+          [1.6163],
+          [1.5841],
+          [0.0000],
+          [1.5951],
+          [0.0000],
+          [0.0000],
+          [1.5612],
+          [1.5606],
+          [1.5597],
+          [1.5654],
+          [1.5649],
+          [1.5588],
+          [1.5596],
+          [1.6239],
+          [0.0000],
+          [1.5940],
+          [1.5807],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5675],
+          [1.5700],
+          [0.0000],
+          [1.5775],
+          [1.5554],
+          [0.0000],
+          [1.5850],
+          [0.0000],
+          [1.5660],
+          [1.5573],
+          [1.5679],
+          [0.0000],
+          [0.0000],
+          [1.5628],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5573],
+          [1.5721],
+          [0.0000],
+          [1.5597],
+          [1.5724],
+          [1.5587],
+          [1.5834],
+          [0.0000],
+          [0.0000],
+          [1.5678],
+          [1.5725],
+          [1.5586]]]], device='cuda:0')
+[05-26 | 02:32] Task 7 | ep 20: |██████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.66 ep/h |   64/292 it | loss: 0.381325 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0604, std=0.3585, min=-1.9977, max=1.7755
+[FreRA Debug] importance: mean=0.4855, std=0.0713, min=0.1194, max=0.8551
+[FreRA Debug] w_crit (>0.5 ratio): 0.4590, mean=0.5016, std=0.3016
+[FreRA Debug] w_dist: mean=0.6550, std=0.7955, min=0.0000, max=1.9987
+w_dist:tensor([[[[1.9987],
+          [0.0000],
+          [0.0000],
+          [1.9005],
+          [0.0000],
+          [1.6559],
+          [0.0000],
+          [0.0000],
+          [1.5965],
+          [1.5845],
+          [1.5726],
+          [0.0000],
+          [0.0000],
+          [1.5513],
+          [0.0000],
+          [1.6141],
+          [1.5525],
+          [1.5675],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5632],
+          [0.0000],
+          [1.5629],
+          [0.0000],
+          [0.0000],
+          [1.5519],
+          [0.0000],
+          [1.5563],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5508],
+          [1.5657],
+          [1.5587],
+          [1.5675],
+          [0.0000],
+          [1.5547],
+          [1.5508],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5582],
+          [0.0000],
+          [0.0000],
+          [1.5586],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5529],
+          [1.5573],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5522]]]], device='cuda:0')
+[05-26 | 02:33] Task 7 | ep 21: |████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.81 ep/h |   27/292 it | loss: 0.305526 |
+[FreRA Debug] Epoch 21:
+ ├─ Critical Freq Ratio: 4.92% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0482
+ └─ Reg Loss:            0.4887
+
+[05-26 | 02:36] Task 7 | ep 23: |███████████████████████████████████████████┈┈┈┈┈┈┈| 47.53 ep/h |  255/292 it | loss: 0.324888 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0732, std=0.3218, min=-1.9016, max=1.4681
+[FreRA Debug] importance: mean=0.4825, std=0.0663, min=0.1299, max=0.8128
+[FreRA Debug] w_crit (>0.5 ratio): 0.5574, mean=0.5216, std=0.2756
+[FreRA Debug] w_dist: mean=1.0185, std=0.7737, min=0.0000, max=1.9982
+w_dist:tensor([[[[1.9982],
+          [0.0000],
+          [0.0000],
+          [1.7837],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5877],
+          [1.6041],
+          [0.0000],
+          [1.5836],
+          [1.5855],
+          [0.0000],
+          [1.5772],
+          [1.5688],
+          [1.5847],
+          [1.5669],
+          [1.5702],
+          [0.0000],
+          [1.5737],
+          [1.5800],
+          [1.5693],
+          [1.5624],
+          [1.5683],
+          [1.5874],
+          [1.5705],
+          [0.0000],
+          [1.5648],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5829],
+          [0.0000],
+          [1.5637],
+          [1.5746],
+          [1.5795],
+          [1.5721],
+          [1.5721],
+          [1.5908],
+          [1.5734],
+          [1.5715],
+          [1.5609],
+          [1.5783],
+          [1.5921],
+          [1.5774],
+          [0.0000],
+          [1.5753],
+          [1.5890],
+          [1.5709],
+          [1.5882],
+          [1.5988],
+          [0.0000],
+          [0.0000],
+          [1.5685],
+          [0.0000],
+          [0.0000],
+          [1.5644]]]], device='cuda:0')
+[05-26 | 02:41] Task 7 | ep 27: |██████████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈| 47.39 ep/h |  226/292 it | loss: 0.250124 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0590, std=0.3064, min=-1.6032, max=1.5501
+[FreRA Debug] importance: mean=0.4854, std=0.0653, min=0.1675, max=0.8249
+[FreRA Debug] w_crit (>0.5 ratio): 0.4918, mean=0.4944, std=0.2848
+[FreRA Debug] w_dist: mean=0.5567, std=0.7774, min=0.0000, max=1.9952
+w_dist:tensor([[[[1.9952],
+          [0.0000],
+          [0.0000],
+          [1.8664],
+          [0.0000],
+          [1.6092],
+          [0.0000],
+          [1.6960],
+          [0.0000],
+          [1.6453],
+          [1.5873],
+          [1.6240],
+          [0.0000],
+          [1.5812],
+          [0.0000],
+          [1.6181],
+          [1.5875],
+          [0.0000],
+          [1.5575],
+          [0.0000],
+          [1.5547],
+          [1.5640],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5513],
+          [0.0000],
+          [1.5634],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5552],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5572],
+          [1.5835],
+          [0.0000],
+          [0.0000],
+          [1.5540],
+          [0.0000],
+          [1.5561],
+          [1.5524],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000]]]], device='cuda:0')
+[05-26 | 02:42] Task 7 | ep 28: |█████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.52 ep/h |  104/292 it | loss: 0.287432 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0536, std=0.3004, min=-1.6633, max=1.4754
+[FreRA Debug] importance: mean=0.4869, std=0.0638, min=0.1593, max=0.8139
+[FreRA Debug] w_crit (>0.5 ratio): 0.3770, mean=0.4476, std=0.3038
+[FreRA Debug] w_dist: mean=0.7288, std=0.8005, min=0.0000, max=1.9961
+w_dist:tensor([[[[1.9961],
+          [0.0000],
+          [0.0000],
+          [1.8165],
+          [0.0000],
+          [1.6673],
+          [0.0000],
+          [1.6466],
+          [0.0000],
+          [0.0000],
+          [1.5711],
+          [0.0000],
+          [0.0000],
+          [1.5617],
+          [1.6352],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5557],
+          [0.0000],
+          [1.5514],
+          [0.0000],
+          [1.5480],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5545],
+          [1.5696],
+          [0.0000],
+          [1.5470],
+          [0.0000],
+          [1.5459],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5470],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5468],
+          [1.5524],
+          [1.5462],
+          [1.5624],
+          [0.0000],
+          [1.5484],
+          [1.5446],
+          [0.0000],
+          [1.5504],
+          [1.5467],
+          [1.5465],
+          [0.0000],
+          [0.0000],
+          [1.5512],
+          [1.5456],
+          [1.5512],
+          [1.5505],
+          [0.0000]]]], device='cuda:0')
+Linear probing on the full poses [Epoch: 0]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.50it/s]
+Linear probing on the full poses [Epoch: 1]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.54it/s]
+Linear probing on the full poses [Epoch: 2]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.49it/s]
+Task 6: Storing 8 samples per new class (7 per old class) for 70 total classes
+Class 65: 396/467 samples passed reconstruction difficulty filter (threshold: 0.2455)
+Selected 8 prototypes for class 65
+Class 60: 397/468 samples passed reconstruction difficulty filter (threshold: 0.1140)
+Selected 8 prototypes for class 60
+Class 63: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0769)
+Selected 8 prototypes for class 63
+Class 68: 397/468 samples passed reconstruction difficulty filter (threshold: 0.4091)
+Selected 8 prototypes for class 68
+Class 66: 395/466 samples passed reconstruction difficulty filter (threshold: 0.0737)
+Selected 8 prototypes for class 66
+Class 67: 392/463 samples passed reconstruction difficulty filter (threshold: 0.0954)
+Selected 8 prototypes for class 67
+Class 69: 397/468 samples passed reconstruction difficulty filter (threshold: 0.0661)
+Selected 8 prototypes for class 69
+Class 62: 394/465 samples passed reconstruction difficulty filter (threshold: 0.1897)
+Selected 8 prototypes for class 62
+Class 61: 395/466 samples passed reconstruction difficulty filter (threshold: 0.0797)
+Selected 8 prototypes for class 61
+Class 64: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0693)
+Selected 8 prototypes for class 64
+/home/dell/miniconda3/envs/pyskl_39/lib/python3.9/site-packages/sklearn/manifold/_t_sne.py:1164: FutureWarning: 'n_iter' was renamed to 'max_iter' in version 1.5 and will be removed in 1.7.
+  warnings.warn(
+Selection visualization saved to task_6_selection_herding.png
+Evaluation of task 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:09<00:00, 33.43it/s]
+
+Task 0 Per-Class Accuracy:
+Class 0 (Task-local 0): 20.76%
+Class 1 (Task-local 1): 44.64%
+Class 2 (Task-local 2): 13.75%
+Class 3 (Task-local 3): 51.79%
+Class 4 (Task-local 4): 43.96%
+Class 5 (Task-local 5): 76.54%
+Class 6 (Task-local 6): 51.39%
+Class 7 (Task-local 7): 4.98%
+Class 8 (Task-local 8): 66.67%
+Class 9 (Task-local 9): 12.88%
+Evaluation of task 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.15it/s]
+
+Task 1 Per-Class Accuracy:
+Class 10 (Task-local 0): 86.28%
+Class 11 (Task-local 1): 21.27%
+Class 12 (Task-local 2): 41.07%
+Class 13 (Task-local 3): 70.32%
+Class 14 (Task-local 4): 60.91%
+Class 15 (Task-local 5): 32.80%
+Class 16 (Task-local 6): 57.14%
+Class 17 (Task-local 7): 35.00%
+Class 18 (Task-local 8): 42.46%
+Class 19 (Task-local 9): 27.98%
+Evaluation of task 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 34.11it/s]
+
+Task 2 Per-Class Accuracy:
+Class 20 (Task-local 0): 40.48%
+Class 21 (Task-local 1): 39.08%
+Class 22 (Task-local 2): 13.80%
+Class 23 (Task-local 3): 24.50%
+Class 24 (Task-local 4): 69.84%
+Class 25 (Task-local 5): 39.28%
+Class 26 (Task-local 6): 13.10%
+Class 27 (Task-local 7): 53.08%
+Class 28 (Task-local 8): 63.22%
+Class 29 (Task-local 9): 34.67%
+Evaluation of task 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.38it/s]
+
+Task 3 Per-Class Accuracy:
+Class 30 (Task-local 0): 93.45%
+Class 31 (Task-local 1): 37.97%
+Class 32 (Task-local 2): 79.76%
+Class 33 (Task-local 3): 24.70%
+Class 34 (Task-local 4): 93.03%
+Class 35 (Task-local 5): 65.87%
+Class 36 (Task-local 6): 47.02%
+Class 37 (Task-local 7): 81.47%
+Class 38 (Task-local 8): 40.60%
+Class 39 (Task-local 9): 31.60%
+Evaluation of task 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 33.80it/s]
+
+Task 4 Per-Class Accuracy:
+Class 40 (Task-local 0): 12.25%
+Class 41 (Task-local 1): 51.00%
+Class 42 (Task-local 2): 47.70%
+Class 43 (Task-local 3): 23.95%
+Class 44 (Task-local 4): 41.87%
+Class 45 (Task-local 5): 76.54%
+Class 46 (Task-local 6): 44.93%
+Class 47 (Task-local 7): 44.93%
+Class 48 (Task-local 8): 47.21%
+Class 49 (Task-local 9): 61.57%
+Evaluation of task 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:08<00:00, 35.77it/s]
+
+Task 5 Per-Class Accuracy:
+Class 50 (Task-local 0): 69.38%
+Class 51 (Task-local 1): 98.39%
+Class 52 (Task-local 2): 63.69%
+Class 53 (Task-local 3): 81.31%
+Class 54 (Task-local 4): 55.78%
+Class 55 (Task-local 5): 54.96%
+Class 56 (Task-local 6): 77.71%
+Class 57 (Task-local 7): 84.46%
+Class 58 (Task-local 8): 30.28%
+Class 59 (Task-local 9): 63.49%
+Evaluation of task 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:08<00:00, 34.53it/s]
+
+Task 6 Per-Class Accuracy:
+Class 60 (Task-local 0): 94.49%
+Class 61 (Task-local 1): 86.76%
+Class 62 (Task-local 2): 89.00%
+Class 63 (Task-local 3): 91.45%
+Class 64 (Task-local 4): 85.54%
+Class 65 (Task-local 5): 83.50%
+Class 66 (Task-local 6): 84.22%
+Class 67 (Task-local 7): 90.59%
+Class 68 (Task-local 8): 70.41%
+Class 69 (Task-local 9): 86.71%
+acc1([38.76775355071015, 47.52534287418008, 39.12696830775364, 59.582089552238806, 45.209580838323355, 67.90836653386454, 86.26328699918234], [87.31746349269855, 85.60922281852514, 79.17081921467012, 88.2587064676617, 83.49301397205589, 90.77689243027889, 91.57808667211775])
+
+Accuracy for 7 task(s):          [Class-IL]: 54.91 %     [Task-IL]: 86.6 %
+
+
+==================================================
+Task 6 checkpoint saved to: ./saved_models/charon_SFERRgai_seq-ntu120/task_6_20260526_024730.pth
+==================================================
+
+==================================================
+Starting Task 8/12
+Task Samples: 4660
+Buffer Size: 500
+Buffer mode: herding
+Total Seen Examples: 500
+Current Buffer Usage: 500/500
+==================================================
+
+Evaluation of task 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 31.94it/s]
+
+Task 7 Per-Class Accuracy:
+Class 70 (Task-local 0): 0.00%
+Class 71 (Task-local 1): 0.00%
+Class 72 (Task-local 2): 0.00%
+Class 73 (Task-local 3): 0.00%
+Class 74 (Task-local 4): 0.00%
+Class 75 (Task-local 5): 0.00%
+Class 76 (Task-local 6): 0.00%
+Class 77 (Task-local 7): 0.00%
+Class 78 (Task-local 8): 0.00%
+Class 79 (Task-local 9): 0.00%
+[05-26 | 02:54] Task 8 | ep 5: |██████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.54 ep/h |  109/292 it | loss: 0.79243 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0428, std=0.4469, min=-2.3105, max=2.1088
+[FreRA Debug] importance: mean=0.4896, std=0.0859, min=0.0903, max=0.8918
+[FreRA Debug] w_crit (>0.5 ratio): 0.4754, mean=0.5193, std=0.2958
+[FreRA Debug] w_dist: mean=1.0909, std=0.7436, min=0.0000, max=1.9995
+w_dist:tensor([[[[1.9995],
+          [0.0000],
+          [0.0000],
+          [1.9255],
+          [0.0000],
+          [1.6664],
+          [1.6918],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6111],
+          [1.5794],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5465],
+          [1.5534],
+          [1.5697],
+          [1.5793],
+          [1.5471],
+          [0.0000],
+          [1.5443],
+          [1.5583],
+          [1.5497],
+          [1.5370],
+          [0.0000],
+          [0.0000],
+          [1.5648],
+          [0.0000],
+          [1.5618],
+          [1.5575],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5796],
+          [1.5683],
+          [0.0000],
+          [1.5688],
+          [1.5369],
+          [1.5630],
+          [1.5667],
+          [1.5821],
+          [0.0000],
+          [1.5603],
+          [1.5488],
+          [1.5421],
+          [1.5695],
+          [1.5409],
+          [1.5548],
+          [1.5417],
+          [1.5520],
+          [1.5374],
+          [1.5647],
+          [1.5365],
+          [1.5899],
+          [1.5634],
+          [1.5463],
+          [1.5698],
+          [1.5637],
+          [1.5530]]]], device='cuda:0')
+[05-26 | 02:58] Task 8 | ep 8: |███┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.08 ep/h |   20/292 it | loss: 0.562887 |
+[FreRA Debug] Epoch 8:
+ ├─ Critical Freq Ratio: 13.11% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0520
+ └─ Reg Loss:            0.5059
+
+[05-26 | 03:02] Task 8 | ep 11: |███████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.49 ep/h |  137/292 it | loss: 0.485614 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0302, std=0.4515, min=-2.3139, max=2.2501
+[FreRA Debug] importance: mean=0.4924, std=0.0850, min=0.0900, max=0.9047
+[FreRA Debug] w_crit (>0.5 ratio): 0.5246, mean=0.4901, std=0.3072
+[FreRA Debug] w_dist: mean=1.1311, std=0.7129, min=0.0000, max=1.9996
+w_dist:tensor([[[[1.9996],
+          [0.0000],
+          [0.0000],
+          [1.8904],
+          [0.0000],
+          [1.7105],
+          [1.5952],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5645],
+          [0.0000],
+          [1.5953],
+          [1.5353],
+          [1.5457],
+          [1.5986],
+          [1.5479],
+          [1.5365],
+          [1.5444],
+          [1.5345],
+          [0.0000],
+          [1.5613],
+          [1.5426],
+          [1.5595],
+          [1.5463],
+          [1.5600],
+          [1.5854],
+          [1.5337],
+          [1.5788],
+          [1.5368],
+          [1.5532],
+          [1.5368],
+          [0.0000],
+          [1.5431],
+          [0.0000],
+          [0.0000],
+          [1.5444],
+          [0.0000],
+          [0.0000],
+          [1.5390],
+          [1.5278],
+          [1.5261],
+          [1.5385],
+          [1.5323],
+          [0.0000],
+          [1.5338],
+          [1.5285],
+          [1.5304],
+          [1.5373],
+          [1.5522],
+          [1.5566],
+          [0.0000],
+          [1.5312],
+          [1.5341],
+          [1.5253],
+          [1.5326],
+          [0.0000],
+          [1.5337],
+          [1.5279],
+          [1.5266]]]], device='cuda:0')
+[05-26 | 03:08] Task 8 | ep 15: |█████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 45.64 ep/h |  171/292 it | loss: 0.532347 |
+[FreRA Debug] Epoch 15:
+ ├─ Critical Freq Ratio: 8.20% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0460
+ └─ Reg Loss:            0.4460
+
+Linear probing on the full poses [Epoch: 0]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.42it/s]
+Linear probing on the full poses [Epoch: 1]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.29it/s]
+Linear probing on the full poses [Epoch: 2]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.24it/s]
+Task 7: Storing 8 samples per new class (6 per old class) for 80 total classes
+Class 72: 397/468 samples passed reconstruction difficulty filter (threshold: 0.2967)
+Selected 8 prototypes for class 72
+Class 76: 395/466 samples passed reconstruction difficulty filter (threshold: 0.0725)
+Selected 8 prototypes for class 76
+Class 70: 397/468 samples passed reconstruction difficulty filter (threshold: 0.3439)
+Selected 8 prototypes for class 70
+Class 78: 394/465 samples passed reconstruction difficulty filter (threshold: 0.0698)
+Selected 8 prototypes for class 78
+Class 73: 397/468 samples passed reconstruction difficulty filter (threshold: 0.0711)
+Selected 8 prototypes for class 73
+Class 79: 397/468 samples passed reconstruction difficulty filter (threshold: 0.3291)
+Selected 8 prototypes for class 79
+Class 71: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0778)
+Selected 8 prototypes for class 71
+Class 75: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0854)
+Selected 8 prototypes for class 75
+Class 74: 387/456 samples passed reconstruction difficulty filter (threshold: 0.0746)
+Selected 8 prototypes for class 74
+Class 77: 396/467 samples passed reconstruction difficulty filter (threshold: 0.3100)
+Selected 8 prototypes for class 77
+/home/dell/miniconda3/envs/pyskl_39/lib/python3.9/site-packages/sklearn/manifold/_t_sne.py:1164: FutureWarning: 'n_iter' was renamed to 'max_iter' in version 1.5 and will be removed in 1.7.
+  warnings.warn(
+Selection visualization saved to task_7_selection_herding.png
+Evaluation of task 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:09<00:00, 33.95it/s]
+
+Task 0 Per-Class Accuracy:
+Class 0 (Task-local 0): 21.96%
+Class 1 (Task-local 1): 33.33%
+Class 2 (Task-local 2): 13.75%
+Class 3 (Task-local 3): 71.43%
+Class 4 (Task-local 4): 34.58%
+Class 5 (Task-local 5): 73.36%
+Class 6 (Task-local 6): 28.88%
+Class 7 (Task-local 7): 9.16%
+Class 8 (Task-local 8): 65.87%
+Class 9 (Task-local 9): 9.86%
+Evaluation of task 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.67it/s]
+
+Task 1 Per-Class Accuracy:
+Class 10 (Task-local 0): 78.53%
+Class 11 (Task-local 1): 22.47%
+Class 12 (Task-local 2): 23.21%
+Class 13 (Task-local 3): 64.14%
+Class 14 (Task-local 4): 42.06%
+Class 15 (Task-local 5): 43.54%
+Class 16 (Task-local 6): 54.96%
+Class 17 (Task-local 7): 24.20%
+Class 18 (Task-local 8): 44.64%
+Class 19 (Task-local 9): 28.17%
+Evaluation of task 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 34.16it/s]
+
+Task 2 Per-Class Accuracy:
+Class 20 (Task-local 0): 34.72%
+Class 21 (Task-local 1): 44.69%
+Class 22 (Task-local 2): 3.60%
+Class 23 (Task-local 3): 0.40%
+Class 24 (Task-local 4): 88.29%
+Class 25 (Task-local 5): 16.03%
+Class 26 (Task-local 6): 15.67%
+Class 27 (Task-local 7): 52.88%
+Class 28 (Task-local 8): 40.95%
+Class 29 (Task-local 9): 23.25%
+Evaluation of task 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.37it/s]
+
+Task 3 Per-Class Accuracy:
+Class 30 (Task-local 0): 93.65%
+Class 31 (Task-local 1): 19.68%
+Class 32 (Task-local 2): 45.44%
+Class 33 (Task-local 3): 18.53%
+Class 34 (Task-local 4): 82.67%
+Class 35 (Task-local 5): 68.45%
+Class 36 (Task-local 6): 26.59%
+Class 37 (Task-local 7): 86.65%
+Class 38 (Task-local 8): 27.20%
+Class 39 (Task-local 9): 37.40%
+Evaluation of task 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 33.87it/s]
+
+Task 4 Per-Class Accuracy:
+Class 40 (Task-local 0): 13.45%
+Class 41 (Task-local 1): 52.00%
+Class 42 (Task-local 2): 53.31%
+Class 43 (Task-local 3): 22.55%
+Class 44 (Task-local 4): 24.21%
+Class 45 (Task-local 5): 71.97%
+Class 46 (Task-local 6): 35.39%
+Class 47 (Task-local 7): 38.57%
+Class 48 (Task-local 8): 42.43%
+Class 49 (Task-local 9): 79.07%
+Evaluation of task 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:08<00:00, 35.86it/s]
+
+Task 5 Per-Class Accuracy:
+Class 50 (Task-local 0): 69.18%
+Class 51 (Task-local 1): 96.79%
+Class 52 (Task-local 2): 45.44%
+Class 53 (Task-local 3): 74.55%
+Class 54 (Task-local 4): 44.42%
+Class 55 (Task-local 5): 47.02%
+Class 56 (Task-local 6): 68.27%
+Class 57 (Task-local 7): 55.78%
+Class 58 (Task-local 8): 42.23%
+Class 59 (Task-local 9): 66.67%
+Evaluation of task 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:08<00:00, 34.27it/s]
+
+Task 6 Per-Class Accuracy:
+Class 60 (Task-local 0): 91.22%
+Class 61 (Task-local 1): 70.47%
+Class 62 (Task-local 2): 76.14%
+Class 63 (Task-local 3): 79.02%
+Class 64 (Task-local 4): 19.76%
+Class 65 (Task-local 5): 41.34%
+Class 66 (Task-local 6): 54.92%
+Class 67 (Task-local 7): 77.51%
+Class 68 (Task-local 8): 23.67%
+Class 69 (Task-local 9): 63.39%
+Evaluation of task 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 32.95it/s]
+
+Task 7 Per-Class Accuracy:
+Class 70 (Task-local 0): 59.06%
+Class 71 (Task-local 1): 84.49%
+Class 72 (Task-local 2): 87.80%
+Class 73 (Task-local 3): 90.04%
+Class 74 (Task-local 4): 91.44%
+Class 75 (Task-local 5): 78.48%
+Class 76 (Task-local 6): 80.20%
+Class 77 (Task-local 7): 84.15%
+Class 78 (Task-local 8): 83.84%
+Class 79 (Task-local 9): 51.22%
+acc1([36.2872574514903, 42.595905386603064, 32.09089097069962, 50.64676616915423, 43.27345309381238, 60.99601593625498, 59.709730171708905, 79.03983656792646], [84.37687537507502, 83.89982110912342, 77.57624078134343, 85.45273631840796, 82.87425149700599, 88.54581673306772, 89.63614063777597, 84.06537282941777])
+
+Accuracy for 8 task(s):          [Class-IL]: 50.58 %     [Task-IL]: 84.55 %
+
+
+==================================================
+Task 7 checkpoint saved to: ./saved_models/charon_SFERRgai_seq-ntu120/task_7_20260526_032956.pth
+==================================================
+
+==================================================
+Starting Task 9/12
+Task Samples: 4674
+Buffer Size: 500
+Buffer mode: herding
+Total Seen Examples: 500
+Current Buffer Usage: 500/500
+==================================================
+
+Evaluation of task 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 307/307 [00:09<00:00, 32.77it/s]
+
+Task 8 Per-Class Accuracy:
+Class 80 (Task-local 0): 0.00%
+Class 81 (Task-local 1): 0.00%
+Class 82 (Task-local 2): 0.00%
+Class 83 (Task-local 3): 0.00%
+Class 84 (Task-local 4): 0.00%
+Class 85 (Task-local 5): 0.00%
+Class 86 (Task-local 6): 0.00%
+Class 87 (Task-local 7): 0.00%
+Class 88 (Task-local 8): 0.00%
+Class 89 (Task-local 9): 0.00%
+[05-26 | 03:37] Task 9 | ep 5: |██████████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈| 46.35 ep/h |  225/293 it | loss: 1.309449 |
+[FreRA Debug] Epoch 5:
+ ├─ Critical Freq Ratio: 13.11% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0824
+ └─ Reg Loss:            0.4605
+
+[05-26 | 03:39] Task 9 | ep 6: |█████████████████████████████████████████████┈┈┈┈┈| 46.28 ep/h |  266/293 it | loss: 0.469405 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0698, std=0.3583, min=-1.8543, max=1.7737
+[FreRA Debug] importance: mean=0.4828, std=0.0737, min=0.1354, max=0.8549
+[FreRA Debug] w_crit (>0.5 ratio): 0.3443, mean=0.4349, std=0.2953
+[FreRA Debug] w_dist: mean=0.8731, std=0.8138, min=0.0000, max=1.9979
+w_dist:tensor([[[[1.9979],
+          [0.0000],
+          [0.0000],
+          [1.9102],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6987],
+          [0.0000],
+          [1.5644],
+          [1.6467],
+          [0.0000],
+          [1.6523],
+          [0.0000],
+          [1.6000],
+          [1.5641],
+          [1.6363],
+          [1.5609],
+          [0.0000],
+          [1.5896],
+          [0.0000],
+          [1.6054],
+          [1.6077],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5916],
+          [0.0000],
+          [0.0000],
+          [1.6040],
+          [1.6444],
+          [1.5877],
+          [0.0000],
+          [1.6094],
+          [0.0000],
+          [1.5582],
+          [0.0000],
+          [1.5729],
+          [0.0000],
+          [1.5737],
+          [0.0000],
+          [1.5822],
+          [0.0000],
+          [1.5684],
+          [1.5702],
+          [1.5824],
+          [1.5802],
+          [1.5613],
+          [0.0000],
+          [1.5726],
+          [1.5793],
+          [1.5767],
+          [0.0000],
+          [0.0000],
+          [1.5596],
+          [1.5826],
+          [1.5691],
+          [0.0000],
+          [0.0000],
+          [0.0000]]]], device='cuda:0')
+[05-26 | 03:47] Task 9 | ep 13: |██████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.72 ep/h |   62/293 it | loss: 0.423454 |
+[FreRA Debug] Epoch 13:
+ ├─ Critical Freq Ratio: 13.11% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0508
+ └─ Reg Loss:            0.5194
+
+[05-26 | 03:55] Task 9 | ep 19: |████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.03 ep/h |   73/293 it | loss: 0.447305 |
+[FreRA Debug] Epoch 19:
+ ├─ Critical Freq Ratio: 9.84% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0659
+ └─ Reg Loss:            0.4977
+
+[05-26 | 03:56] Task 9 | ep 20: |█████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.03 ep/h |   55/293 it | loss: 0.678489 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0659, std=0.3190, min=-1.8205, max=1.5092
+[FreRA Debug] importance: mean=0.4842, std=0.0664, min=0.1394, max=0.8189
+[FreRA Debug] w_crit (>0.5 ratio): 0.5410, mean=0.4890, std=0.2800
+[FreRA Debug] w_dist: mean=0.7108, std=0.8070, min=0.0000, max=1.9977
+w_dist:tensor([[[[1.9977],
+          [0.0000],
+          [0.0000],
+          [1.8054],
+          [0.0000],
+          [1.7323],
+          [0.0000],
+          [1.5815],
+          [1.7401],
+          [0.0000],
+          [1.6523],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5690],
+          [0.0000],
+          [0.0000],
+          [1.5783],
+          [0.0000],
+          [1.5849],
+          [1.5571],
+          [1.5721],
+          [1.5548],
+          [1.5707],
+          [0.0000],
+          [1.5668],
+          [1.5643],
+          [0.0000],
+          [1.5696],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5609],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5554],
+          [1.5561],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5647],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5774],
+          [0.0000],
+          [1.5613],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5549],
+          [1.5568],
+          [1.5560],
+          [1.5575],
+          [1.5592]]]], device='cuda:0')
+[05-26 | 04:00] Task 9 | ep 23: |██████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.75 ep/h |  111/293 it | loss: 0.419633 |
+[FreRA Debug] Epoch 23:
+ ├─ Critical Freq Ratio: 8.20% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0437
+ └─ Reg Loss:            0.4932
+
+[05-26 | 04:02] Task 9 | ep 24: |█████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.76 ep/h |  124/293 it | loss: 0.361455 |
+[FreRA Debug] Epoch 24:
+ ├─ Critical Freq Ratio: 13.11% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0559
+ └─ Reg Loss:            0.4598
+
+[05-26 | 04:05] Task 9 | ep 27: |████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.51 ep/h |   49/293 it | loss: 0.330206 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0418, std=0.3428, min=-1.9219, max=1.6280
+[FreRA Debug] importance: mean=0.4901, std=0.0700, min=0.1277, max=0.8359
+[FreRA Debug] w_crit (>0.5 ratio): 0.4590, mean=0.4634, std=0.3199
+[FreRA Debug] w_dist: mean=1.1555, std=0.6975, min=0.0000, max=1.9984
+w_dist:tensor([[[[1.9984],
+          [0.0000],
+          [0.0000],
+          [1.7114],
+          [0.0000],
+          [0.0000],
+          [1.5886],
+          [1.6362],
+          [1.6064],
+          [1.5394],
+          [0.0000],
+          [1.6042],
+          [0.0000],
+          [1.5427],
+          [1.5552],
+          [0.0000],
+          [0.0000],
+          [1.5697],
+          [0.0000],
+          [1.5439],
+          [1.5514],
+          [1.5607],
+          [1.5463],
+          [1.5631],
+          [1.5643],
+          [0.0000],
+          [1.5461],
+          [1.5426],
+          [1.5407],
+          [0.0000],
+          [1.5359],
+          [1.5392],
+          [1.5597],
+          [1.5351],
+          [1.5350],
+          [1.5644],
+          [1.5432],
+          [1.5503],
+          [1.5442],
+          [1.5527],
+          [1.5444],
+          [1.5418],
+          [1.5514],
+          [1.5593],
+          [1.5402],
+          [1.5425],
+          [1.5453],
+          [1.5486],
+          [0.0000],
+          [1.5446],
+          [1.5379],
+          [0.0000],
+          [1.5384],
+          [0.0000],
+          [1.5476],
+          [0.0000],
+          [1.5379],
+          [1.5486],
+          [0.0000],
+          [1.5425],
+          [1.5412]]]], device='cuda:0')
+[05-26 | 04:07] Task 9 | ep 28: |██████████████████████████████████████████┈┈┈┈┈┈┈┈| 46.64 ep/h |  247/293 it | loss: 0.602869 |
+[FreRA Debug] Epoch 28:
+ ├─ Critical Freq Ratio: 4.92% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0622
+ └─ Reg Loss:            0.4972
+
+Linear probing on the full poses [Epoch: 0]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 293/293 [00:25<00:00, 11.33it/s]
+Linear probing on the full poses [Epoch: 1]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 293/293 [00:25<00:00, 11.44it/s]
+Linear probing on the full poses [Epoch: 2]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 293/293 [00:26<00:00, 11.24it/s]
+Task 8: Storing 10 samples per new class (5 per old class) for 90 total classes
+Class 82: 397/468 samples passed reconstruction difficulty filter (threshold: 0.5076)
+Selected 10 prototypes for class 82
+Class 85: 396/467 samples passed reconstruction difficulty filter (threshold: 0.2713)
+Selected 10 prototypes for class 85
+Class 88: 397/468 samples passed reconstruction difficulty filter (threshold: 0.3781)
+Selected 10 prototypes for class 88
+Class 84: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0985)
+Selected 10 prototypes for class 84
+Class 81: 395/466 samples passed reconstruction difficulty filter (threshold: 0.0720)
+Selected 10 prototypes for class 81
+Class 87: 397/468 samples passed reconstruction difficulty filter (threshold: 0.3317)
+Selected 10 prototypes for class 87
+Class 83: 397/468 samples passed reconstruction difficulty filter (threshold: 0.0709)
+Selected 10 prototypes for class 83
+Class 80: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0746)
+Selected 10 prototypes for class 80
+Class 86: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0787)
+Selected 10 prototypes for class 86
+Class 89: 397/468 samples passed reconstruction difficulty filter (threshold: 0.0730)
+Selected 10 prototypes for class 89
+/home/dell/miniconda3/envs/pyskl_39/lib/python3.9/site-packages/sklearn/manifold/_t_sne.py:1164: FutureWarning: 'n_iter' was renamed to 'max_iter' in version 1.5 and will be removed in 1.7.
+  warnings.warn(
+Selection visualization saved to task_8_selection_herding.png
+Evaluation of task 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:09<00:00, 33.86it/s]
+
+Task 0 Per-Class Accuracy:
+Class 0 (Task-local 0): 23.35%
+Class 1 (Task-local 1): 27.78%
+Class 2 (Task-local 2): 12.55%
+Class 3 (Task-local 3): 63.89%
+Class 4 (Task-local 4): 33.96%
+Class 5 (Task-local 5): 26.04%
+Class 6 (Task-local 6): 39.64%
+Class 7 (Task-local 7): 16.73%
+Class 8 (Task-local 8): 58.53%
+Class 9 (Task-local 9): 8.45%
+Evaluation of task 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.29it/s]
+
+Task 1 Per-Class Accuracy:
+Class 10 (Task-local 0): 79.32%
+Class 11 (Task-local 1): 28.43%
+Class 12 (Task-local 2): 13.89%
+Class 13 (Task-local 3): 64.34%
+Class 14 (Task-local 4): 43.25%
+Class 15 (Task-local 5): 44.53%
+Class 16 (Task-local 6): 55.95%
+Class 17 (Task-local 7): 25.00%
+Class 18 (Task-local 8): 44.64%
+Class 19 (Task-local 9): 34.72%
+Evaluation of task 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 34.39it/s]
+
+Task 2 Per-Class Accuracy:
+Class 20 (Task-local 0): 22.82%
+Class 21 (Task-local 1): 22.85%
+Class 22 (Task-local 2): 10.00%
+Class 23 (Task-local 3): 16.14%
+Class 24 (Task-local 4): 85.32%
+Class 25 (Task-local 5): 19.64%
+Class 26 (Task-local 6): 12.90%
+Class 27 (Task-local 7): 35.39%
+Class 28 (Task-local 8): 41.35%
+Class 29 (Task-local 9): 18.44%
+Evaluation of task 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.68it/s]
+
+Task 3 Per-Class Accuracy:
+Class 30 (Task-local 0): 89.29%
+Class 31 (Task-local 1): 15.90%
+Class 32 (Task-local 2): 42.26%
+Class 33 (Task-local 3): 19.12%
+Class 34 (Task-local 4): 61.55%
+Class 35 (Task-local 5): 47.02%
+Class 36 (Task-local 6): 43.85%
+Class 37 (Task-local 7): 77.09%
+Class 38 (Task-local 8): 30.40%
+Class 39 (Task-local 9): 33.80%
+Evaluation of task 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 33.54it/s]
+
+Task 4 Per-Class Accuracy:
+Class 40 (Task-local 0): 15.86%
+Class 41 (Task-local 1): 46.60%
+Class 42 (Task-local 2): 33.67%
+Class 43 (Task-local 3): 14.77%
+Class 44 (Task-local 4): 35.52%
+Class 45 (Task-local 5): 74.16%
+Class 46 (Task-local 6): 33.80%
+Class 47 (Task-local 7): 34.59%
+Class 48 (Task-local 8): 42.23%
+Class 49 (Task-local 9): 68.01%
+Evaluation of task 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:08<00:00, 36.01it/s]
+
+Task 5 Per-Class Accuracy:
+Class 50 (Task-local 0): 62.23%
+Class 51 (Task-local 1): 93.37%
+Class 52 (Task-local 2): 39.29%
+Class 53 (Task-local 3): 52.68%
+Class 54 (Task-local 4): 26.69%
+Class 55 (Task-local 5): 44.05%
+Class 56 (Task-local 6): 60.84%
+Class 57 (Task-local 7): 65.34%
+Class 58 (Task-local 8): 27.09%
+Class 59 (Task-local 9): 65.48%
+Evaluation of task 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 33.92it/s]
+
+Task 6 Per-Class Accuracy:
+Class 60 (Task-local 0): 90.00%
+Class 61 (Task-local 1): 61.30%
+Class 62 (Task-local 2): 1.24%
+Class 63 (Task-local 3): 76.17%
+Class 64 (Task-local 4): 37.27%
+Class 65 (Task-local 5): 36.05%
+Class 66 (Task-local 6): 20.70%
+Class 67 (Task-local 7): 62.78%
+Class 68 (Task-local 8): 17.76%
+Class 69 (Task-local 9): 56.03%
+Evaluation of task 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 32.21it/s]
+
+Task 7 Per-Class Accuracy:
+Class 70 (Task-local 0): 40.94%
+Class 71 (Task-local 1): 4.90%
+Class 72 (Task-local 2): 77.03%
+Class 73 (Task-local 3): 54.07%
+Class 74 (Task-local 4): 82.67%
+Class 75 (Task-local 5): 48.98%
+Class 76 (Task-local 6): 34.90%
+Class 77 (Task-local 7): 69.11%
+Class 78 (Task-local 8): 59.30%
+Class 79 (Task-local 9): 34.15%
+Evaluation of task 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 307/307 [00:09<00:00, 33.58it/s]
+
+Task 8 Per-Class Accuracy:
+Class 80 (Task-local 0): 83.47%
+Class 81 (Task-local 1): 81.50%
+Class 82 (Task-local 2): 90.85%
+Class 83 (Task-local 3): 90.24%
+Class 84 (Task-local 4): 94.91%
+Class 85 (Task-local 5): 83.67%
+Class 86 (Task-local 6): 89.39%
+Class 87 (Task-local 7): 90.04%
+Class 88 (Task-local 8): 90.43%
+Class 89 (Task-local 9): 89.21%
+acc1([31.12622524504901, 43.41085271317829, 28.523021726131155, 46.049751243781095, 39.920159680638726, 53.66533864541832, 46.013900245298444, 50.541368743615934, 88.37304011402973], [83.07661532306462, 83.58179288411847, 76.14112019134942, 83.74129353233832, 79.10179640718563, 87.98804780876493, 87.95993458708095, 81.87946884576098, 91.97719405416413])
+
+Accuracy for 9 task(s):          [Class-IL]: 47.51 %     [Task-IL]: 83.94 %
+
+
+==================================================
+Task 8 checkpoint saved to: ./saved_models/charon_SFERRgai_seq-ntu120/task_8_20260526_041228.pth
+==================================================
+
+==================================================
+Starting Task 10/12
+Task Samples: 4665
+Buffer Size: 500
+Buffer mode: herding
+Total Seen Examples: 500
+Current Buffer Usage: 500/500
+==================================================
+
+Evaluation of task 9: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 33.74it/s]
+
+Task 9 Per-Class Accuracy:
+Class 90 (Task-local 0): 0.00%
+Class 91 (Task-local 1): 0.00%
+Class 92 (Task-local 2): 0.00%
+Class 93 (Task-local 3): 0.00%
+Class 94 (Task-local 4): 0.00%
+Class 95 (Task-local 5): 0.00%
+Class 96 (Task-local 6): 0.00%
+Class 97 (Task-local 7): 0.00%
+Class 98 (Task-local 8): 0.00%
+Class 99 (Task-local 9): 0.00%
+[05-26 | 04:17] Task 10 | ep 3: |█████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.41 ep/h |  125/292 it | loss: 0.597494 |
+[FreRA Debug] Epoch 3:
+ ├─ Critical Freq Ratio: 16.39% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0477
+ └─ Reg Loss:            0.4825
+
+[05-26 | 04:23] Task 10 | ep 7: |████████████████████████████████████████████████┈┈| 46.68 ep/h |  285/292 it | loss: 0.80941 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0429, std=0.4156, min=-2.0635, max=1.7665
+[FreRA Debug] importance: mean=0.4896, std=0.0850, min=0.1127, max=0.8540
+[FreRA Debug] w_crit (>0.5 ratio): 0.5410, mean=0.5274, std=0.3061
+[FreRA Debug] w_dist: mean=1.2196, std=0.6755, min=0.0000, max=1.9990
+w_dist:tensor([[[[1.9990],
+          [0.0000],
+          [0.0000],
+          [1.9600],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6602],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5527],
+          [1.5483],
+          [1.5596],
+          [1.5528],
+          [0.0000],
+          [1.5703],
+          [1.5817],
+          [1.5751],
+          [1.5987],
+          [1.5930],
+          [1.5633],
+          [1.5535],
+          [1.5605],
+          [1.5848],
+          [1.6012],
+          [1.5421],
+          [1.5478],
+          [1.5407],
+          [1.5564],
+          [1.5368],
+          [1.5397],
+          [1.5853],
+          [1.5738],
+          [1.5833],
+          [1.5593],
+          [1.5382],
+          [1.5432],
+          [1.5550],
+          [0.0000],
+          [1.5595],
+          [1.5924],
+          [1.5581],
+          [1.5514],
+          [1.5537],
+          [1.5585],
+          [1.5764],
+          [1.5631],
+          [1.5846],
+          [1.5663],
+          [1.5608],
+          [1.5727],
+          [1.5393],
+          [1.5620],
+          [1.5694],
+          [1.5576],
+          [1.5556]]]], device='cuda:0')
+[05-26 | 04:25] Task 10 | ep 9: |████████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.71 ep/h |  212/292 it | loss: 0.628588 |
+[FreRA Debug] Epoch 9:
+ ├─ Critical Freq Ratio: 14.75% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0585
+ └─ Reg Loss:            0.4647
+
+[05-26 | 04:36] Task 10 | ep 18: |████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.37 ep/h |  168/292 it | loss: 0.579418 |
+[FreRA Debug] Epoch 18:
+ ├─ Critical Freq Ratio: 14.75% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0396
+ └─ Reg Loss:            0.5038
+
+[05-26 | 04:43] Task 10 | ep 23: |████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.61 ep/h |  117/292 it | loss: 0.667804 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0330, std=0.4167, min=-2.0870, max=1.8509
+[FreRA Debug] importance: mean=0.4920, std=0.0842, min=0.1104, max=0.8642
+[FreRA Debug] w_crit (>0.5 ratio): 0.4754, mean=0.4975, std=0.2894
+[FreRA Debug] w_dist: mean=1.1130, std=0.7301, min=0.0000, max=1.9990
+w_dist:tensor([[[[1.9990],
+          [0.0000],
+          [0.0000],
+          [1.9523],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5277],
+          [0.0000],
+          [1.6416],
+          [0.0000],
+          [0.0000],
+          [1.6095],
+          [0.0000],
+          [1.5752],
+          [0.0000],
+          [1.5821],
+          [1.6124],
+          [1.5761],
+          [1.5465],
+          [0.0000],
+          [0.0000],
+          [1.5730],
+          [1.5406],
+          [0.0000],
+          [1.5682],
+          [1.5550],
+          [1.5717],
+          [1.5414],
+          [1.5468],
+          [0.0000],
+          [1.5644],
+          [1.5619],
+          [1.5506],
+          [1.5628],
+          [0.0000],
+          [1.5441],
+          [1.5529],
+          [1.5755],
+          [1.5376],
+          [1.5298],
+          [1.5458],
+          [1.5611],
+          [0.0000],
+          [1.5651],
+          [1.5535],
+          [1.5368],
+          [1.5538],
+          [1.5561],
+          [0.0000],
+          [1.5567],
+          [1.5635],
+          [1.5616],
+          [1.5426],
+          [1.5633],
+          [1.5603],
+          [1.5352],
+          [1.5558],
+          [1.5422],
+          [1.5392]]]], device='cuda:0')
+Linear probing on the full poses [Epoch: 0]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.42it/s]
+Linear probing on the full poses [Epoch: 1]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.43it/s]
+Linear probing on the full poses [Epoch: 2]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.32it/s]
+Task 9: Storing 5 samples per new class (5 per old class) for 100 total classes
+Class 99: 397/468 samples passed reconstruction difficulty filter (threshold: 0.0714)
+Selected 5 prototypes for class 99
+Class 94: 394/465 samples passed reconstruction difficulty filter (threshold: 0.0729)
+Selected 5 prototypes for class 94
+Class 98: 397/468 samples passed reconstruction difficulty filter (threshold: 0.4883)
+Selected 5 prototypes for class 98
+Class 92: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0735)
+Selected 5 prototypes for class 92
+Class 96: 396/467 samples passed reconstruction difficulty filter (threshold: 0.3051)
+Selected 5 prototypes for class 96
+Class 90: 393/464 samples passed reconstruction difficulty filter (threshold: 0.0881)
+Selected 5 prototypes for class 90
+Class 95: 395/466 samples passed reconstruction difficulty filter (threshold: 0.0749)
+Selected 5 prototypes for class 95
+Class 91: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0756)
+Selected 5 prototypes for class 91
+Class 97: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0970)
+Selected 5 prototypes for class 97
+Class 93: 395/466 samples passed reconstruction difficulty filter (threshold: 0.0746)
+Selected 5 prototypes for class 93
+/home/dell/miniconda3/envs/pyskl_39/lib/python3.9/site-packages/sklearn/manifold/_t_sne.py:1164: FutureWarning: 'n_iter' was renamed to 'max_iter' in version 1.5 and will be removed in 1.7.
+  warnings.warn(
+Selection visualization saved to task_9_selection_herding.png
+Evaluation of task 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:09<00:00, 33.60it/s]
+
+Task 0 Per-Class Accuracy:
+Class 0 (Task-local 0): 17.37%
+Class 1 (Task-local 1): 34.92%
+Class 2 (Task-local 2): 9.76%
+Class 3 (Task-local 3): 62.30%
+Class 4 (Task-local 4): 30.00%
+Class 5 (Task-local 5): 34.99%
+Class 6 (Task-local 6): 9.76%
+Class 7 (Task-local 7): 6.77%
+Class 8 (Task-local 8): 56.15%
+Class 9 (Task-local 9): 6.64%
+Evaluation of task 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.62it/s]
+
+Task 1 Per-Class Accuracy:
+Class 10 (Task-local 0): 61.03%
+Class 11 (Task-local 1): 4.17%
+Class 12 (Task-local 2): 23.61%
+Class 13 (Task-local 3): 65.74%
+Class 14 (Task-local 4): 38.69%
+Class 15 (Task-local 5): 9.15%
+Class 16 (Task-local 6): 45.83%
+Class 17 (Task-local 7): 20.00%
+Class 18 (Task-local 8): 38.49%
+Class 19 (Task-local 9): 33.53%
+Evaluation of task 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 34.45it/s]
+
+Task 2 Per-Class Accuracy:
+Class 20 (Task-local 0): 21.23%
+Class 21 (Task-local 1): 28.66%
+Class 22 (Task-local 2): 5.40%
+Class 23 (Task-local 3): 1.39%
+Class 24 (Task-local 4): 83.93%
+Class 25 (Task-local 5): 17.64%
+Class 26 (Task-local 6): 15.67%
+Class 27 (Task-local 7): 32.80%
+Class 28 (Task-local 8): 38.57%
+Class 29 (Task-local 9): 20.84%
+Evaluation of task 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.89it/s]
+
+Task 3 Per-Class Accuracy:
+Class 30 (Task-local 0): 84.72%
+Class 31 (Task-local 1): 20.28%
+Class 32 (Task-local 2): 49.60%
+Class 33 (Task-local 3): 17.93%
+Class 34 (Task-local 4): 69.12%
+Class 35 (Task-local 5): 55.95%
+Class 36 (Task-local 6): 35.71%
+Class 37 (Task-local 7): 85.46%
+Class 38 (Task-local 8): 25.40%
+Class 39 (Task-local 9): 23.60%
+Evaluation of task 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 34.08it/s]
+
+Task 4 Per-Class Accuracy:
+Class 40 (Task-local 0): 6.63%
+Class 41 (Task-local 1): 39.60%
+Class 42 (Task-local 2): 30.86%
+Class 43 (Task-local 3): 33.13%
+Class 44 (Task-local 4): 31.75%
+Class 45 (Task-local 5): 53.68%
+Class 46 (Task-local 6): 30.02%
+Class 47 (Task-local 7): 35.98%
+Class 48 (Task-local 8): 34.06%
+Class 49 (Task-local 9): 75.45%
+Evaluation of task 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:08<00:00, 35.97it/s]
+
+Task 5 Per-Class Accuracy:
+Class 50 (Task-local 0): 64.61%
+Class 51 (Task-local 1): 93.98%
+Class 52 (Task-local 2): 36.31%
+Class 53 (Task-local 3): 55.07%
+Class 54 (Task-local 4): 37.05%
+Class 55 (Task-local 5): 38.10%
+Class 56 (Task-local 6): 45.98%
+Class 57 (Task-local 7): 61.95%
+Class 58 (Task-local 8): 19.92%
+Class 59 (Task-local 9): 48.21%
+Evaluation of task 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:08<00:00, 34.10it/s]
+
+Task 6 Per-Class Accuracy:
+Class 60 (Task-local 0): 90.20%
+Class 61 (Task-local 1): 18.33%
+Class 62 (Task-local 2): 24.69%
+Class 63 (Task-local 3): 74.75%
+Class 64 (Task-local 4): 6.92%
+Class 65 (Task-local 5): 24.85%
+Class 66 (Task-local 6): 39.14%
+Class 67 (Task-local 7): 68.71%
+Class 68 (Task-local 8): 8.78%
+Class 69 (Task-local 9): 41.72%
+Evaluation of task 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 32.41it/s]
+
+Task 7 Per-Class Accuracy:
+Class 70 (Task-local 0): 21.59%
+Class 71 (Task-local 1): 23.06%
+Class 72 (Task-local 2): 59.15%
+Class 73 (Task-local 3): 44.51%
+Class 74 (Task-local 4): 65.76%
+Class 75 (Task-local 5): 34.43%
+Class 76 (Task-local 6): 15.10%
+Class 77 (Task-local 7): 61.18%
+Class 78 (Task-local 8): 1.64%
+Class 79 (Task-local 9): 21.75%
+Evaluation of task 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 307/307 [00:09<00:00, 33.31it/s]
+
+Task 8 Per-Class Accuracy:
+Class 80 (Task-local 0): 67.55%
+Class 81 (Task-local 1): 60.16%
+Class 82 (Task-local 2): 84.76%
+Class 83 (Task-local 3): 73.78%
+Class 84 (Task-local 4): 87.37%
+Class 85 (Task-local 5): 81.22%
+Class 86 (Task-local 6): 75.10%
+Class 87 (Task-local 7): 83.13%
+Class 88 (Task-local 8): 77.39%
+Class 89 (Task-local 9): 85.34%
+Evaluation of task 9: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:08<00:00, 34.12it/s]
+
+Task 9 Per-Class Accuracy:
+Class 90 (Task-local 0): 89.12%
+Class 91 (Task-local 1): 69.06%
+Class 92 (Task-local 2): 58.20%
+Class 93 (Task-local 3): 91.24%
+Class 94 (Task-local 4): 64.66%
+Class 95 (Task-local 5): 50.61%
+Class 96 (Task-local 6): 91.06%
+Class 97 (Task-local 7): 87.20%
+Class 98 (Task-local 8): 85.74%
+Class 99 (Task-local 9): 86.09%
+acc1([26.905381076215246, 34.029020075531704, 26.649392066972293, 46.80597014925373, 37.10578842315369, 50.0796812749004, 39.820114472608346, 34.77017364657814, 77.58094074526572, 77.34806629834254], [79.875975195039, 82.26992645597296, 73.09148893761211, 81.05472636815921, 76.82634730538922, 85.0, 86.46770237121831, 77.07865168539327, 90.22602321319488, 80.33558420298752])
+
+Accuracy for 10 task(s):         [Class-IL]: 45.11 %     [Task-IL]: 81.22 %
+
+
+==================================================
+Task 9 checkpoint saved to: ./saved_models/charon_SFERRgai_seq-ntu120/task_9_20260526_045504.pth
+==================================================
+
+==================================================
+Starting Task 11/12
+Task Samples: 4660
+Buffer Size: 500
+Buffer mode: herding
+Total Seen Examples: 500
+Current Buffer Usage: 500/500
+==================================================
+
+Evaluation of task 10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 33.86it/s]
+
+Task 10 Per-Class Accuracy:
+Class 100 (Task-local 0): 0.00%
+Class 101 (Task-local 1): 0.00%
+Class 102 (Task-local 2): 0.00%
+Class 103 (Task-local 3): 0.00%
+Class 104 (Task-local 4): 0.00%
+Class 105 (Task-local 5): 0.00%
+Class 106 (Task-local 6): 0.00%
+Class 107 (Task-local 7): 0.00%
+Class 108 (Task-local 8): 0.00%
+Class 109 (Task-local 9): 0.00%
+[05-26 | 04:59] Task 11 | ep 3: |███████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.34 ep/h |  114/292 it | loss: 0.500858 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0567, std=0.2199, min=-1.1536, max=1.1308
+[FreRA Debug] importance: mean=0.4859, std=0.0502, min=0.2398, max=0.7560
+[FreRA Debug] w_crit (>0.5 ratio): 0.5574, mean=0.4990, std=0.2818
+[FreRA Debug] w_dist: mean=1.1404, std=0.7170, min=0.0000, max=1.9791
+w_dist:tensor([[[[1.9791],
+          [0.0000],
+          [0.0000],
+          [1.6163],
+          [0.0000],
+          [1.7121],
+          [0.0000],
+          [0.0000],
+          [1.5520],
+          [1.5822],
+          [0.0000],
+          [0.0000],
+          [1.6288],
+          [0.0000],
+          [1.5873],
+          [1.5492],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5504],
+          [1.5682],
+          [1.5522],
+          [1.5611],
+          [1.5698],
+          [0.0000],
+          [1.5913],
+          [1.5716],
+          [1.5612],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5781],
+          [1.5575],
+          [0.0000],
+          [1.5769],
+          [1.5611],
+          [1.5760],
+          [1.5567],
+          [1.5594],
+          [1.5595],
+          [1.5658],
+          [1.5733],
+          [1.5522],
+          [1.5658],
+          [1.5700],
+          [1.5647],
+          [0.0000],
+          [1.5526],
+          [1.5555],
+          [1.5708],
+          [1.5631],
+          [1.5501],
+          [1.5533],
+          [1.5518],
+          [1.5744],
+          [1.5709],
+          [1.5523],
+          [1.5888],
+          [1.5751],
+          [1.5811],
+          [1.5724]]]], device='cuda:0')
+[05-26 | 05:07] Task 11 | ep 9: |██████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.37 ep/h |  155/292 it | loss: 0.801306 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0579, std=0.4210, min=-2.0294, max=2.1947
+[FreRA Debug] importance: mean=0.4851, std=0.0822, min=0.1161, max=0.8998
+[FreRA Debug] w_crit (>0.5 ratio): 0.4426, mean=0.5329, std=0.3408
+[FreRA Debug] w_dist: mean=1.1037, std=0.7519, min=0.0000, max=1.9988
+w_dist:tensor([[[[1.9988],
+          [0.0000],
+          [0.0000],
+          [1.9167],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6288],
+          [0.0000],
+          [1.5910],
+          [1.5873],
+          [1.5584],
+          [0.0000],
+          [1.5817],
+          [1.7094],
+          [0.0000],
+          [1.6705],
+          [0.0000],
+          [0.0000],
+          [1.5958],
+          [1.5578],
+          [1.5843],
+          [1.6337],
+          [0.0000],
+          [1.5585],
+          [1.5608],
+          [0.0000],
+          [1.6336],
+          [1.5969],
+          [0.0000],
+          [0.0000],
+          [1.5903],
+          [1.5577],
+          [1.5748],
+          [1.6018],
+          [0.0000],
+          [1.5719],
+          [1.5735],
+          [0.0000],
+          [1.5930],
+          [1.5728],
+          [1.5617],
+          [1.5970],
+          [0.0000],
+          [1.5714],
+          [0.0000],
+          [1.5671],
+          [0.0000],
+          [1.5748],
+          [1.5772],
+          [1.5677],
+          [1.6075],
+          [1.5581],
+          [1.5688],
+          [1.5748],
+          [1.5659],
+          [1.5777],
+          [1.5494],
+          [1.5654],
+          [1.5641],
+          [1.5781]]]], device='cuda:0')
+[05-26 | 05:14] Task 11 | ep 14: |██████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.09 ep/h |  177/292 it | loss: 0.964023 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0726, std=0.3765, min=-2.0004, max=1.8407
+[FreRA Debug] importance: mean=0.4822, std=0.0757, min=0.1192, max=0.8630
+[FreRA Debug] w_crit (>0.5 ratio): 0.3934, mean=0.4436, std=0.2985
+[FreRA Debug] w_dist: mean=1.0023, std=0.7889, min=0.0000, max=1.9987
+w_dist:tensor([[[[1.9987],
+          [0.0000],
+          [0.0000],
+          [1.8788],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5648],
+          [0.0000],
+          [1.6360],
+          [1.6706],
+          [1.5783],
+          [1.5920],
+          [0.0000],
+          [1.5865],
+          [1.6081],
+          [0.0000],
+          [0.0000],
+          [1.5674],
+          [0.0000],
+          [1.5896],
+          [1.5607],
+          [1.5849],
+          [1.5711],
+          [1.6127],
+          [1.6080],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5894],
+          [1.6011],
+          [1.5881],
+          [1.6032],
+          [0.0000],
+          [0.0000],
+          [1.6043],
+          [0.0000],
+          [1.5938],
+          [1.5836],
+          [0.0000],
+          [1.5998],
+          [0.0000],
+          [1.6018],
+          [1.5738],
+          [1.5625],
+          [1.5892],
+          [1.5851],
+          [0.0000],
+          [1.5643],
+          [0.0000],
+          [1.5792],
+          [0.0000],
+          [1.5787],
+          [1.5908],
+          [1.5930],
+          [1.5668],
+          [1.6165],
+          [1.5818],
+          [1.5848]]]], device='cuda:0')
+[05-26 | 05:17] Task 11 | ep 17: |████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.13 ep/h |  167/292 it | loss: 0.296926 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0500, std=0.3327, min=-1.8517, max=1.5895
+[FreRA Debug] importance: mean=0.4880, std=0.0689, min=0.1357, max=0.8305
+[FreRA Debug] w_crit (>0.5 ratio): 0.5410, mean=0.5367, std=0.2823
+[FreRA Debug] w_dist: mean=1.2134, std=0.6705, min=0.0000, max=1.9979
+w_dist:tensor([[[[1.9979],
+          [0.0000],
+          [0.0000],
+          [1.7275],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6097],
+          [0.0000],
+          [1.6039],
+          [1.6111],
+          [1.6096],
+          [0.0000],
+          [0.0000],
+          [1.5638],
+          [1.5462],
+          [1.5425],
+          [1.5880],
+          [1.5706],
+          [1.5694],
+          [1.5634],
+          [0.0000],
+          [1.5590],
+          [1.5438],
+          [1.5637],
+          [1.5622],
+          [1.5507],
+          [1.5687],
+          [1.5494],
+          [1.5684],
+          [1.5454],
+          [1.5536],
+          [1.5688],
+          [1.5605],
+          [1.5614],
+          [1.5454],
+          [1.5417],
+          [1.5593],
+          [1.5549],
+          [0.0000],
+          [1.5641],
+          [1.5486],
+          [1.5609],
+          [1.5647],
+          [1.5570],
+          [1.5547],
+          [1.5547],
+          [1.5520],
+          [1.5478],
+          [0.0000],
+          [1.5604],
+          [1.5539],
+          [1.5593],
+          [0.0000],
+          [1.5565],
+          [1.5650],
+          [1.5521],
+          [1.5621],
+          [0.0000],
+          [1.5446],
+          [0.0000]]]], device='cuda:0')
+[05-26 | 05:22] Task 11 | ep 20: |██████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.56 ep/h |  204/292 it | loss: 0.371792 |
+[FreRA Debug] Epoch 20:
+ ├─ Critical Freq Ratio: 9.84% (目标通常在 10%~40% 之间紧凑分布)
+ ├─ Score 's' Mean:      -0.0565
+ └─ Reg Loss:            0.4931
+
+[05-26 | 05:22] Task 11 | ep 21: |█████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.90 ep/h |   80/292 it | loss: 0.368653 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0464, std=0.3280, min=-1.6392, max=1.5929
+[FreRA Debug] importance: mean=0.4885, std=0.0702, min=0.1626, max=0.8310
+[FreRA Debug] w_crit (>0.5 ratio): 0.4590, mean=0.4671, std=0.2924
+[FreRA Debug] w_dist: mean=0.7836, std=0.8065, min=0.0000, max=1.9958
+w_dist:tensor([[[[1.9958],
+          [0.0000],
+          [0.0000],
+          [1.9022],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.7386],
+          [1.6531],
+          [1.6377],
+          [0.0000],
+          [0.0000],
+          [1.5664],
+          [1.5887],
+          [0.0000],
+          [1.5417],
+          [1.5600],
+          [0.0000],
+          [1.5812],
+          [1.5389],
+          [1.5496],
+          [0.0000],
+          [1.5825],
+          [1.5594],
+          [1.5639],
+          [1.5696],
+          [1.5452],
+          [1.5605],
+          [0.0000],
+          [1.5445],
+          [0.0000],
+          [1.5575],
+          [1.5452],
+          [0.0000],
+          [0.0000],
+          [1.5450],
+          [1.5534],
+          [1.5454],
+          [0.0000],
+          [0.0000],
+          [1.5433],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5511],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5480],
+          [1.5507],
+          [0.0000],
+          [1.5409],
+          [0.0000],
+          [0.0000],
+          [1.5398],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000]]]], device='cuda:0')
+[05-26 | 05:22] Task 11 | ep 21: |█████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 46.82 ep/h |   81/292 it | loss: 0.620743 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0458, std=0.3275, min=-1.6371, max=1.5926
+[FreRA Debug] importance: mean=0.4886, std=0.0701, min=0.1629, max=0.8310
+[FreRA Debug] w_crit (>0.5 ratio): 0.4754, mean=0.4667, std=0.3107
+[FreRA Debug] w_dist: mean=0.7581, std=0.8063, min=0.0000, max=1.9958
+w_dist:tensor([[[[1.9958],
+          [0.0000],
+          [0.0000],
+          [1.9018],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.7367],
+          [1.6530],
+          [1.6375],
+          [0.0000],
+          [0.0000],
+          [1.5651],
+          [1.5899],
+          [0.0000],
+          [1.5437],
+          [1.5604],
+          [0.0000],
+          [1.5798],
+          [1.5401],
+          [1.5500],
+          [0.0000],
+          [1.5827],
+          [1.5587],
+          [1.5619],
+          [1.5693],
+          [1.5458],
+          [1.5581],
+          [0.0000],
+          [1.5437],
+          [0.0000],
+          [1.5570],
+          [1.5457],
+          [0.0000],
+          [0.0000],
+          [1.5449],
+          [1.5521],
+          [1.5427],
+          [0.0000],
+          [0.0000],
+          [1.5411],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5488],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5476],
+          [1.5485],
+          [0.0000],
+          [1.5401],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000]]]], device='cuda:0')
+[05-26 | 05:29] Task 11 | ep 26: |██████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.22 ep/h |  201/292 it | loss: 0.337809 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0506, std=0.3103, min=-1.5929, max=1.5462
+[FreRA Debug] importance: mean=0.4874, std=0.0666, min=0.1690, max=0.8244
+[FreRA Debug] w_crit (>0.5 ratio): 0.4426, mean=0.4846, std=0.3194
+[FreRA Debug] w_dist: mean=0.9121, std=0.7956, min=0.0000, max=1.9951
+w_dist:tensor([[[[1.9951],
+          [0.0000],
+          [0.0000],
+          [1.7631],
+          [0.0000],
+          [1.7712],
+          [0.0000],
+          [0.0000],
+          [1.6020],
+          [1.6970],
+          [1.6131],
+          [0.0000],
+          [1.5510],
+          [1.5902],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.6204],
+          [0.0000],
+          [1.5589],
+          [1.5556],
+          [0.0000],
+          [1.5526],
+          [0.0000],
+          [1.5756],
+          [0.0000],
+          [1.5836],
+          [1.5435],
+          [1.5518],
+          [0.0000],
+          [0.0000],
+          [1.5693],
+          [0.0000],
+          [1.5619],
+          [1.5621],
+          [0.0000],
+          [1.5671],
+          [1.5516],
+          [0.0000],
+          [0.0000],
+          [1.5442],
+          [0.0000],
+          [1.5522],
+          [0.0000],
+          [1.5528],
+          [1.5492],
+          [1.5519],
+          [0.0000],
+          [1.5478],
+          [1.5557],
+          [0.0000],
+          [0.0000],
+          [1.5608],
+          [1.5563],
+          [1.5496],
+          [1.5512],
+          [1.5440],
+          [0.0000],
+          [0.0000],
+          [1.5431],
+          [1.5449]]]], device='cuda:0')
+[05-26 | 05:30] Task 11 | ep 27: |██████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.68 ep/h |   86/292 it | loss: 0.342887 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0493, std=0.3121, min=-1.6726, max=1.4823
+[FreRA Debug] importance: mean=0.4880, std=0.0668, min=0.1581, max=0.8149
+[FreRA Debug] w_crit (>0.5 ratio): 0.4918, mean=0.5020, std=0.3141
+[FreRA Debug] w_dist: mean=0.8106, std=0.8069, min=0.0000, max=1.9962
+w_dist:tensor([[[[1.9962],
+          [0.0000],
+          [0.0000],
+          [1.7686],
+          [0.0000],
+          [1.7685],
+          [0.0000],
+          [0.0000],
+          [1.5933],
+          [1.5747],
+          [1.6895],
+          [1.5594],
+          [0.0000],
+          [0.0000],
+          [1.6464],
+          [0.0000],
+          [1.5666],
+          [1.6238],
+          [0.0000],
+          [0.0000],
+          [1.5547],
+          [0.0000],
+          [1.5526],
+          [0.0000],
+          [1.5879],
+          [0.0000],
+          [1.5597],
+          [0.0000],
+          [0.0000],
+          [1.5413],
+          [1.5778],
+          [1.5490],
+          [1.5556],
+          [1.5586],
+          [1.5659],
+          [0.0000],
+          [1.5833],
+          [0.0000],
+          [1.5483],
+          [0.0000],
+          [1.5414],
+          [1.5413],
+          [0.0000],
+          [1.5446],
+          [1.5696],
+          [1.5412],
+          [1.5440],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5507],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5431],
+          [0.0000],
+          [0.0000],
+          [1.5516],
+          [0.0000],
+          [0.0000],
+          [0.0000]]]], device='cuda:0')
+Linear probing on the full poses [Epoch: 0]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.48it/s]
+Linear probing on the full poses [Epoch: 1]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.36it/s]
+Linear probing on the full poses [Epoch: 2]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.38it/s]
+Task 10: Storing 10 samples per new class (4 per old class) for 110 total classes
+Class 101: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0851)
+Selected 10 prototypes for class 101
+Class 103: 396/467 samples passed reconstruction difficulty filter (threshold: 0.2873)
+Selected 10 prototypes for class 103
+Class 107: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0744)
+Selected 10 prototypes for class 107
+Class 106: 397/468 samples passed reconstruction difficulty filter (threshold: 0.2562)
+Selected 10 prototypes for class 106
+Class 109: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0719)
+Selected 10 prototypes for class 109
+Class 102: 390/459 samples passed reconstruction difficulty filter (threshold: 0.0799)
+Selected 10 prototypes for class 102
+Class 105: 394/465 samples passed reconstruction difficulty filter (threshold: 0.0777)
+Selected 10 prototypes for class 105
+Class 100: 394/465 samples passed reconstruction difficulty filter (threshold: 0.0748)
+Selected 10 prototypes for class 100
+Class 104: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0845)
+Selected 10 prototypes for class 104
+Class 108: 397/468 samples passed reconstruction difficulty filter (threshold: 0.0700)
+Selected 10 prototypes for class 108
+/home/dell/miniconda3/envs/pyskl_39/lib/python3.9/site-packages/sklearn/manifold/_t_sne.py:1164: FutureWarning: 'n_iter' was renamed to 'max_iter' in version 1.5 and will be removed in 1.7.
+  warnings.warn(
+Selection visualization saved to task_10_selection_herding.png
+Evaluation of task 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:09<00:00, 33.68it/s]
+
+Task 0 Per-Class Accuracy:
+Class 0 (Task-local 0): 25.35%
+Class 1 (Task-local 1): 9.92%
+Class 2 (Task-local 2): 16.73%
+Class 3 (Task-local 3): 71.23%
+Class 4 (Task-local 4): 26.25%
+Class 5 (Task-local 5): 41.95%
+Class 6 (Task-local 6): 24.70%
+Class 7 (Task-local 7): 12.75%
+Class 8 (Task-local 8): 60.32%
+Class 9 (Task-local 9): 8.05%
+Evaluation of task 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.65it/s]
+
+Task 1 Per-Class Accuracy:
+Class 10 (Task-local 0): 67.00%
+Class 11 (Task-local 1): 6.96%
+Class 12 (Task-local 2): 9.92%
+Class 13 (Task-local 3): 22.51%
+Class 14 (Task-local 4): 34.72%
+Class 15 (Task-local 5): 34.00%
+Class 16 (Task-local 6): 4.76%
+Class 17 (Task-local 7): 10.00%
+Class 18 (Task-local 8): 36.71%
+Class 19 (Task-local 9): 24.60%
+Evaluation of task 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 34.31it/s]
+
+Task 2 Per-Class Accuracy:
+Class 20 (Task-local 0): 4.96%
+Class 21 (Task-local 1): 31.06%
+Class 22 (Task-local 2): 8.60%
+Class 23 (Task-local 3): 0.80%
+Class 24 (Task-local 4): 78.97%
+Class 25 (Task-local 5): 19.04%
+Class 26 (Task-local 6): 7.54%
+Class 27 (Task-local 7): 27.63%
+Class 28 (Task-local 8): 44.73%
+Class 29 (Task-local 9): 21.24%
+Evaluation of task 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.30it/s]
+
+Task 3 Per-Class Accuracy:
+Class 30 (Task-local 0): 91.67%
+Class 31 (Task-local 1): 1.79%
+Class 32 (Task-local 2): 57.34%
+Class 33 (Task-local 3): 6.57%
+Class 34 (Task-local 4): 57.97%
+Class 35 (Task-local 5): 11.11%
+Class 36 (Task-local 6): 4.37%
+Class 37 (Task-local 7): 84.06%
+Class 38 (Task-local 8): 8.20%
+Class 39 (Task-local 9): 27.80%
+Evaluation of task 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 34.19it/s]
+
+Task 4 Per-Class Accuracy:
+Class 40 (Task-local 0): 6.02%
+Class 41 (Task-local 1): 12.60%
+Class 42 (Task-local 2): 39.08%
+Class 43 (Task-local 3): 35.93%
+Class 44 (Task-local 4): 21.83%
+Class 45 (Task-local 5): 33.20%
+Class 46 (Task-local 6): 10.34%
+Class 47 (Task-local 7): 30.62%
+Class 48 (Task-local 8): 28.09%
+Class 49 (Task-local 9): 77.87%
+Evaluation of task 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:08<00:00, 35.61it/s]
+
+Task 5 Per-Class Accuracy:
+Class 50 (Task-local 0): 68.59%
+Class 51 (Task-local 1): 93.17%
+Class 52 (Task-local 2): 30.75%
+Class 53 (Task-local 3): 57.46%
+Class 54 (Task-local 4): 25.10%
+Class 55 (Task-local 5): 38.89%
+Class 56 (Task-local 6): 42.37%
+Class 57 (Task-local 7): 29.88%
+Class 58 (Task-local 8): 12.95%
+Class 59 (Task-local 9): 64.68%
+Evaluation of task 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 33.89it/s]
+
+Task 6 Per-Class Accuracy:
+Class 60 (Task-local 0): 92.24%
+Class 61 (Task-local 1): 39.31%
+Class 62 (Task-local 2): 23.65%
+Class 63 (Task-local 3): 73.52%
+Class 64 (Task-local 4): 9.98%
+Class 65 (Task-local 5): 19.55%
+Class 66 (Task-local 6): 40.57%
+Class 67 (Task-local 7): 68.71%
+Class 68 (Task-local 8): 10.20%
+Class 69 (Task-local 9): 49.08%
+Evaluation of task 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 32.72it/s]
+
+Task 7 Per-Class Accuracy:
+Class 70 (Task-local 0): 23.42%
+Class 71 (Task-local 1): 29.59%
+Class 72 (Task-local 2): 50.20%
+Class 73 (Task-local 3): 41.87%
+Class 74 (Task-local 4): 40.29%
+Class 75 (Task-local 5): 21.72%
+Class 76 (Task-local 6): 7.96%
+Class 77 (Task-local 7): 38.41%
+Class 78 (Task-local 8): 2.45%
+Class 79 (Task-local 9): 16.06%
+Evaluation of task 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 307/307 [00:09<00:00, 33.11it/s]
+
+Task 8 Per-Class Accuracy:
+Class 80 (Task-local 0): 41.84%
+Class 81 (Task-local 1): 23.78%
+Class 82 (Task-local 2): 76.22%
+Class 83 (Task-local 3): 11.99%
+Class 84 (Task-local 4): 90.84%
+Class 85 (Task-local 5): 76.94%
+Class 86 (Task-local 6): 59.18%
+Class 87 (Task-local 7): 69.11%
+Class 88 (Task-local 8): 69.25%
+Class 89 (Task-local 9): 78.62%
+Evaluation of task 9: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:08<00:00, 34.38it/s]
+
+Task 9 Per-Class Accuracy:
+Class 90 (Task-local 0): 62.42%
+Class 91 (Task-local 1): 45.08%
+Class 92 (Task-local 2): 38.73%
+Class 93 (Task-local 3): 73.12%
+Class 94 (Task-local 4): 16.84%
+Class 95 (Task-local 5): 20.70%
+Class 96 (Task-local 6): 68.70%
+Class 97 (Task-local 7): 48.58%
+Class 98 (Task-local 8): 63.75%
+Class 99 (Task-local 9): 46.83%
+Evaluation of task 10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 33.99it/s]
+
+Task 10 Per-Class Accuracy:
+Class 100 (Task-local 0): 68.72%
+Class 101 (Task-local 1): 91.21%
+Class 102 (Task-local 2): 88.64%
+Class 103 (Task-local 3): 73.98%
+Class 104 (Task-local 4): 81.22%
+Class 105 (Task-local 5): 89.59%
+Class 106 (Task-local 6): 84.93%
+Class 107 (Task-local 7): 85.92%
+Class 108 (Task-local 8): 84.32%
+Class 109 (Task-local 9): 73.52%
+acc1([29.78595719143829, 25.124229775392564, 24.47677895156468, 35.1044776119403, 29.520958083832333, 46.35458167330677, 42.70237121831562, 27.191011235955052, 59.76379556098554, 48.5573971761817, 82.20269718022067], [79.89597919583917, 79.22878155436295, 72.71277655969703, 79.70149253731343, 74.31137724550898, 84.5219123505976, 85.93622240392477, 74.19816138917263, 88.71920179189574, 76.6523429506855, 86.88189619942787])
+
+Accuracy for 11 task(s):         [Class-IL]: 40.98 %     [Task-IL]: 80.25 %
+
+
+==================================================
+Task 10 checkpoint saved to: ./saved_models/charon_SFERRgai_seq-ntu120/task_10_20260526_053726.pth
+==================================================
+
+==================================================
+Starting Task 12/12
+Task Samples: 4668
+Buffer Size: 500
+Buffer mode: herding
+Total Seen Examples: 500
+Current Buffer Usage: 500/500
+==================================================
+
+Evaluation of task 11: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:08<00:00, 34.84it/s]
+
+Task 11 Per-Class Accuracy:
+Class 110 (Task-local 0): 0.00%
+Class 111 (Task-local 1): 0.00%
+Class 112 (Task-local 2): 0.00%
+Class 113 (Task-local 3): 0.00%
+Class 114 (Task-local 4): 0.00%
+Class 115 (Task-local 5): 0.00%
+Class 116 (Task-local 6): 0.00%
+Class 117 (Task-local 7): 0.00%
+Class 118 (Task-local 8): 0.00%
+Class 119 (Task-local 9): 0.00%
+[05-26 | 05:42] Task 12 | ep 3: |██████████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.56 ep/h |  200/292 it | loss: 0.532599 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0422, std=0.3472, min=-1.6616, max=1.7302
+[FreRA Debug] importance: mean=0.4892, std=0.0737, min=0.1595, max=0.8494
+[FreRA Debug] w_crit (>0.5 ratio): 0.5738, mean=0.5726, std=0.2692
+[FreRA Debug] w_dist: mean=1.1213, std=0.7345, min=0.0000, max=1.9961
+w_dist:tensor([[[[1.9961],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.7593],
+          [0.0000],
+          [1.7663],
+          [0.0000],
+          [0.0000],
+          [1.6057],
+          [0.0000],
+          [0.0000],
+          [1.6471],
+          [0.0000],
+          [1.6497],
+          [0.0000],
+          [1.5984],
+          [1.5514],
+          [0.0000],
+          [1.5684],
+          [0.0000],
+          [0.0000],
+          [1.5520],
+          [0.0000],
+          [1.6179],
+          [1.5912],
+          [0.0000],
+          [1.5911],
+          [0.0000],
+          [1.5536],
+          [0.0000],
+          [1.5900],
+          [1.5821],
+          [1.5837],
+          [1.5889],
+          [1.5487],
+          [1.5402],
+          [1.5690],
+          [1.5409],
+          [1.5711],
+          [1.5742],
+          [1.5535],
+          [1.5462],
+          [1.5641],
+          [1.5452],
+          [1.5543],
+          [1.5804],
+          [1.5645],
+          [1.5724],
+          [1.5646],
+          [1.5383],
+          [1.5507],
+          [1.5618],
+          [1.5776],
+          [1.5656],
+          [1.5594],
+          [1.5720],
+          [1.5505],
+          [1.5744],
+          [1.5681]]]], device='cuda:0')
+[05-26 | 05:50] Task 12 | ep 10: |███████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.05 ep/h |  116/292 it | loss: 0.597286 |[FreRA Grad] Total norm: 0.000000, Max grad: 0.000000
+[FreRA Warning] No gradients detected!
+[05-26 | 05:55] Task 12 | ep 13: |████████████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.49 ep/h |  169/292 it | loss: 0.333917 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0403, std=0.4014, min=-2.1316, max=1.9308
+[FreRA Debug] importance: mean=0.4902, std=0.0792, min=0.1061, max=0.8733
+[FreRA Debug] w_crit (>0.5 ratio): 0.4754, mean=0.4770, std=0.2642
+[FreRA Debug] w_dist: mean=1.3395, std=0.5657, min=0.0000, max=1.9992
+w_dist:tensor([[[[1.9992],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.7899],
+          [0.0000],
+          [1.5938],
+          [1.6237],
+          [1.5597],
+          [0.0000],
+          [0.0000],
+          [1.5893],
+          [1.5340],
+          [1.5346],
+          [0.0000],
+          [1.5667],
+          [1.5391],
+          [1.5608],
+          [1.5398],
+          [1.5392],
+          [1.5675],
+          [1.5552],
+          [0.0000],
+          [1.5573],
+          [1.5898],
+          [1.5523],
+          [1.6048],
+          [1.5677],
+          [1.5679],
+          [1.5352],
+          [1.5621],
+          [1.5470],
+          [1.5641],
+          [1.5506],
+          [1.5605],
+          [1.5551],
+          [1.5461],
+          [1.5402],
+          [1.5437],
+          [1.5731],
+          [1.5609],
+          [1.5519],
+          [1.5474],
+          [1.5487],
+          [1.5463],
+          [1.5637],
+          [1.5628],
+          [1.5523],
+          [1.5701],
+          [1.5450],
+          [1.5640],
+          [1.5545],
+          [1.5719],
+          [1.5407],
+          [1.5595],
+          [1.5621],
+          [1.5563],
+          [1.5469],
+          [1.5431],
+          [1.5531]]]], device='cuda:0')
+[05-26 | 05:55] Task 12 | ep 13: |████████████████████████████████████████████┈┈┈┈┈┈| 47.53 ep/h |  260/292 it | loss: 0.649215 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0274, std=0.4034, min=-2.1338, max=2.0371
+[FreRA Debug] importance: mean=0.4932, std=0.0781, min=0.1059, max=0.8846
+[FreRA Debug] w_crit (>0.5 ratio): 0.5246, mean=0.5083, std=0.2716
+[FreRA Debug] w_dist: mean=1.2787, std=0.6082, min=0.0000, max=1.9992
+w_dist:tensor([[[[1.9992],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.7279],
+          [0.0000],
+          [1.6643],
+          [1.5418],
+          [1.5448],
+          [0.0000],
+          [1.5396],
+          [1.5458],
+          [1.5346],
+          [1.5357],
+          [1.5455],
+          [1.5584],
+          [0.0000],
+          [0.0000],
+          [1.5323],
+          [1.5401],
+          [1.5362],
+          [0.0000],
+          [1.5387],
+          [1.5720],
+          [1.5686],
+          [1.5554],
+          [1.5428],
+          [1.5491],
+          [1.5372],
+          [1.5501],
+          [1.5313],
+          [1.5487],
+          [1.5312],
+          [1.5771],
+          [1.5319],
+          [1.5628],
+          [1.5255],
+          [1.5254],
+          [1.5427],
+          [1.5324],
+          [1.5447],
+          [1.5592],
+          [1.5472],
+          [1.5465],
+          [0.0000],
+          [1.5633],
+          [1.5265],
+          [1.5414],
+          [1.5604],
+          [1.5357],
+          [1.5531],
+          [1.5531],
+          [1.5279],
+          [1.5375],
+          [1.5318],
+          [1.5698],
+          [1.5475],
+          [0.0000],
+          [1.5418],
+          [1.5426]]]], device='cuda:0')
+[05-26 | 06:01] Task 12 | ep 18: |███████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.75 ep/h |   65/292 it | loss: 0.439537 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0543, std=0.4050, min=-2.1288, max=2.0495
+[FreRA Debug] importance: mean=0.4864, std=0.0783, min=0.1063, max=0.8859
+[FreRA Debug] w_crit (>0.5 ratio): 0.4918, mean=0.4720, std=0.3276
+[FreRA Debug] w_dist: mean=1.1941, std=0.6903, min=0.0000, max=1.9992
+w_dist:tensor([[[[1.9992],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.7381],
+          [0.0000],
+          [1.6522],
+          [1.5680],
+          [0.0000],
+          [1.6296],
+          [1.5587],
+          [0.0000],
+          [1.6129],
+          [1.5601],
+          [0.0000],
+          [1.6012],
+          [1.5501],
+          [0.0000],
+          [0.0000],
+          [1.5525],
+          [1.5453],
+          [1.5611],
+          [1.6047],
+          [1.5562],
+          [1.5945],
+          [1.6336],
+          [1.5560],
+          [1.5868],
+          [1.5671],
+          [0.0000],
+          [1.5666],
+          [1.5508],
+          [1.5807],
+          [1.5684],
+          [1.5471],
+          [1.5801],
+          [1.5495],
+          [0.0000],
+          [1.5568],
+          [1.5721],
+          [1.5603],
+          [1.5985],
+          [1.5511],
+          [1.5588],
+          [1.5454],
+          [1.5748],
+          [1.5486],
+          [1.5603],
+          [1.5757],
+          [1.5489],
+          [1.5796],
+          [1.5512],
+          [0.0000],
+          [1.5459],
+          [0.0000],
+          [1.5594],
+          [1.5557],
+          [0.0000],
+          [1.5570],
+          [1.5677]]]], device='cuda:0')
+[05-26 | 06:12] Task 12 | ep 26: |███████████████████████████████████████████┈┈┈┈┈┈┈| 47.65 ep/h |  255/292 it | loss: 0.302992 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0252, std=0.3702, min=-1.9245, max=1.8020
+[FreRA Debug] importance: mean=0.4937, std=0.0752, min=0.1274, max=0.8584
+[FreRA Debug] w_crit (>0.5 ratio): 0.5574, mean=0.5306, std=0.2809
+[FreRA Debug] w_dist: mean=1.1505, std=0.6946, min=0.0000, max=1.9984
+w_dist:tensor([[[[1.9984],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.7284],
+          [0.0000],
+          [0.0000],
+          [1.5797],
+          [1.5731],
+          [1.5646],
+          [1.5574],
+          [1.5990],
+          [1.5482],
+          [1.5536],
+          [1.5384],
+          [1.5647],
+          [1.5622],
+          [1.5626],
+          [0.0000],
+          [1.5706],
+          [0.0000],
+          [1.5480],
+          [1.5452],
+          [1.5399],
+          [1.5610],
+          [1.5373],
+          [1.5325],
+          [1.5297],
+          [1.5408],
+          [0.0000],
+          [1.5247],
+          [1.5254],
+          [1.5427],
+          [1.5401],
+          [0.0000],
+          [0.0000],
+          [1.5383],
+          [1.5324],
+          [1.5350],
+          [1.5488],
+          [1.5322],
+          [0.0000],
+          [1.5465],
+          [0.0000],
+          [1.5313],
+          [1.5354],
+          [1.5329],
+          [1.5492],
+          [1.5486],
+          [0.0000],
+          [1.5329],
+          [1.5380],
+          [0.0000],
+          [1.5333],
+          [1.5295],
+          [1.5310],
+          [0.0000],
+          [1.5463],
+          [1.5236],
+          [1.5460],
+          [0.0000]]]], device='cuda:0')
+[05-26 | 06:14] Task 12 | ep 28: |███████████████████████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈| 47.45 ep/h |  140/292 it | loss: 0.27444 |[FreRA Debug] s: shape=torch.Size([61]), mean=-0.0477, std=0.4146, min=-1.9016, max=2.2176
+[FreRA Debug] importance: mean=0.4872, std=0.0818, min=0.1299, max=0.9018
+[FreRA Debug] w_crit (>0.5 ratio): 0.5902, mean=0.5358, std=0.3010
+[FreRA Debug] w_dist: mean=1.2237, std=0.6773, min=0.0000, max=1.9982
+w_dist:tensor([[[[1.9982],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.8903],
+          [0.0000],
+          [1.7530],
+          [1.5904],
+          [1.6103],
+          [1.5609],
+          [1.5784],
+          [1.5830],
+          [0.0000],
+          [1.6368],
+          [1.5635],
+          [1.5660],
+          [1.5744],
+          [0.0000],
+          [0.0000],
+          [0.0000],
+          [1.5589],
+          [1.5545],
+          [1.5647],
+          [1.5588],
+          [0.0000],
+          [1.5927],
+          [1.5427],
+          [1.5693],
+          [0.0000],
+          [0.0000],
+          [1.5841],
+          [1.5471],
+          [1.5742],
+          [1.5675],
+          [1.5526],
+          [1.5531],
+          [1.5659],
+          [1.5652],
+          [1.5647],
+          [1.5680],
+          [1.5556],
+          [1.5513],
+          [1.5926],
+          [1.5477],
+          [1.5615],
+          [1.5689],
+          [1.5660],
+          [1.5725],
+          [0.0000],
+          [0.0000],
+          [1.5449],
+          [1.5727],
+          [1.5770],
+          [1.5544],
+          [1.5511],
+          [0.0000],
+          [1.5974],
+          [1.5771],
+          [1.5627],
+          [1.5495],
+          [1.5549]]]], device='cuda:0')
+Linear probing on the full poses [Epoch: 0]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.57it/s]
+Linear probing on the full poses [Epoch: 1]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.56it/s]
+Linear probing on the full poses [Epoch: 2]: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:25<00:00, 11.53it/s]
+Task 11: Storing 6 samples per new class (4 per old class) for 120 total classes
+Class 117: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0808)
+Selected 6 prototypes for class 117
+Class 110: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0940)
+Selected 6 prototypes for class 110
+Class 118: 395/466 samples passed reconstruction difficulty filter (threshold: 0.0764)
+Selected 6 prototypes for class 118
+Class 116: 397/468 samples passed reconstruction difficulty filter (threshold: 0.0708)
+Selected 6 prototypes for class 116
+Class 114: 394/465 samples passed reconstruction difficulty filter (threshold: 0.0808)
+Selected 6 prototypes for class 114
+Class 111: 395/466 samples passed reconstruction difficulty filter (threshold: 0.1102)
+Selected 6 prototypes for class 111
+Class 115: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0793)
+Selected 6 prototypes for class 115
+Class 112: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0792)
+Selected 6 prototypes for class 112
+Class 113: 397/468 samples passed reconstruction difficulty filter (threshold: 0.2340)
+Selected 6 prototypes for class 113
+Class 119: 396/467 samples passed reconstruction difficulty filter (threshold: 0.0715)
+Selected 6 prototypes for class 119
+/home/dell/miniconda3/envs/pyskl_39/lib/python3.9/site-packages/sklearn/manifold/_t_sne.py:1164: FutureWarning: 'n_iter' was renamed to 'max_iter' in version 1.5 and will be removed in 1.7.
+  warnings.warn(
+Selection visualization saved to task_11_selection_herding.png
+Evaluation of task 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:09<00:00, 33.65it/s]
+
+Task 0 Per-Class Accuracy:
+Class 0 (Task-local 0): 8.98%
+Class 1 (Task-local 1): 8.33%
+Class 2 (Task-local 2): 0.80%
+Class 3 (Task-local 3): 78.77%
+Class 4 (Task-local 4): 20.83%
+Class 5 (Task-local 5): 42.54%
+Class 6 (Task-local 6): 22.91%
+Class 7 (Task-local 7): 15.94%
+Class 8 (Task-local 8): 34.13%
+Class 9 (Task-local 9): 3.62%
+Evaluation of task 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.29it/s]
+
+Task 1 Per-Class Accuracy:
+Class 10 (Task-local 0): 76.94%
+Class 11 (Task-local 1): 11.53%
+Class 12 (Task-local 2): 4.96%
+Class 13 (Task-local 3): 31.47%
+Class 14 (Task-local 4): 41.27%
+Class 15 (Task-local 5): 41.15%
+Class 16 (Task-local 6): 18.65%
+Class 17 (Task-local 7): 12.20%
+Class 18 (Task-local 8): 8.93%
+Class 19 (Task-local 9): 25.00%
+Evaluation of task 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 34.33it/s]
+
+Task 2 Per-Class Accuracy:
+Class 20 (Task-local 0): 6.94%
+Class 21 (Task-local 1): 30.66%
+Class 22 (Task-local 2): 9.80%
+Class 23 (Task-local 3): 1.59%
+Class 24 (Task-local 4): 83.93%
+Class 25 (Task-local 5): 9.62%
+Class 26 (Task-local 6): 4.56%
+Class 27 (Task-local 7): 27.44%
+Class 28 (Task-local 8): 31.81%
+Class 29 (Task-local 9): 20.64%
+Evaluation of task 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 315/315 [00:08<00:00, 35.87it/s]
+
+Task 3 Per-Class Accuracy:
+Class 30 (Task-local 0): 89.09%
+Class 31 (Task-local 1): 6.56%
+Class 32 (Task-local 2): 39.48%
+Class 33 (Task-local 3): 3.78%
+Class 34 (Task-local 4): 51.59%
+Class 35 (Task-local 5): 24.40%
+Class 36 (Task-local 6): 18.65%
+Class 37 (Task-local 7): 52.79%
+Class 38 (Task-local 8): 6.20%
+Class 39 (Task-local 9): 26.00%
+Evaluation of task 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:09<00:00, 34.05it/s]
+
+Task 4 Per-Class Accuracy:
+Class 40 (Task-local 0): 5.62%
+Class 41 (Task-local 1): 20.20%
+Class 42 (Task-local 2): 21.24%
+Class 43 (Task-local 3): 14.77%
+Class 44 (Task-local 4): 25.40%
+Class 45 (Task-local 5): 49.11%
+Class 46 (Task-local 6): 7.55%
+Class 47 (Task-local 7): 26.24%
+Class 48 (Task-local 8): 32.67%
+Class 49 (Task-local 9): 62.37%
+Evaluation of task 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 314/314 [00:08<00:00, 35.65it/s]
+
+Task 5 Per-Class Accuracy:
+Class 50 (Task-local 0): 50.10%
+Class 51 (Task-local 1): 92.97%
+Class 52 (Task-local 2): 23.61%
+Class 53 (Task-local 3): 53.08%
+Class 54 (Task-local 4): 14.54%
+Class 55 (Task-local 5): 37.30%
+Class 56 (Task-local 6): 54.42%
+Class 57 (Task-local 7): 51.39%
+Class 58 (Task-local 8): 8.76%
+Class 59 (Task-local 9): 41.47%
+Evaluation of task 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 33.96it/s]
+
+Task 6 Per-Class Accuracy:
+Class 60 (Task-local 0): 85.92%
+Class 61 (Task-local 1): 38.09%
+Class 62 (Task-local 2): 15.15%
+Class 63 (Task-local 3): 68.02%
+Class 64 (Task-local 4): 20.77%
+Class 65 (Task-local 5): 12.63%
+Class 66 (Task-local 6): 4.10%
+Class 67 (Task-local 7): 65.24%
+Class 68 (Task-local 8): 9.39%
+Class 69 (Task-local 9): 26.38%
+Evaluation of task 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:09<00:00, 32.45it/s]
+
+Task 7 Per-Class Accuracy:
+Class 70 (Task-local 0): 10.79%
+Class 71 (Task-local 1): 2.86%
+Class 72 (Task-local 2): 36.38%
+Class 73 (Task-local 3): 34.35%
+Class 74 (Task-local 4): 56.58%
+Class 75 (Task-local 5): 10.86%
+Class 76 (Task-local 6): 17.76%
+Class 77 (Task-local 7): 46.34%
+Class 78 (Task-local 8): 1.02%
+Class 79 (Task-local 9): 15.24%
+Evaluation of task 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 307/307 [00:09<00:00, 33.21it/s]
+
+Task 8 Per-Class Accuracy:
+Class 80 (Task-local 0): 2.04%
+Class 81 (Task-local 1): 11.59%
+Class 82 (Task-local 2): 72.76%
+Class 83 (Task-local 3): 25.41%
+Class 84 (Task-local 4): 78.21%
+Class 85 (Task-local 5): 48.78%
+Class 86 (Task-local 6): 39.59%
+Class 87 (Task-local 7): 43.09%
+Class 88 (Task-local 8): 44.40%
+Class 89 (Task-local 9): 76.17%
+Evaluation of task 9: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:08<00:00, 34.41it/s]
+
+Task 9 Per-Class Accuracy:
+Class 90 (Task-local 0): 41.68%
+Class 91 (Task-local 1): 33.20%
+Class 92 (Task-local 2): 33.20%
+Class 93 (Task-local 3): 79.63%
+Class 94 (Task-local 4): 7.69%
+Class 95 (Task-local 5): 17.21%
+Class 96 (Task-local 6): 63.62%
+Class 97 (Task-local 7): 51.83%
+Class 98 (Task-local 8): 35.44%
+Class 99 (Task-local 9): 44.38%
+Evaluation of task 10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:08<00:00, 34.09it/s]
+
+Task 10 Per-Class Accuracy:
+Class 100 (Task-local 0): 56.58%
+Class 101 (Task-local 1): 76.28%
+Class 102 (Task-local 2): 81.61%
+Class 103 (Task-local 3): 54.07%
+Class 104 (Task-local 4): 58.37%
+Class 105 (Task-local 5): 76.73%
+Class 106 (Task-local 6): 41.34%
+Class 107 (Task-local 7): 69.59%
+Class 108 (Task-local 8): 74.13%
+Class 109 (Task-local 9): 54.38%
+Evaluation of task 11: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 306/306 [00:08<00:00, 34.97it/s]
+
+Task 11 Per-Class Accuracy:
+Class 110 (Task-local 0): 96.33%
+Class 111 (Task-local 1): 95.52%
+Class 112 (Task-local 2): 81.52%
+Class 113 (Task-local 3): 85.13%
+Class 114 (Task-local 4): 71.37%
+Class 115 (Task-local 5): 71.63%
+Class 116 (Task-local 6): 77.05%
+Class 117 (Task-local 7): 90.00%
+Class 118 (Task-local 8): 66.67%
+Class 119 (Task-local 9): 82.48%
+acc1([23.744748949789958, 27.211290001987678, 22.722742674905323, 31.88059701492537, 26.506986027944112, 42.70916334661354, 34.60752248569092, 23.16649642492339, 44.20688250865405, 40.88397790055249, 64.28279525950144, 81.78104575163398], [79.61592318463693, 78.13555953090837, 70.91887582220451, 79.86069651741293, 72.61477045908184, 84.02390438247012, 84.32134096484056, 72.46169560776302, 88.16941559763795, 74.72887251892777, 85.53330608908868, 85.74346405228758])
+
+Accuracy for 12 task(s):         [Class-IL]: 38.64 %     [Task-IL]: 79.68 %
+
+
+==================================================
+Task 11 checkpoint saved to: ./saved_models/charon_SFERRgai_seq-ntu120/task_11_20260526_061937.pth
+==================================================
+
+==================================================
+Final model saved to: ./saved_models/charon_SFERRgai_seq-ntu120/final_20260526_061937.pth
+==================================================
+
+==================================================
+Saving final model...
+(pyskl_39) dell@dell-Precision-5820-Tower-X-Series:~/桌面/MXV/CHARONkd-main$ 
+
+

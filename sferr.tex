@@ -1,0 +1,409 @@
+\documentclass[journal]{IEEEtran}
+
+\ifCLASSINFOpdf
+\else
+   \usepackage[dvips]{graphicx}
+\fi
+\usepackage{url}
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\usepackage{graphicx}
+
+
+
+
+% --- 3. 数学宏包 (极为重要，写公式必加) ---
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% --- 4. 算法宏包 (刚才为你写的伪代码需要这些) ---
+\usepackage{algorithm}
+\usepackage{algpseudocode} % 来自 algorithmicx 宏包族
+\usepackage{flushend}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\bibliographystyle{IEEEtran}
+
+
+
+
+\begin{document}
+
+\title{Frequency-Enhanced Reconstruction Rehearsal for Class-Incremental Learning on Skeleton Sequences}
+
+\author{Xuewei Min, Cuiwei Liu, \IEEEmembership{Member, IEEE}, and Huaijun Qiu
+\thanks{This work was supported in part by the Natural Science Foundation of Liaoning Province, China under Grant 2025-MSLH-561, and in part by the High Level Talent Research Start-up Fund of Shenyang Aerospace University under Grant 23YB03.}
+\thanks{Xuewei Min, Cuiwei Liu, and Huaijun Qiu are with the Department of Computer Science, Shenyang Aerospace University, Shenyang, China. (Corresponding author: Cuiwei Liu. E-mail: liucuiwei@sau.edu.cn)}
+}
+
+\markboth{Journal of \LaTeX\ Class Files, Vol. 14, No. 8, August 2015}
+{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for IEEE Journals}
+\maketitle
+
+\begin{abstract}
+Class‑Incremental Skeleton‑based Action Recognition (CISAR) suffers severely from catastrophic forgetting. 
+This paper proposes the Skeleton‑based Frequency‑Enhanced Reconstruction Rehearsal (SFERR) network, which tackles CISAR through an experience replay paradigm. 
+Instead of relying on extensive base classes, SFERR employs self‑supervised reconstruction as a rehearsal mechanism during incremental phases to continuously refine skeleton representations. 
+To enhance plasticity, a Frequency‑Enhanced Module (FEM) adaptively perturbs non-essential frequency components of new data, substantially increasing diversity without compromising semantic integrity.
+A Dual-Constraint Selection (DCS) strategy ensures stability by constructing a compact, representative buffer via reconstruction-based screening and prototypical anchoring.
+Extensive experiments on Split NTU‑60 and NTU‑120 demonstrate that SFERR significantly outperforms existing replay-based methods, even with extremely limited buffer sizes.
+\end{abstract}
+
+\begin{IEEEkeywords} 
+Class-incremental learning, skeleton-based action recognition, experience replay
+% \url{http://www.ieee.org/organizations/pubs/ani_prod/keywrd98.txt}
+\end{IEEEkeywords}
+
+
+\IEEEpeerreviewmaketitle
+
+\section{Introduction}
+
+\IEEEPARstart
+Action recognition is a fundamental technology in computer vision with applications spanning intelligent surveillance~\cite{Guo2023}, human-computer interaction~\cite{weng2020early}, and health monitoring~\cite{liu2021}. 
+Among the various modalities, skeleton‑based action recognition has drawn considerable attention, due to the compactness and privacy merits of skeleton data~\cite{sun2022,hinojosa2022}. 
+In this representation, actions are captured as sequences of sparse 2D or 3D joint coordinates, offering high computational efficiency, low resource consumption, strong robustness against background, and inherent privacy-preserving properties.
+
+Traditional skeleton‑based action recognition methods~\cite{Yan2018STGCN,Liu2024,liu2024signal,liu2025adaptive} typically assume that all action classes are known in advance.
+However, new actions emerge continuously in practice, making full retraining on all historical data prohibitively expensive and often infeasible due to privacy, storage, or streaming constraints. 
+Consequently, action recognition models must learn new classes incrementally without forgetting old knowledge, which has motivated research in class-incremental learning~\cite{wang2024survey}.
+A major challenge in class-incremental learning is catastrophic forgetting, whereby adapting to new distributions often severely degrades the ability to recognize previously learned ones.
+To address this, a variety of methods have been proposed, which can be broadly categorized into architecture‑based~\cite{Serra2018,wang2022coscl,wang2023neuro}, replay‑based~\cite{rebuffi2017,buzzega2020,liu2025fewshot}, regularization‑based~\cite{kirkpatrick2017,li2018,Xu2026physical,Xu2026hyperbolic}, and prompt‑based approaches~\cite{Villa2023,razdaibiedina2023,Lu2025}.
+
+
+While class-incremental learning has been explored in RGB-based action recognition~\cite{wu2019,Villa2023,ma2021}, Class-Incremental Skeleton-based Action Recognition (CISAR) remains in its infancy.
+Architecture-based methods~\cite{li2021else,zhu2026} add learnable modules for new data, but suffer from growing model sizes.
+Alternatively, few-shot prompt tuning techniques~\cite{garg2024,cheng2026} utilize trainable prompt pools and adaptive selection to learn without data replay.
+For hand skeleton recognition, PENCIL~\cite{li2025pencil} leverages prototype-generated pseudo-samples to dually regularize embedding discrimination and parameter updates.
+Typically, these methods~\cite{garg2024,cheng2026,li2025pencil} rely on large-scale base classes or extensive pre-training to build initial representations, and they introduce only a few novel classes during incremental fine-tuning.
+In contrast, X-DER~\cite{boschini2023} and CHARON~\cite{mosconi2024} are specifically designed for equally divided incremental tasks that do not start with a large base phase.
+These two methods adopt experience replay strategies, jointly training on new data and a retained subset of old samples to preserve previously acquired knowledge.
+%This replay strategy is well-suited for CISAR, as low-dimensional skeleton data facilitate efficient storage and replay, as well as mitigate privacy risks associated with data sharing.
+Experience replay is well-suited for CISAR, as low-dimensional skeleton data facilitate sharing and mitigate privacy risks.
+X-DER~\cite{boschini2023} improves stability and plasticity by updating the Logits of Future Past for old classes and warming up future classification heads via contrastive learning.
+CHARON~\cite{mosconi2024} exploits the temporal redundancy in skeleton data~\cite{kong2022} for compressed storage, using self-supervised reconstruction to alleviate catastrophic forgetting.
+However, efficient historical data storage remains a challenge for replay-based CISAR methods.
+
+
+This paper proposes the Skeleton-based Frequency-Enhanced Reconstruction Rehearsal (SFERR) network, which tackles the CISAR task through an experience replay mechanism.
+Rather than relying on extensive base classes for stable feature extraction, SFERR leverages self-supervised reconstruction during incremental learning to improve skeleton representations.
+Specifically, we introduce the Frequency-Enhanced Module (FEM), which adaptively augments new data through frequency-domain perturbation. 
+In each incremental phase, FEM learns to assess the importance of frequency components, selectively disturbing non-essential ones while preserving critical information. 
+This frequency-based augmentation strategy substantially increases data diversity without compromising semantic integrity.
+We propose a Dual-Constraint Selection (DCS) strategy for efficient buffer management, aiming to identify samples that are representative of the underlying data distribution.
+First, reconstruction-screening is employed to filter out non-informative redundancies and outliers.
+From the remaining candidates, we apply prototypical anchoring to select informative representatives that best align with the global class distribution.
+%The remaining candidates are then processed via prototypical anchoring, ensuring that the selected informative representatives align with the global class distribution.
+The DCS strategy ensures a high-quality and compact buffer for experience replay, effectively mitigating catastrophic forgetting in CISAR.
+
+
+Our main contributions are summarized as follows:
+(1) We propose a novel CISAR method called SFERR. By synergizing an advanced experience replay mechanism with efficient data storage, SFERR mitigates catastrophic forgetting while ensuring superior storage efficiency.
+(2) We introduce FEM, which adaptively extracts discriminative frequency components via joint reconstruction-classification guidance, generating diverse synthetic samples by perturbing non-essential frequency information.
+(3) We develop an efficient buffer management strategy that populates the limited buffer with the most representative samples by combining reconstruction-based screening with prototypical anchoring.
+%(4) SFERR achieves strong performance on the Split NTU-60 and NTU-120 datasets, despite being limited to extremely small replay buffers.
+
+
+\begin{figure}
+\centerline{\includegraphics[width=\columnwidth]{fig/main0622.pdf}}
+\vskip -10pt
+\caption{The training pipeline of SFERR. Stage 1: new data $x$ are augmented by FEM while old data $x^\text{B}$ are directly masked, then both are encoded for reconstruction and classification. The DCS strategy subsequently selects representative new samples to compress into the buffer. Stage 2: linear probing is applied to eliminate distribution shift between training and testing sequences, and the buffered logits are uniformly updated.}
+\label{fig:architecture}
+\vspace{-5pt}
+\end{figure}
+
+
+\section{METHOD}
+\subsection{Overview}
+CISAR involves a continuous sequence of $\tau$ phases, each of which aims to rapidly learn novel actions unseen in previous phases, making the model susceptible to catastrophic forgetting.
+Training data for each phase $t$ can be denoted as $\mathcal{D}_t = \{(x_{t,i}, y_{t,i})\}_{i=1}^{N_t}$, where $x_{t,i}$ and $y_{t,i}$ represent the $i$-th skeleton sequence and its action label, respectively. Specifically, $x_{t,i} \in \mathbb{R}^{C \times T \times V}$ denotes a skeleton sequence, where $C$, $T$, and $V$ indicate the number of coordinates, frames, and skeleton joints, respectively.
+Furthermore, the action label spaces across incremental phases are mutually disjoint.
+
+As illustrated in Fig.~\ref{fig:architecture}, the proposed SFERR framework consists of an FEM, an encoder, a decoder, and an action classifier.
+SFERR mitigates catastrophic forgetting via experience replay, using a compact buffer of representative samples from previously learned actions.
+Training proceeds in two stages.
+In the first stage, new data are augmented by the FEM in the frequency domain to boost diversity and generalization, while buffered old data bypass the FEM to preserve historical feature distributions. 
+Random frame masking is then applied to all sequences. 
+The encoder captures spatiotemporal correlations from these incomplete inputs and routes the extracted features to two branches: a decoder for self-supervised reconstruction and an action classifier for supervised learning. 
+The classifier categorizes new samples and applies knowledge distillation on old ones to further alleviate forgetting.
+Subsequently, the DCS strategy selects the most representative new samples and compresses them into the buffer.
+In the second stage, linear probing fine-tunes the action classifier using both new and buffered data, which eliminates distribution shifts between masked training sequences and complete test sequences.
+%Since the first stage is essentially masked pre-training, the classifier is trained on incomplete sequence and becomes misaligned with the complete-sequence distribution at inference. Linear probing freezes the encoder and updates only the classifier on complete sequences, serving as a necessary distribution alignment step that bridges this gap without injecting new knowledge into the encoder or altering the buffer distribution. 
+Buffer logits are then uniformly updated.
+During test, complete skeleton sequences are fed to the encoder to produce discriminative features, and the classifier directly predicts the action.
+
+\subsection{The FEM module}
+%Drawing inspiration from~\cite{tian2025}, the FEM augments new data in the frequency domain by preserving critical frequency components for semantic invariance while applying adaptive perturbations to non-critical ones to increase data diversity.
+Drawing inspiration from~\cite{tian2025}, the FEM augments new data in the frequency domain by preserving critical frequency components to maintain semantic invariance while adaptively perturbing non-critical ones. 
+%The augmented samples are then reconstructed by the encoder-decoder. 
+This frequency-domain augmentation substantially enriches sample diversity, forcing the encoder to capture core action semantics while learning representations robust to controllable perturbations in motion details. 
+Specifically, a Fast Fourier Transform~\cite{Brigham1967fft} is applied along the temporal dimension of an input skeleton sequence $x$ to obtain its frequency-domain representation $x^{\text{freq}} \in \mathbb{R}^{C \times F \times V}$, where $F=\lfloor T/2 \rfloor + 1$ denotes the number of frequency components.
+To differentiate component importance, we introduce a set of learnable parameters $s \in \mathbb{R}^F$, shared across all sequences, where $s_i$ represents the significance of the $i$-th frequency component in the current phase.
+These parameters are then used to construct a soft mask $w^{\text{crit}}$ that automatically identifies critical frequencies.
+To maintain differentiability in gradient backpropagation, $w^{\text{crit}}$ is generated via the Gumbel-Softmax reparameterization trick.
+\begin{equation}
+    w^{\text{crit}} = \sigma\left(\frac{s+g}{\rho}\right),
+\end{equation}
+where $g$ represents standard Gumbel noise, and $\rho$ is the temperature parameter. 
+We also establish a data-driven threshold $\min(0, \bar{s})$ to identify non-critical frequency components $\mathcal{C}^{\text{nc}} = \{i \mid s_i < \min(0, \bar{s})\}$, where $\bar{s}$ denotes the mean of $s$. 
+%For any frequency component $i \in \mathcal{F}^{\text{nc}}$, the corresponding score satisfies $s_i < 0$, guaranteeing that critical frequencies are protected from perturbation. 
+Then, a stop-gradient distortion mask $w^{\text{dist}}$ is constructed by
+\begin{equation}
+    w^{\text{dist}} = (2 - \sigma(s)) \odot \mathbb{I}_{i \in \mathcal{C}^{\text{nc}}},
+\end{equation}
+where $\mathbb{I}_{i \in \mathcal{C}^{nc}} \in \mathbb{R}^F$ is an indicator function and $\odot$ is the element-wise multiplication.
+This formulation adaptively perturbs irrelevant frequencies with a magnitude capped at 2.0, while the stop‑gradient operation cuts off gradients through this path to stabilize encoder training.
+% Ultimately, the augmented sample $x^{aug} $ is given by
+Finally, the augmented sample $x^{aug}$ after inverse Fourier transform is given by
+% \begin{equation}
+% x^{\text{aug}} = x^{\text{freq}} \odot (w^{\text{crit}} + w^{\text{dist}}).
+% \end{equation}
+\begin{equation}
+x^{\text{aug}} = \mathcal{F}_{\text{ifft}} \left( 
+     x^{\text{freq}} \odot (w^{\text{crit}} + w^{\text{dist}})
+\right),
+\end{equation}
+
+To learn a compact frequency-domain representation and encourage the model to retain only a minimal subset of critical frequencies, an $L_1$ sparsity regularization constraint is applied to the critical mask $w^{\text{crit}}$:
+\begin{equation}
+L_{FEM}(x) = \frac{1}{F} \sum_{i=1}^{F} w_i^{\text{crit}}.
+\end{equation}
+Specifically, this penalty prevents the trivial solution where all frequency components are preserved as critical by suppressing redundant selections.
+Concurrently, it drives the scores of noisy components toward more negative values, which reinforces the separation between the critical mask and the distortion mask.
+Notably, $L_{FEM}$ acts exclusively on the parameter $s$ and does not interfere with the optimization objectives of the supervised and self-supervised learning tasks.
+%This module is seamlessly integrated into the training pipeline with negligible computational overhead.
+
+\subsection{Training objectives}
+Training Stage One: The inputs comprise novel skeleton sequences from the current phase and buffered old sequences, which are restored via linear interpolation.
+
+A new sequence $x \in \mathbb{R}^{C \times T \times V}$ is processed by the FEM to yield augmented
+sample $x^{\text{aug}}$, which subsequently undergoes random frame masking to generate $\tilde{x}^{\text{aug}} \in \mathbb{R}^{C \times [(1-\eta)\cdot T] \times V}$, where $\eta$ represents the frame masking ratio.
+The encoder $e(\cdot)$ maps it to a feature representation $\tilde{h}^{\text{aug}} = e(\tilde{x}^{\text{aug}})$ comprising $[(1-\eta)\cdot T]$ tokens.
+In the classification branch, a fully connected layer $f(\cdot)$ produces the logits $z = f(\tilde{h}^{\text{aug}})$, which are subjected to a softmax operation to compute the cross-entropy loss $L_{\text{CE}}$ against the ground-truth labels.
+Concurrently, the reconstruction branch pads the masked positions with [MASK] tokens to construct $h^{\text{aug}}$. 
+The decoder $d(\cdot)$ then reconstructs the input sequence, outputting $\hat{x} = d(h^{\text{aug}}) \in \mathbb{R}^{C \times T \times V}$. The reconstruction loss is formulated as
+\begin{equation}
+L_{\text{recon}}(\hat{x}, x^{\text{aug}}) = \|\hat{x} - x^{\text{aug}}\|_2^2.
+\end{equation}
+Incorporating the FEM regularization term $L_{\text{FEM}}$, the overall loss for new data is defined as
+\begin{equation}
+L_{\text{stream}} = L_{\text{CE}}(x^{\text{aug}}) + \gamma \cdot L_{\text{recon}}(\hat{x}, x^{\text{aug}}) + \lambda \cdot L_{\text{FEM}}(x),
+\end{equation}
+where $\gamma$ and $\lambda$ are hyperparameters.
+
+For the buffered old sequence $x^B$, we apply random masking to obtain $\tilde{x}^B$, which is then passed through the encoder to extract features $\tilde{h}^B$. 
+The decoder reconstructs $\hat{x}^B$, while the classifier produces the corresponding logits $f(\tilde{h}^B)$. 
+To mitigate catastrophic forgetting, we introduce a knowledge distillation loss, which encourages the current logits of old samples to align with their historical logits $z^B$ stored in the buffer.
+\begin{equation}
+L_{\text{dis}}(x^B) = \|f(\tilde{h}^B) - z^B\|_2^2.
+\end{equation}
+The overall loss for old class data is defined as
+\begin{equation}
+L_{\text{old}} = \alpha \cdot L_{\text{dis}}(x^B) + \beta \cdot L_{\text{CE}}(x^B) + \gamma \cdot L_{\text{recon}}(\hat{x}^B, x^B),
+\end{equation}
+where $\alpha$, $\beta$, and $\gamma$ are hyperparameters.
+
+Finally, the optimization objective for training stage one is formulated as
+\begin{equation}
+L = L_{\text{stream}} + L_{\text{old}}.
+\end{equation}
+
+Training Stage Two: To alleviate the classifier bias caused by the mismatch between temporally masked training sequences and complete test sequences, we introduce a lightweight linear probing step at the end of each incremental phase. 
+With the encoder and FEM frozen, the classifier is then fine‑tuned exclusively on complete new and old sequences, using a replay regularization that leverages historical logits and labels from the buffer.
+Optimization objective in the linear probing step is formulated as
+\begin{equation}
+    L_{\text{lp}} = L_{\text{CE}}(x) + \alpha \cdot L_{\text{dis}}(x^B) + \beta \cdot L_{\text{CE}}(x^B).
+\end{equation}
+%where $\alpha$ and $\beta$ are the same hyperparameters as the training stage one.
+
+\subsection{The DCS strategy}
+To preserve discriminability on previously learned actions, we propose the DCS strategy, which selects representative and diverse samples to build a compact yet high-quality replay buffer.
+%Each selected sample is compressed via frame subsampling, i.e., retaining one frame every \(r\) frames~\cite{mosconi2024}. 
+DCS leverages reconstruction loss to screen new data, retaining only samples with moderate reconstruction difficulty.
+Excessively high‑loss samples, typically noise or outliers, disrupt knowledge consolidation and distort classification boundaries.
+On the other hand, those with minimal loss are overly simplistic or redundant, providing negligible information gain and reducing the buffer’s diversity.
+
+Specifically, old samples are randomly removed to comply with the per-class limit \(m\), which is dynamically updated as
+$m=\lfloor Q/K\rfloor$, where $Q$ denotes the total buffer capacity after frame subsampling and $K$ is the number of classes seen so far. Following~\cite{mosconi2024}, each selected sample is compressed via temporal frame subsampling, i.e., one frame is retained every five frames.
+Therefore, the total buffer capacity $Q$ is five times the buffer size.
+For each new class $c$, we first filter its candidate samples according to reconstruction loss, retaining those with 
+reconstruction losses between the 10th and 95th percentiles, and denote the filtered set by $\mathcal{X}_c^{\text{f}}$.
+If $|\mathcal{X}_c^{\text{f}}| < m $, the unfiltered set serves as a fallback; otherwise, $\mathcal{X}_c^{\text{f}}$ is used. 
+We denote the resulting candidate set by $\mathcal{X}_c$.
+To retain the most representative samples in a limited buffer, we apply prototypical anchoring~\cite{Welling2009} independently to each new class.
+As detailed in Algorithm~\ref{alg:prototype_selection}, for class $c$, we compute the mean of all features from $\mathcal{X}_c$ as the global class prototype $\mu_c$, and initialize a residual vector $r_c$ with $\mu_c$.
+We then iteratively select the sample with the highest cosine similarity to the current residual from $\mathcal{X}_c$, add it to the selected set 
+$\mathcal{S}_c$, and update the residual by subtracting the selected sample’s feature, thereby gradually driving the residual toward zero. 
+This process repeats until the sample limit $m$ is met. 
+Finally, the selected new samples are compressed via frame subsampling and merged with the old buffer to form the updated buffer.
+
+\begin{algorithm}[t]
+\footnotesize
+\caption{Prototypical anchoring mechanism}
+\label{alg:prototype_selection}
+\begin{algorithmic}[0]
+\Require Candidate set $\mathcal{X}_c$; buffered data $\mathcal{B}_{\text{old}}$; per-class sample limit $m$.
+%\Require New data $\mathcal{X}_{\text{new}}$; buffered data $\mathcal{B}_{\text{old}}$; per-class sample limit $m$.
+\Ensure Updated buffer $\mathcal{B}_{\text{new}}$
+
+\State $\mu_c \gets \frac{1}{|\mathcal{X}_c|}\sum\limits_{x\in \mathcal{X}_c} e(x)$,\; 
+        ${r_c}\gets\mu_c$,\; 
+        $\mathcal{S}_c \gets\emptyset$
+
+\For{$i=1$ to $m$}
+
+    \State $x^* \gets \argmax\limits_{x\in \mathcal{X}_c \setminus\mathcal{S}_c} \cos\!\big(e(x),{r}_c\big)$, 
+    \State $\mathcal{S}_c \gets\mathcal{S}_c \cup\{x^*\}$, ${r}_c \gets {r}_c +\mu_c -e(x^*)$
+    
+\EndFor
+\State $\mathcal{B}_{\text{new}} \gets \mathcal{B}_{\text{old}}\cup \text{Compress}(\mathcal{S}_c)$ \Comment{frame subsampling}
+\State \Return $\mathcal{B}_{\text{new}}$
+\end{algorithmic}
+\end{algorithm}
+
+\begin{table*}[t]
+\centering
+\caption{Action recognition performance (\%) of different methods on Split NTU-60 and Split NTU-120 datasets.}
+\vskip -5pt
+\label{tab:results}
+\small
+\setlength{\tabcolsep}{4pt} % 列数较多，适当缩小列间距
+\renewcommand{\arraystretch}{0.9}
+\begin{tabular}{@{}l *{8}{c}@{}}  % 第1列左对齐，后8列居中对齐
+\hline
+% 第一层表头：数据集名称（各跨两列）
+FAA[$\uparrow$] AIA[$\uparrow$]
+& \multicolumn{2}{c}{NTU-60 X-Sub}
+& \multicolumn{2}{c}{NTU-60 X-View}
+& \multicolumn{2}{c}{NTU-120 X-Set}
+& \multicolumn{2}{c}{NTU-120 X-Sub} \\
+\hline
+% \cline{2-9}  % 仅在数据集列下画横线，避免与方法名交叉
+
+% JT (upper bound)  & \multicolumn{2}{c}{79.34 (--)} & \multicolumn{2}{c}{84.39 (--)} & \multicolumn{2}{c}{72.49 (--)} & \multicolumn{2}{c}{70.59 (--)} \\
+  % & AA (AIA)  & AA (AIA) & AA (AIA) & AA (AIA) & AA (AIA) & AA (AIA) & AA (AIA) & AA (AIA) \\
+% \hline
+Buffer size & 100 & 200 & 100 & 200 & 100 & 200 & 100 & 200 \\
+\hline
+% FT (lower bound)  & \multicolumn{2}{c}{15.52 34.85} & \multicolumn{2}{c}{15.95 37.30} & \multicolumn{2}{c}{7.10 22.65} & \multicolumn{2}{c}{7.09 23.35} \\
+FT (lower bound)  & 15.52 34.85 & 15.52 34.85 & 15.95 37.30 & 15.95 37.30 & 7.10 22.65 & 7.10 22.65 & 7.09 23.35 & 7.09 23.35\\
+ER-ACE\cite{caccia2021}   & 38.11 55.54 & 48.78 61.85 & 40.32 62.81 & 54.57 70.18 & 22.04 44.36 & 26.70 49.16 & 18.70 43.48 & 26.89 51.52\\
+DER\cite{buzzega2020}    & 28.11 52.39 & 39.48 58.84 & 30.10 56.47 & 36.20 62.75 & 13.09 38.98 & 26.36 46.43 & 15.23 37.38 & 22.63 44.19\\
+DER++\cite{buzzega2020}    & 37.83 57.40 & 39.51 63.46 & 37.21 58.24 & 45.09 64.83 & 19.53 38.86 & 22.70 44.18 & 18.08 38.98 & 24.47 49.05\\
+X-DER\cite{boschini2023}   & 42.79 61.02 & 52.45 67.19 & 51.49 67.28 & 55.23 69.06 & 13.19 43.90 & 28.73 53.56 & 13.36 48.89 & 34.57 57.46\\
+SARL\cite{sarfraz2025}   & 49.61 69.85 & 56.85 72.66 & 49.03 71.65 & 56.76 76.61 & 21.20 46.02 & 30.99 52.87 & 26.61 49.01 & 36.01 58.59\\
+CHARON\cite{mosconi2024}    & 55.26 70.42 & 61.71 73.59 & 56.22 72.65 & 67.18 77.51 & 31.15 51.87 & 37.26 59.65 & 32.49 54.98 & 37.78 60.02\\
+\textbf{SFERR(ours)}     & \textbf{63.67 75.35} & \textbf{66.70 76.55} & \textbf{66.27 79.16} & \textbf{70.29 79.91} & \textbf{38.64 59.75} & \textbf{45.41 62.82} & \textbf{37.89 61.34} & \textbf{45.95 64.85}\\
+\hline
+\end{tabular}
+\vspace{-5pt}
+\end{table*}
+
+
+
+\section{EXPERIMENTS}
+
+\subsection{Dataset and experimental settings}
+The proposed SFERR model is evaluated on two class-incremental benchmarks derived from the NTU-60~\cite{Shahroudy2016ntu60} and NTU-120~\cite{Liu2019ntu120} datasets. 
+Split NTU-60~\cite{boschini2023} (56,880 samples) uses X-Sub and X-View protocols and is divided into 6 incremental phases, while Split NTU-120~\cite{mosconi2024} (114,480 samples) uses X-Sub and X-Set protocols and is divided into 12 incremental phases, each containing 10 new actions.
+
+We adopt the STTransformer backbone~\cite{qiu2022}, which features an asymmetric 8-layer encoder and 3-layer decoder~\cite{he2022}.
+All skeleton sequences are interpolated to a fixed length of 120 frames and divided into tuples of 6 frames. 
+Incremental training is performed with a learning rate of 0.05 and a batch size of 16.
+The first training stage runs for 30 epochs, and the second stage consists of 3 epochs of linear probing.
+The remaining hyperparameters are set as $\alpha=0.3$, $\beta=0.8$, $\gamma=0.5$, $\rho=0.2$, $\lambda = 0.05$.
+Following~\cite{mosconi2024}, we set the frame masking ratio to $\eta=30\%$ and the frame subsampling ratio for buffered samples to 1/5, i.e., one frame is retained every five frames.
+
+
+\subsection{Evaluation metrics and experimental results}
+We adopt two metrics to evaluate the model performance.
+Let $a_{t,i}$ denote the accuracy on the $i$-th task after the $t$-th incremental phase is completed, and let $\tau$ be the total number of incremental phases.
+Final Average Accuracy (FAA) is then defined as the overall accuracy after all $\tau$ phases, i.e., the final performance on all seen tasks. 
+Average Incremental Accuracy (AIA) averages the per-phase average accuracy across the entire incremental process, better reflecting the model's dynamics during class-incremental learning.
+\begin{equation}
+    FAA = \frac{1}{\tau} \sum_{i=1}^{\tau} a_{\tau,i},
+    \qquad
+    AIA = \frac{1}{\tau} \sum_{t=1}^{\tau} \frac{1}{t} \sum_{j=1}^{t} a_{t,i}.
+\end{equation}
+
+The proposed SFERR is compared against a Fine-Tuning (FT) lower bound and existing replay-based methods under extremely small buffer sizes of 100 and 200 samples. 
+Table~\ref{tab:results} shows that SFERR significantly outperforms existing methods on both FAA and AIA metrics across all datasets and buffer sizes.
+Notably, when the buffer size shrinks from 200 to 100, all replay-based methods suffer a clear performance drop, confirming that reduced buffer capacity severely intensifies catastrophic forgetting.
+Nevertheless, the performance superiority of SFERR over state-of-the-art replay-based CISAR methods~\cite{boschini2023,mosconi2024} is even more pronounced at the strict buffer size of 100, highlighting its robust ability to retain previously learned knowledge while learning new classes under extreme storage constraints.
+The per-phase average accuracy is provided in the supplementary material.
+
+\begin{table}[t]
+\centering
+\caption{Ablation study results (\%) on Split NTU-60 (buffer size=100).}
+\vskip -5pt
+\label{tab:ablation}
+\setlength{\tabcolsep}{2.2pt}
+\renewcommand{\arraystretch}{0.95}
+\providecommand{\yes}{$\checkmark$}
+\providecommand{\no}{$\times$}
+
+\begin{tabular}{@{}l ccccc cc cc@{}}
+\hline
+\raisebox{-0.5\baselineskip}[0pt][0pt]{Method}
+& \multicolumn{2}{c}{FEM} & \multicolumn{2}{c}{DCS}
+& \raisebox{-0.5\baselineskip}[0pt][0pt]{LP}
+& \multicolumn{2}{c}{60 X-Sub}
+& \multicolumn{2}{c}{60 X-View} \\
+\cline{2-10}
+& New & Old & Screen & Anchor &
+& FAA$\uparrow$ & AIA$\uparrow$ & FAA$\uparrow$ & AIA$\uparrow$ \\
+\hline
+Baseline
+& \no & \no & \no & \no & \yes
+& 55.26 & 70.42 & 56.22 & 72.65 \\
+\textbf{SFERR}
+& \yes & \no & \yes & \yes & \yes
+& \textbf{63.67} & \textbf{75.35} & \textbf{66.27} & \textbf{79.16} \\
+\hline
+w/o FEM
+& \no & \no & \yes & \yes & \yes
+& 62.56 & 74.48 & 65.81 & 77.50 \\
+w/ Buffer FEM 
+& \yes & \yes & \yes & \yes & \yes
+& 62.86 & 74.74 & 65.19 & 78.48 \\
+\hline
+w/o DCS
+& \yes & \no & \no & \no & \yes
+& 57.99 & 70.84 & 58.47 & 73.23 \\
+w/o Screen
+& \yes & \no & \no & \yes &\yes
+& 61.54 & 74.28 & 65.60 & 78.51 \\
+w/o Anchor
+& \yes & \no  & \yes & \no & \yes
+& 59.14 & 72.33 & 58.85 & 74.55 \\
+\hline
+w/o LP
+& \yes & \no & \yes & \yes & \no
+& 16.64 & 36.75 & 19.02 & 38.02 \\
+\hline
+\end{tabular}
+\vspace{-5pt}
+\end{table}
+
+\subsection{Ablation study}
+We ablate the FEM module for new-data augmentation, the DCS strategy for buffer management, and the Linear Probing stage (LP) for classifier fine-tuning.
+From Table~\ref{tab:ablation}, we can make several observations.
+First, removing FEM from our SFERR causes a moderate performance drop, while applying FEM to buffered old samples also reduces FAA by 0.81\% and 1.08\% on the two protocols, indicating that frequency-domain perturbation of carefully selected old samples introduces noise that destabilizes consolidated boundaries.
+Second, ablating DCS causes a severe decline, highlighting its effectiveness under a severely constrained buffer.
+Ablation experiments also confirm the independent contributions of reconstruction-based screening and prototypical anchoring in the DCS strategy.
+Finally, compared with the full SFERR, removing the linear probing stage causes notable performance degradation.
+During training, the feature encoder is optimized by reconstructing randomly masked sequences, whereas inference uses complete sequences. 
+The linear probing stage freezes the encoder and fine-tunes the classifier with complete sequences, thereby alleviating the distribution shift between masked training sequences and complete test sequences.
+
+\section{Conclusion}
+In this paper, we addressed catastrophic forgetting in class‑incremental skeleton‑based action recognition under severely limited replay buffers.
+We introduced SFERR, a novel network that integrates a frequency‑enhanced module for new data augmentation and a dual‑constraint selection strategy for buffer management.
+%We introduced SFERR, a novel network that integrates a Frequency‑Enhanced Module (FEM) and a Dual‑Constraint Selection (DCS) strategy. 
+%FEM adaptively augments new class data in the frequency domain to enhance plasticity, while DCS maintains a highly compressed yet representative buffer to strengthen stability. 
+Extensive experiments on Split NTU‑60 and NTU‑120 demonstrate that SFERR achieves state‑of‑the‑art performance with buffer sizes as low as 100 samples, significantly outperforming existing replay‑based methods.
+Ablation studies further confirm the indispensable contributions of both FEM and DCS.
+%Ablation studies further confirm that both modules are critical and augmenting only new samples yields the optimal stability-plasticity trade-off.
+
+\bibliography{refe2.bib}
+
+\end{document}
